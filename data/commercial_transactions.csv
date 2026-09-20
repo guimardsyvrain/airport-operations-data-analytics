@@ -1,0 +1,501 @@
+transaction_id,timestamp,revenue_category,amount_cad,payment_method,terminal_zone
+T0001,2026-08-11 10:00:00,Ground Transportation,46.77,Cash,Transborder
+T0002,2026-09-01 17:52:00,Parking,23.03,Mobile,Transborder
+T0003,2026-09-13 17:58:00,Retail,21.87,Card,Domestic
+T0004,2026-09-04 01:17:00,Retail,26.38,Mobile,Domestic
+T0005,2026-09-11 16:35:00,Retail,54.92,Cash,International
+T0006,2026-08-28 16:03:00,Food & Beverage,11.0,Card,Transborder
+T0007,2026-08-21 15:13:00,Food & Beverage,29.91,Card,Domestic
+T0008,2026-09-14 00:16:00,Food & Beverage,49.04,Card,Transborder
+T0009,2026-08-03 01:23:00,Ground Transportation,36.01,Mobile,Domestic
+T0010,2026-08-08 12:46:00,Retail,-2.0,Mobile,International
+T0011,2026-09-12 20:59:00,Food & Beverage,40.56,Mobile,International
+T0012,2026-08-03 12:32:00,Retail,36.26,Cash,International
+T0013,2026-08-17 12:07:00,Parking,62.15,Mobile,International
+T0014,2026-08-11 05:15:00,Food & Beverage,71.02,Cash,Domestic
+T0015,2026-08-20 03:18:00,Ground Transportation,60.09,Card,Domestic
+T0016,2026-08-31 09:32:00,Retail,26.49,Mobile,Domestic
+T0017,2026-09-13 10:59:00,Ground Transportation,5.04,Cash,Domestic
+T0018,2026-08-06 10:18:00,Retail,21.75,Cash,International
+T0019,2026-09-12 00:21:00,Food & Beverage,25.85,Cash,Transborder
+T0020,2026-08-18 13:33:00,Parking,74.29,Cash,International
+T0021,2026-08-14 01:55:00,Parking,13.2,Mobile,International
+T0022,2026-09-06 17:53:00,Ground Transportation,7.16,Mobile,International
+T0023,2026-08-09 23:16:00,Retail,17.57,Card,Domestic
+T0024,2026-09-14 10:16:00,F&B,13.85,Card,International
+T0025,2026-08-29 20:35:00,Food & Beverage,6.46,Mobile,Domestic
+T0026,2026-08-10 13:32:00,Ground Transportation,23.42,Card,International
+T0027,2026-09-01 10:20:00,Food & Beverage,-26.63,Cash,Transborder
+T0028,2026-08-02 22:22:00,Parking,6.06,Card,Transborder
+T0029,2026-08-26 14:34:00,Parking,19.48,Card,Transborder
+T0030,2026-08-19 18:14:00,Ground Transportation,13.08,Mobile,Transborder
+T0031,2026-08-15 14:35:00,Parking,27.29,Card,International
+T0032,2026-08-01 11:26:00,Parking,29.36,Cash,Domestic
+T0033,2026-09-02 02:33:00,Parking,13.08,Cash,Domestic
+T0034,2026-08-14 09:34:00,Retail,52.16,Mobile,Transborder
+T0035,2026-08-18 13:36:00,Ground Transportation,25.41,Card,Transborder
+T0036,2026-08-08 07:44:00,Food & Beverage,13.64,Mobile,International
+T0037,2026-08-14 15:11:00,Food & Beverage,5.65,Cash,International
+T0038,2026-08-18 04:33:00,Parking,30.54,Cash,Domestic
+T0039,2026-08-06 19:36:00,Parking,-36.2,Cash,Transborder
+T0040,2026-08-25 15:42:00,Parking,16.76,Cash,International
+T0041,2026-09-11 07:54:00,Retail,27.95,Cash,International
+T0042,2026-08-07 16:35:00,Food & Beverage,71.02,Cash,Transborder
+T0043,2026-08-10 01:15:00,Parking,46.7,Cash,Domestic
+T0044,2026-09-08 22:56:00,Ground Transportation,2.19,Card,Transborder
+T0045,2026-08-31 18:39:00,Parking,13.5,Card,International
+T0046,2026-08-27 15:09:00,Ground Transportation,22.54,Mobile,Domestic
+T0047,2026-08-31 18:14:00,Food & Beverage,26.52,Cash,Domestic
+T0048,2026-09-11 04:10:00,Food & Beverage,28.41,Mobile,Transborder
+T0049,2026-08-29 06:12:00,Retail,34.57,Card,International
+T0050,2026-08-27 00:09:00,Retail,23.14,Mobile,Domestic
+T0051,2026-08-01 10:16:00,Retail,25.37,Card,International
+T0052,2026-09-03 21:04:00,Ground Transportation,48.37,Mobile,Domestic
+T0053,2026-09-01 03:16:00,Retail,30.98,Mobile,Transborder
+T0054,2026-08-17 12:50:00,Retail,8.75,Card,Domestic
+T0055,2026-08-30 14:06:00,Parking,27.16,Card,International
+T0056,2026-08-10 03:33:00,Retail,22.59,Cash,Domestic
+T0057,2026-09-03 07:32:00,Parking,3.4,Cash,International
+T0058,2026-08-02 15:04:00,Ground Transportation,28.23,Card,Domestic
+T0059,2026-08-26 07:29:00,Retail,9.91,Cash,Transborder
+T0060,2026-08-30 23:14:00,Food & Beverage,48.86,Card,International
+T0061,2026-09-03 13:52:00,Retail,34.22,Cash,International
+T0062,2026-08-05 07:54:00,Ground Transportation,8.28,Card,International
+T0063,2026-08-12 01:55:00,Food & Beverage,47.36,Card,Transborder
+T0064,2026-08-08 10:54:00,Food & Beverage,62.82,Cash,International
+T0065,2026-09-09 21:40:00,Food & Beverage,20.46,Mobile,Transborder
+T0066,2026-08-03 01:08:00,Food & Beverage,22.49,Card,Domestic
+T0067,2026-08-13 05:44:00,Retail,44.22,Cash,Domestic
+T0068,2026-08-24 18:40:00,Retail,59.72,Mobile,Domestic
+T0069,2026-08-03 00:35:00,Retail,4.65,Cash,International
+T0070,2026-09-07 23:11:00,Retail,9.27,Mobile,International
+T0071,2026-08-25 23:34:00,Food & Beverage,17.86,Mobile,Transborder
+T0072,2026-08-27 22:54:00,Parking,19.5,Mobile,Domestic
+T0073,2026-08-24 17:00:00,Ground Transportation,43.34,Mobile,Transborder
+T0074,2026-09-06 06:47:00,Ground Transportation,59.93,Card,International
+T0075,2026-09-10 08:24:00,Food & Beverage,62.94,Card,Domestic
+T0076,2026-08-24 15:00:00,Retail,4.52,Card,Domestic
+T0077,2026-08-17 16:38:00,Parking,12.42,Mobile,Transborder
+T0078,2026-09-02 23:42:00,Parking,,Mobile,Transborder
+T0079,2026-08-10 19:08:00,Food & Beverage,12.37,Mobile,Domestic
+T0080,2026-08-12 07:09:00,Parking,34.14,Cash,Domestic
+T0081,2026-08-07 08:09:00,Parking,37.14,Card,Domestic
+T0082,2026-08-08 18:41:00,Retail,25.12,Cash,Transborder
+T0083,2026-08-28 11:39:00,Parking,23.33,Cash,International
+T0084,2026-09-07 14:04:00,Retail,18.5,Card,Transborder
+T0085,2026-08-28 19:29:00,Ground Transportation,20.32,Card,Domestic
+T0086,2026-09-07 23:58:00,Ground Transportation,70.49,Cash,Domestic
+T0087,2026-08-29 13:42:00,Retail,41.07,Cash,Transborder
+T0088,2026-09-12 04:27:00,Ground Transportation,19.08,Card,Domestic
+T0089,2026-08-18 10:06:00,Ground Transportation,22.98,Card,Domestic
+T0090,2026-08-24 23:56:00,Ground Transportation,34.71,Cash,Domestic
+T0091,2026-08-09 06:47:00,Ground Transportation,8.27,Cash,Domestic
+T0092,2026-09-10 03:44:00,Parking,27.87,Cash,Domestic
+T0093,2026-09-11 06:12:00,Parking,39.5,Cash,International
+T0094,2026-08-20 20:18:00,Ground Transportation,36.01,Card,International
+T0095,2026-08-25 07:42:00,Ground Transportation,12.64,Mobile,Transborder
+T0096,2026-08-17 03:51:00,Parking,14.8,Mobile,Transborder
+T0097,2026-09-05 01:31:00,Food & Beverage,2.92,Card,Transborder
+T0098,2026-08-28 10:29:00,Ground Transportation,42.46,Card,International
+T0099,2026-09-04 01:15:00,Parking,90.51,Card,International
+T0100,2026-08-01 12:51:00,Ground Transportation,11.09,Cash,Transborder
+T0101,2026-08-19 19:34:00,Retail,52.95,Mobile,International
+T0102,2026-08-27 20:22:00,Retail,85.33,Cash,Transborder
+T0103,2026-08-26 21:46:00,Retail,17.03,Cash,Transborder
+T0104,2026-09-04 13:37:00,Food & Beverage,23.0,Cash,Transborder
+T0105,2026-08-09 08:12:00,Retail,30.24,Mobile,Transborder
+T0106,2026-09-15 04:42:00,Retail,35.19,Cash,Transborder
+T0107,2026-09-03 16:40:00,Food & Beverage,31.45,Cash,Domestic
+T0108,2026-09-04 05:48:00,Food & Beverage,18.16,Cash,Domestic
+T0109,2026-08-05 18:31:00,Food & Beverage,39.07,Mobile,International
+T0110,2026-08-29 03:40:00,Parking,18.5,Cash,Domestic
+T0111,2026-09-06 19:35:00,Parking,33.04,Mobile,International
+T0112,2026-08-21 00:32:00,Parking,24.44,Card,Transborder
+T0113,2026-08-04 20:25:00,Parking,3.99,Mobile,International
+T0114,2026-08-31 01:43:00,Retail,58.26,Cash,Domestic
+T0115,2026-09-13 05:58:00,Food & Beverage,15.15,Mobile,Domestic
+T0116,2026-08-10 09:19:00,Retail,62.18,Cash,International
+T0117,2026-08-24 16:24:00,Food & Beverage,51.53,Cash,Domestic
+T0118,2026-08-17 13:55:00,Food & Beverage,29.58,Card,Domestic
+T0119,2026-08-13 18:23:00,Ground Transportation,36.51,Mobile,Transborder
+T0120,2026-08-27 21:09:00,Food & Beverage,39.69,Cash,International
+T0121,2026-08-04 07:56:00,Parking,21.37,Cash,International
+T0122,2026-09-11 20:26:00,Retail,22.18,Mobile,Domestic
+T0123,2026-08-28 19:18:00,Food & Beverage,38.35,Mobile,International
+T0124,2026-08-01 10:04:00,Retail,24.64,Cash,Domestic
+T0125,2026-08-26 15:10:00,Parking,18.21,Mobile,Domestic
+T0126,2026-09-06 18:01:00,Retail,12.82,Cash,Transborder
+T0127,2026-09-01 19:14:00,Ground Transportation,33.74,Cash,Transborder
+T0128,2026-09-05 06:00:00,Food & Beverage,14.72,Mobile,International
+T0129,2026-08-22 04:13:00,Parking,45.69,Mobile,Domestic
+T0130,2026-08-18 14:58:00,Food & Beverage,48.37,Card,Transborder
+T0131,2026-08-19 23:28:00,Retail,36.31,Card,International
+T0132,2026-09-08 01:57:00,Retail,41.83,Card,Transborder
+T0133,2026-08-31 20:51:00,Retail,36.39,Card,Transborder
+T0134,2026-08-15 11:49:00,Retail,43.92,Cash,Transborder
+T0135,2026-08-09 12:38:00,Food & Beverage,42.64,Card,Domestic
+T0136,2026-09-03 16:17:00,Food & Beverage,32.44,Card,Domestic
+T0137,2026-08-10 10:28:00,Food & Beverage,51.98,Mobile,Domestic
+T0138,2026-09-05 15:48:00,Parking,21.97,Card,International
+T0139,2026-09-13 16:57:00,Ground Transportation,13.17,Cash,Domestic
+T0140,2026-09-08 19:15:00,Ground Transportation,12.58,Mobile,Transborder
+T0141,2026-09-11 01:59:00,Retail,19.5,Cash,Transborder
+T0142,2026-08-19 07:35:00,Food & Beverage,3.34,Card,Domestic
+T0143,2026-08-25 03:14:00,Ground Transportation,29.36,Cash,Domestic
+T0144,2026-08-24 01:50:00,Retail,40.06,Cash,Domestic
+T0145,2026-08-22 00:22:00,Parking,47.91,Mobile,Transborder
+T0146,2026-09-01 13:48:00,Parking,-5.0,Card,Transborder
+T0147,2026-08-27 15:36:00,Parking,12.95,Cash,Transborder
+T0148,2026-08-09 17:25:00,Retail,44.75,Mobile,International
+T0149,2026-08-16 19:45:00,Retail,21.43,Mobile,Domestic
+T0150,2026-08-20 06:45:00,Retail,39.43,Mobile,Transborder
+T0151,2026-08-21 17:18:00,Food & Beverage,7.86,Cash,International
+T0152,2026-08-11 14:39:00,Parking,61.69,Card,International
+T0153,2026-08-20 21:05:00,Ground Transportation,7.26,Cash,Domestic
+T0154,2026-08-22 17:37:00,Parking,28.73,Mobile,Domestic
+T0155,2026-09-10 20:41:00,Retail,29.28,Mobile,Transborder
+T0156,2026-08-26 19:00:00,Parking,16.64,Cash,Domestic
+T0157,2026-08-03 22:34:00,Food & Beverage,35.41,Mobile,International
+T0158,2026-08-05 14:11:00,Ground Transportation,36.12,Mobile,Transborder
+T0159,2026-08-17 14:33:00,Retail,33.4,Mobile,Domestic
+T0160,2026-08-17 04:29:00,Food & Beverage,16.38,Cash,International
+T0161,2026-08-25 17:07:00,Food & Beverage,13.82,Mobile,Transborder
+T0162,2026-08-16 00:05:00,Ground Transportation,17.88,Mobile,Domestic
+T0163,2026-08-18 13:13:00,Retail,12.22,Card,Domestic
+T0164,2026-08-30 08:41:00,Retail,53.6,Cash,International
+T0165,2026-08-19 15:07:00,Parking,19.17,Mobile,Domestic
+T0166,2026-08-15 11:24:00,Retail,28.13,Cash,Transborder
+T0167,2026-08-28 18:14:00,Ground Transportation,44.62,Mobile,Transborder
+T0168,2026-09-04 05:54:00,Ground Transportation,11.69,Card,Domestic
+T0169,2026-08-06 21:34:00,Food & Beverage,6.95,Cash,International
+T0170,2026-09-04 07:54:00,Parking,12.25,Mobile,Domestic
+T0171,2026-08-05 13:22:00,Parking,30.44,Mobile,International
+T0172,2026-08-03 15:47:00,Parking,28.94,Cash,Domestic
+T0173,2026-08-05 22:31:00,Retail,33.35,Card,International
+T0174,2026-09-12 14:32:00,Ground Transportation,23.05,Card,International
+T0175,2026-08-14 03:23:00,Ground Transportation,2.0,Card,International
+T0176,2026-09-08 08:53:00,Food & Beverage,-22.49,Cash,Transborder
+T0177,2026-09-09 08:45:00,Retail,48.74,Mobile,International
+T0178,2026-09-12 18:06:00,Retail,57.39,Card,International
+T0179,2026-08-25 18:02:00,Food & Beverage,26.76,Mobile,International
+T0180,2026-09-04 07:00:00,Ground Transportation,29.02,Cash,International
+T0181,2026-08-15 07:13:00,Retail,38.92,Card,Domestic
+T0182,2026-08-21 07:37:00,Retail,56.31,Mobile,Domestic
+T0183,2026-08-15 00:34:00,Parking,-25.01,Card,Transborder
+T0184,2026-08-14 06:13:00,Ground Transportation,38.54,Cash,Transborder
+T0185,2026-09-13 07:19:00,Ground Transportation,15.78,Mobile,Transborder
+T0186,2026-08-28 09:05:00,Food & Beverage,8.03,Cash,Transborder
+T0187,2026-08-09 18:58:00,Ground Transportation,17.21,Mobile,Transborder
+T0188,2026-08-12 13:57:00,Food & Beverage,64.99,Cash,Transborder
+T0189,2026-09-07 21:51:00,Ground Transportation,39.09,Card,Transborder
+T0190,2026-08-29 16:01:00,Food & Beverage,8.8,Cash,International
+T0191,2026-09-01 08:48:00,Retail,40.36,Cash,International
+T0192,2026-09-07 00:26:00,Retail,9.46,Card,Domestic
+T0193,2026-08-07 10:13:00,Retail,33.02,Mobile,International
+T0194,2026-08-21 19:32:00,Retail,11.28,Mobile,Domestic
+T0195,2026-08-15 19:13:00,Parking,8.32,Cash,Domestic
+T0196,2026-08-09 16:05:00,Parking,72.21,Card,International
+T0197,2026-08-21 03:52:00,Parking,19.16,Card,Domestic
+T0198,2026-08-23 16:07:00,Food & Beverage,38.59,Mobile,Transborder
+T0199,2026-08-18 02:39:00,Ground Transportation,25.8,Card,Transborder
+T0200,2026-08-04 20:37:00,Food & Beverage,10.18,Mobile,Domestic
+T0201,2026-08-25 22:18:00,Ground Transportation,20.83,Mobile,Transborder
+T0202,2026-09-07 21:40:00,Parking,10.27,Cash,Domestic
+T0203,2026-08-18 17:18:00,Ground Transportation,106.87,Card,Domestic
+T0204,2026-08-22 04:21:00,Parking,43.48,Card,Transborder
+T0205,2026-08-18 22:01:00,Retail,25.44,Card,International
+T0206,2026-09-03 08:25:00,Parking,37.16,Cash,International
+T0207,2026-08-06 18:24:00,Retail,41.57,Mobile,Domestic
+T0208,2026-08-17 14:40:00,Parking,41.65,Card,Domestic
+T0209,2026-08-11 22:44:00,Ground Transportation,40.42,Card,Transborder
+T0210,2026-08-27 19:38:00,Parking,38.3,Card,Domestic
+T0211,2026-09-14 07:13:00,Parking,27.02,Cash,Transborder
+T0212,2026-09-01 12:55:00,Food & Beverage,68.59,Card,Domestic
+T0213,2026-08-08 09:14:00,Ground Transportation,28.33,Cash,Transborder
+T0214,2026-09-12 13:44:00,Parking,26.0,Cash,Domestic
+T0215,2026-09-02 03:02:00,Parking,28.51,Card,Transborder
+T0216,2026-09-14 21:15:00,Retail,30.03,Mobile,International
+T0217,2026-08-09 23:46:00,Parking,5.05,Mobile,International
+T0218,2026-08-07 08:09:00,Retail,12.14,Mobile,International
+T0219,2026-08-21 02:52:00,Retail,23.05,Mobile,Domestic
+T0220,2026-08-26 23:59:00,Food & Beverage,4.77,Mobile,International
+T0221,2026-08-22 12:36:00,Retail,25.41,Cash,International
+T0222,2026-08-08 12:08:00,Parking,29.74,Mobile,Transborder
+T0223,2026-09-07 12:01:00,Retail,7.68,Mobile,Domestic
+T0224,2026-09-05 12:30:00,Ground Transportation,14.86,Card,International
+T0225,2026-09-09 04:53:00,Retail,58.94,Card,Transborder
+T0226,2026-09-03 00:31:00,Parking,37.43,Cash,Transborder
+T0227,2026-08-09 20:23:00,Ground Transportation,35.94,Card,International
+T0228,2026-08-14 02:15:00,Retail,54.22,Mobile,Domestic
+T0229,2026-08-05 14:08:00,Parking,12.36,Card,Domestic
+T0230,2026-09-09 23:05:00,Parking,7.7,Mobile,Domestic
+T0231,2026-08-05 16:51:00,Parking,49.41,Mobile,International
+T0232,2026-08-23 12:06:00,Retail,23.56,Card,International
+T0233,2026-09-02 21:04:00,Parking,-12.06,Card,International
+T0234,2026-08-23 13:44:00,Parking,5.0,Cash,Domestic
+T0235,2026-08-17 15:13:00,Ground Transportation,28.75,Cash,Domestic
+T0236,2026-09-07 16:38:00,Retail,21.5,Cash,Domestic
+T0237,2026-09-08 04:26:00,Retail,18.7,Card,International
+T0238,2026-08-05 15:04:00,Parking,2.0,Cash,Transborder
+T0239,2026-08-09 19:56:00,Food & Beverage,68.0,Card,International
+T0240,2026-08-29 16:01:00,Food & Beverage,6.32,Cash,Transborder
+T0241,2026-09-04 03:56:00,Parking,20.18,Cash,Transborder
+T0242,2026-08-31 21:43:00,Ground Transportation,17.57,Mobile,Domestic
+T0243,2026-08-08 19:12:00,Food & Beverage,38.22,Cash,Transborder
+T0244,2026-08-31 03:12:00,Food & Beverage,5.07,Cash,Transborder
+T0245,2026-09-12 16:39:00,Retail,35.06,Cash,Transborder
+T0246,2026-09-08 15:48:00,Retail,28.86,Cash,Transborder
+T0247,2026-09-07 19:22:00,Retail,14.25,Cash,International
+T0248,2026-08-10 22:39:00,Ground Transportation,34.19,Cash,Transborder
+T0249,2026-08-17 14:13:00,Ground Transportation,25.37,Mobile,Domestic
+T0250,2026-09-03 06:19:00,Parking,78.75,Cash,Domestic
+T0251,2026-08-24 18:22:00,Food & Beverage,21.48,Mobile,Domestic
+T0252,2026-08-14 21:02:00,Food & Beverage,10.68,Mobile,Domestic
+T0253,2026-09-05 07:42:00,Retail,35.31,Cash,International
+T0254,2026-08-27 04:19:00,Food & Beverage,19.41,Mobile,Transborder
+T0255,2026-08-08 07:30:00,Food & Beverage,24.99,Cash,Domestic
+T0256,2026-08-11 19:29:00,Retail,7.76,Card,International
+T0257,2026-08-19 09:41:00,Food & Beverage,38.63,Cash,Transborder
+T0258,2026-09-06 07:03:00,Ground Transportation,16.96,Cash,International
+T0259,2026-08-27 10:23:00,Parking,30.51,Mobile,Domestic
+T0260,2026-09-03 11:13:00,Ground Transportation,91.69,Card,Transborder
+T0261,2026-08-17 01:01:00,Ground Transportation,20.51,Card,Domestic
+T0262,2026-09-04 05:39:00,Parking,42.36,Cash,Transborder
+T0263,2026-08-03 16:07:00,Retail,21.65,Mobile,International
+T0264,2026-08-26 22:02:00,Food & Beverage,14.42,Cash,Domestic
+T0265,2026-08-08 04:19:00,Parking,60.31,Mobile,Transborder
+T0266,2026-09-04 11:18:00,Parking,3.48,Mobile,Transborder
+T0267,2026-08-07 22:40:00,Food & Beverage,50.03,Mobile,International
+T0268,2026-09-04 03:04:00,Parking,2.97,Mobile,Domestic
+T0269,2026-08-19 08:17:00,Ground Transportation,46.57,Card,Domestic
+T0270,2026-08-23 02:17:00,Food & Beverage,25.28,Cash,International
+T0271,2026-08-10 03:11:00,Food & Beverage,10.7,Mobile,Transborder
+T0272,2026-08-15 22:15:00,Parking,17.92,Mobile,Transborder
+T0273,2026-08-17 19:58:00,Retail,40.78,Mobile,International
+T0274,2026-08-31 00:52:00,Parking,86.13,Card,Transborder
+T0275,2026-08-29 06:04:00,Ground Transportation,5.3,Mobile,Domestic
+T0276,2026-09-12 06:29:00,Food & Beverage,11.32,Mobile,Domestic
+T0277,2026-09-04 16:38:00,Parking,7.07,Card,Domestic
+T0278,2026-09-13 09:29:00,Food & Beverage,21.51,Mobile,Domestic
+T0279,2026-08-16 19:56:00,Parking,47.43,Mobile,Domestic
+T0280,2026-08-16 07:29:00,Food & Beverage,6.11,Card,Domestic
+T0281,2026-08-26 01:50:00,Retail,24.77,Cash,International
+T0282,2026-08-07 15:23:00,Parking,46.41,Cash,International
+T0283,2026-08-03 04:29:00,Retail,17.71,Mobile,Domestic
+T0284,2026-09-06 03:00:00,Retail,29.05,Cash,Domestic
+T0285,2026-08-04 05:44:00,Ground Transportation,57.38,Cash,International
+T0286,2026-08-17 14:27:00,Parking,-9.47,Cash,Transborder
+T0287,2026-08-11 17:29:00,Ground Transportation,3.95,Cash,Domestic
+T0288,2026-09-11 08:16:00,Retail,31.71,Cash,International
+T0289,2026-08-05 05:08:00,Food & Beverage,32.36,Mobile,International
+T0290,2026-09-12 08:49:00,Parking,16.7,Cash,Transborder
+T0291,2026-08-16 09:20:00,Ground Transportation,14.07,Card,Domestic
+T0292,2026-08-16 23:46:00,Retail,25.67,Mobile,Domestic
+T0293,2026-09-14 17:30:00,Retail,9.3,Cash,Transborder
+T0294,2026-09-10 04:44:00,Ground Transportation,9.32,Card,International
+T0295,2026-09-13 09:41:00,Retail,40.6,Mobile,Transborder
+T0296,2026-08-31 02:32:00,Food & Beverage,8.7,Mobile,International
+T0297,2026-09-13 22:14:00,Food & Beverage,4.26,Cash,Domestic
+T0298,2026-08-20 14:48:00,Retail,14.04,Mobile,Transborder
+T0299,2026-08-25 21:15:00,Food & Beverage,17.04,Card,International
+T0300,2026-08-25 20:18:00,Food & Beverage,35.06,Mobile,International
+T0301,2026-09-02 07:11:00,Food & Beverage,15.12,Card,International
+T0302,2026-09-12 16:07:00,Food & Beverage,63.9,Cash,International
+T0303,2026-09-13 09:07:00,Parking,26.69,Card,International
+T0304,2026-08-02 13:12:00,Retail,12.39,Mobile,Transborder
+T0305,2026-08-15 00:20:00,Ground Transportation,34.01,Cash,International
+T0306,2026-08-13 16:03:00,Food & Beverage,63.15,Card,Domestic
+T0307,2026-08-09 14:47:00,Parking,39.83,Cash,International
+T0308,2026-08-13 08:29:00,Food & Beverage,5.73,Card,International
+T0309,2026-08-02 09:29:00,Retail,18.28,Mobile,Domestic
+T0310,2026-08-24 01:40:00,Ground Transportation,30.16,Mobile,Domestic
+T0311,2026-09-08 23:45:00,Ground Transportation,38.69,Card,Domestic
+T0312,2026-08-10 00:05:00,Food & Beverage,21.62,Card,Transborder
+T0313,2026-09-13 10:52:00,Ground Transportation,19.29,Cash,Domestic
+T0314,2026-09-04 16:41:00,Food & Beverage,78.37,Mobile,International
+T0315,2026-08-23 12:08:00,Retail,40.24,Card,Transborder
+T0316,2026-08-19 15:13:00,Parking,34.08,Mobile,International
+T0317,2026-08-15 10:46:00,Ground Transportation,15.67,Cash,International
+T0318,2026-08-28 05:35:00,Parking,9.17,Mobile,Transborder
+T0319,2026-09-07 20:18:00,Parking,34.51,Card,International
+T0320,2026-08-25 16:29:00,Ground Transportation,43.32,Card,International
+T0321,2026-08-18 20:08:00,Parking,24.89,Mobile,Transborder
+T0322,2026-09-10 10:59:00,Retail,40.31,Mobile,Transborder
+T0323,2026-08-08 18:50:00,Ground Transportation,41.03,Card,International
+T0324,2026-08-24 17:40:00,Food & Beverage,45.31,Cash,Transborder
+T0325,2026-08-05 07:47:00,Parking,5.62,Cash,International
+T0326,2026-08-26 01:49:00,Food & Beverage,18.7,Mobile,Transborder
+T0327,2026-08-02 08:12:00,Food & Beverage,36.0,Cash,Domestic
+T0328,2026-09-10 08:58:00,Ground Transportation,25.98,Mobile,International
+T0329,2026-08-30 17:25:00,Food & Beverage,41.12,Card,Domestic
+T0330,2026-08-06 09:41:00,Ground Transportation,34.07,Card,International
+T0331,2026-09-02 09:32:00,Ground Transportation,2.19,Cash,International
+T0332,2026-09-13 10:23:00,Food & Beverage,52.83,Mobile,Domestic
+T0333,2026-09-05 04:08:00,Food & Beverage,16.83,Cash,International
+T0334,2026-09-09 11:16:00,Food & Beverage,11.74,Card,Domestic
+T0335,2026-09-05 05:07:00,Parking,51.66,Mobile,International
+T0336,2026-09-05 04:32:00,Ground Transportation,38.95,Card,Domestic
+T0337,2026-09-11 02:26:00,Food & Beverage,56.58,Card,International
+T0338,2026-09-05 01:00:00,Retail,-30.41,Mobile,Transborder
+T0339,2026-08-25 22:38:00,Parking,18.51,Mobile,Domestic
+T0340,2026-08-11 01:53:00,Ground Transportation,27.88,Mobile,Domestic
+T0341,2026-08-28 13:41:00,Parking,9.89,Cash,Transborder
+T0342,2026-08-29 09:56:00,Food & Beverage,6.89,Card,Domestic
+T0343,2026-08-30 22:33:00,Retail,14.69,Card,International
+T0344,2026-08-27 12:25:00,Retail,68.01,Card,Domestic
+T0345,2026-08-06 03:56:00,Ground Transportation,15.99,Card,International
+T0346,2026-08-14 03:37:00,Food & Beverage,4.37,Cash,International
+T0347,2026-08-17 14:25:00,Parking,22.1,Mobile,Transborder
+T0348,2026-08-17 23:34:00,Ground Transportation,15.81,Mobile,International
+T0349,2026-08-04 03:54:00,Retail,53.48,Card,International
+T0350,2026-09-09 07:42:00,Retail,64.85,Mobile,International
+T0351,2026-08-10 18:12:00,Food & Beverage,17.82,Card,International
+T0352,2026-09-03 10:03:00,Parking,30.39,Cash,International
+T0353,2026-09-12 17:03:00,Retail,32.27,Mobile,Transborder
+T0354,2026-08-25 02:52:00,Retail,24.07,Cash,International
+T0355,2026-08-23 19:11:00,Ground Transportation,20.8,Card,International
+T0356,2026-08-11 19:11:00,Retail,11.03,Card,Domestic
+T0357,2026-08-02 07:11:00,Ground Transportation,3.58,Card,International
+T0358,2026-09-08 19:19:00,Food & Beverage,10.97,Mobile,Transborder
+T0359,2026-08-03 06:41:00,Retail,23.42,Cash,Domestic
+T0360,2026-08-01 17:20:00,Food & Beverage,6.12,Mobile,Domestic
+T0361,2026-08-15 05:10:00,Retail,29.23,Mobile,Domestic
+T0362,2026-08-06 09:20:00,Retail,26.37,Cash,International
+T0363,2026-08-29 05:49:00,Parking,15.84,Card,Transborder
+T0364,2026-09-08 03:45:00,Retail,20.1,Mobile,Transborder
+T0365,2026-09-06 11:48:00,Parking,7.33,Mobile,Domestic
+T0366,2026-08-29 18:04:00,Ground Transportation,44.76,Cash,Transborder
+T0367,2026-08-22 06:08:00,Ground Transportation,44.23,Card,International
+T0368,2026-08-14 19:57:00,Retail,8.71,Card,Domestic
+T0369,2026-08-27 11:40:00,Retail,8.95,Mobile,Domestic
+T0370,2026-09-14 08:04:00,Food & Beverage,11.11,Card,Transborder
+T0371,2026-09-14 23:22:00,Ground Transportation,37.27,Card,International
+T0372,2026-08-28 18:34:00,Ground Transportation,32.19,Card,Transborder
+T0373,2026-09-02 07:20:00,Retail,51.26,Mobile,Transborder
+T0374,2026-08-05 03:48:00,Ground Transportation,55.18,Mobile,Transborder
+T0375,2026-09-07 22:59:00,Retail,5.53,Mobile,Domestic
+T0376,2026-08-06 07:35:00,Retail,36.34,Card,Domestic
+T0377,2026-08-21 09:43:00,Parking,53.71,Cash,Domestic
+T0378,2026-08-09 20:45:00,Retail,19.07,Cash,International
+T0379,2026-08-15 07:59:00,Retail,24.55,Card,International
+T0380,2026-09-01 00:09:00,Food & Beverage,21.77,Card,Transborder
+T0381,2026-08-18 20:20:00,Parking,-22.54,Card,International
+T0382,2026-09-08 19:22:00,Parking,44.65,Card,Domestic
+T0383,2026-08-24 21:36:00,Retail,-76.49,Mobile,International
+T0384,2026-09-10 19:26:00,Food & Beverage,62.43,Card,Transborder
+T0385,2026-08-13 19:10:00,Retail,16.47,Cash,Domestic
+T0386,2026-08-13 14:48:00,Food & Beverage,30.46,Card,Domestic
+T0387,2026-09-13 19:43:00,Parking,12.69,Mobile,International
+T0388,2026-08-15 16:52:00,Retail,13.87,Cash,Transborder
+T0389,2026-08-27 08:03:00,Food & Beverage,23.72,Mobile,International
+T0390,2026-09-10 19:34:00,Retail,13.54,Card,Domestic
+T0391,2026-08-02 12:40:00,Ground Transportation,15.37,Card,Domestic
+T0392,2026-08-18 15:59:00,Parking,29.93,Mobile,Domestic
+T0393,2026-09-02 06:41:00,Ground Transportation,35.98,Mobile,Transborder
+T0394,2026-09-07 09:51:00,Food & Beverage,35.3,Cash,International
+T0395,2026-08-04 18:47:00,Ground Transportation,35.55,Card,International
+T0396,2026-08-22 12:28:00,Parking,7.88,Cash,International
+T0397,2026-09-02 12:44:00,Ground Transportation,12.94,Card,Domestic
+T0398,2026-09-09 09:32:00,Retail,25.74,Mobile,Domestic
+T0399,2026-09-02 01:09:00,Retail,52.07,Mobile,Transborder
+T0400,2026-08-23 09:29:00,Parking,104.4,Card,Transborder
+T0401,2026-08-22 23:48:00,Ground Transportation,31.36,Mobile,Transborder
+T0402,2026-08-28 17:12:00,Food & Beverage,41.74,Mobile,International
+T0403,2026-09-06 11:16:00,Parking,7.01,Cash,Domestic
+T0404,2026-09-06 06:32:00,Retail,40.96,Mobile,International
+T0405,2026-08-20 00:35:00,Food & Beverage,86.84,Cash,Domestic
+T0406,2026-09-14 12:44:00,Ground Transportation,12.9,Mobile,Domestic
+T0407,2026-09-07 06:00:00,Ground Transportation,15.8,Mobile,International
+T0408,2026-09-06 00:58:00,Retail,45.61,Card,Domestic
+T0409,2026-08-31 08:44:00,Parking,25.49,Cash,International
+T0410,2026-09-08 06:57:00,Ground Transportation,3.21,Cash,Transborder
+T0411,2026-08-16 00:23:00,Parking,16.61,Card,Transborder
+T0412,2026-09-13 17:04:00,Ground Transportation,64.67,Card,International
+T0413,2026-09-07 06:10:00,Ground Transportation,19.98,Cash,International
+T0414,2026-08-04 00:09:00,Parking,19.96,Card,International
+T0415,2026-09-11 07:35:00,Parking,43.64,Cash,Domestic
+T0416,2026-08-21 19:46:00,Retail,32.18,Cash,Transborder
+T0417,2026-08-10 02:43:00,Food & Beverage,19.12,Mobile,Transborder
+T0418,2026-08-27 03:53:00,Retail,14.92,Mobile,International
+T0419,2026-09-14 22:14:00,Retail,136.63,Cash,Domestic
+T0420,2026-08-29 00:54:00,Ground Transportation,57.68,Mobile,Domestic
+T0421,2026-08-18 00:17:00,Parking,-35.54,Cash,Transborder
+T0422,2026-08-06 04:49:00,Retail,37.17,Card,Transborder
+T0423,2026-09-02 04:00:00,Ground Transportation,22.65,Cash,Transborder
+T0424,2026-08-19 16:29:00,Ground Transportation,31.9,Card,International
+T0425,2026-08-09 02:24:00,Ground Transportation,20.81,Cash,Transborder
+T0426,2026-09-08 14:08:00,Retail,11.87,Card,Transborder
+T0427,2026-09-09 22:15:00,Food & Beverage,32.81,Card,International
+T0428,2026-08-01 22:09:00,Food & Beverage,19.41,Mobile,International
+T0429,2026-08-21 02:01:00,Food & Beverage,34.05,Cash,Transborder
+T0430,2026-09-09 08:30:00,Ground Transportation,38.69,Cash,International
+T0431,2026-09-12 13:08:00,Ground Transportation,35.34,Mobile,International
+T0432,2026-08-20 12:15:00,Ground Transportation,11.01,Card,Domestic
+T0433,2026-08-20 12:57:00,Parking,17.76,Cash,Domestic
+T0434,2026-09-02 14:50:00,Retail,19.71,Cash,International
+T0435,2026-08-17 21:49:00,Parking,49.06,Cash,Transborder
+T0436,2026-09-02 06:55:00,Retail,47.34,Mobile,International
+T0437,2026-08-04 20:27:00,Food & Beverage,13.62,Cash,Transborder
+T0438,2026-08-22 08:50:00,Parking,7.69,Cash,Domestic
+T0439,2026-08-12 08:51:00,Ground Transportation,107.59,Cash,International
+T0440,2026-08-04 18:17:00,Retail,34.36,Mobile,International
+T0441,2026-09-05 15:21:00,Parking,6.69,Cash,Transborder
+T0442,2026-08-27 07:55:00,Retail,15.58,Mobile,Transborder
+T0443,2026-08-08 19:57:00,Parking,50.45,Cash,International
+T0444,2026-08-15 01:07:00,Retail,91.17,Mobile,International
+T0445,2026-08-08 21:40:00,Parking,81.55,Mobile,International
+T0446,2026-08-29 14:55:00,Parking,33.33,Card,Domestic
+T0447,2026-08-24 05:14:00,Parking,25.07,Mobile,Transborder
+T0448,2026-08-07 05:46:00,Retail,10.06,Mobile,Domestic
+T0449,2026-09-03 22:50:00,Parking,26.7,Cash,International
+T0450,2026-08-08 02:04:00,Ground Transportation,11.36,Card,Transborder
+T0451,2026-09-05 19:43:00,Food & Beverage,17.9,Cash,Domestic
+T0452,2026-08-16 19:28:00,Parking,45.58,Cash,Domestic
+T0453,2026-09-08 07:53:00,Ground Transportation,20.73,Mobile,Transborder
+T0454,2026-08-12 00:54:00,Ground Transportation,19.63,Card,Domestic
+T0455,2026-08-27 12:03:00,Retail,24.04,Mobile,Domestic
+T0456,2026-08-03 14:22:00,Food & Beverage,117.84,Mobile,Transborder
+T0457,2026-08-22 21:12:00,Food & Beverage,9.06,Cash,Transborder
+T0458,2026-08-22 19:22:00,Retail,30.84,Mobile,Domestic
+T0459,2026-08-14 08:26:00,Ground Transportation,76.86,Mobile,International
+T0460,2026-09-01 06:52:00,Parking,23.99,Cash,International
+T0461,2026-08-17 07:28:00,Ground Transportation,56.97,Cash,Transborder
+T0462,2026-08-16 10:52:00,Retail,7.17,Card,Transborder
+T0463,2026-08-30 23:43:00,Ground Transportation,21.27,Cash,International
+T0464,2026-08-12 05:06:00,Food & Beverage,12.49,Cash,International
+T0465,2026-08-09 09:31:00,Retail,23.79,Cash,Domestic
+T0466,2026-09-08 01:25:00,Parking,-24.18,Card,International
+T0467,2026-08-05 22:29:00,Ground Transportation,26.14,Cash,Transborder
+T0468,2026-08-12 16:08:00,Food & Beverage,45.29,Cash,Domestic
+T0469,2026-08-03 19:07:00,Food & Beverage,2.0,Cash,Domestic
+T0470,2026-09-02 10:24:00,Parking,15.0,Cash,Domestic
+T0471,2026-08-18 07:38:00,Food & Beverage,29.32,Cash,Domestic
+T0472,2026-08-12 17:42:00,Retail,3.42,Card,International
+T0473,2026-08-21 20:16:00,Retail,39.02,Cash,International
+T0474,2026-09-05 05:54:00,Retail,14.75,Card,Transborder
+T0475,2026-09-05 13:48:00,Parking,21.59,Mobile,Domestic
+T0476,2026-08-12 23:03:00,Retail,46.71,Card,Transborder
+T0477,2026-09-14 18:47:00,Food & Beverage,58.71,Card,International
+T0478,2026-08-23 14:27:00,Parking,39.86,Mobile,Domestic
+T0479,2026-08-29 03:36:00,Parking,8.81,Cash,Transborder
+T0480,2026-08-05 21:49:00,Parking,38.48,Cash,International
+T0481,2026-08-12 14:43:00,Ground Transportation,-40.3,Mobile,Domestic
+T0482,2026-08-30 22:06:00,Parking,34.94,Cash,Transborder
+T0483,2026-08-13 08:01:00,Food & Beverage,65.12,Mobile,International
+T0484,2026-08-01 09:02:00,Ground Transportation,26.66,Mobile,International
+T0485,2026-09-05 17:59:00,Parking,63.47,Card,Transborder
+T0486,2026-09-13 15:11:00,Ground Transportation,63.21,Cash,Transborder
+T0487,2026-08-16 09:12:00,Retail,41.1,Cash,International
+T0488,2026-08-05 08:01:00,Retail,31.19,Mobile,Domestic
+T0489,2026-09-08 11:47:00,Ground Transportation,35.08,Mobile,International
+T0490,2026-08-10 10:51:00,Food & Beverage,74.48,Mobile,International
+T0491,2026-08-09 21:37:00,Retail,52.02,Card,International
+T0492,2026-09-01 13:23:00,Retail,9.86,Cash,Transborder
+T0493,2026-09-03 16:10:00,Food & Beverage,33.52,Card,Domestic
+T0494,2026-09-02 23:08:00,Food & Beverage,11.92,Card,International
+T0495,2026-08-30 11:46:00,Retail,14.38,Mobile,Domestic
+T0496,2026-08-02 21:27:00,Retail,18.49,Cash,Domestic
+T0497,2026-08-19 15:55:00,Parking,6.46,Cash,International
+T0498,2026-08-25 00:23:00,Ground Transportation,11.22,Cash,Domestic
+T0499,2026-09-03 22:25:00,Food & Beverage,67.47,Card,International
+T0500,2026-08-07 15:39:00,Ground Transportation,14.3,Mobile,International

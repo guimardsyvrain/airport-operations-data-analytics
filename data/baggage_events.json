@@ -1,0 +1,3002 @@
+[
+  {
+    "bag_event_id": "B0001",
+    "flight_id": "F0024",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 22
+    },
+    "bags_processed": 199,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0002",
+    "flight_id": "F0333",
+    "arrival": {
+      "first_bag_min": 10,
+      "last_bag_min": 20
+    },
+    "bags_processed": 23,
+    "mishandled_bags": 3
+  },
+  {
+    "bag_event_id": "B0003",
+    "flight_id": "F0089",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 19
+    },
+    "bags_processed": 98,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0004",
+    "flight_id": "F0421",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 17
+    },
+    "bags_processed": 136,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0005",
+    "flight_id": "F0313",
+    "arrival": {
+      "first_bag_min": 21,
+      "last_bag_min": 31
+    },
+    "bags_processed": 171,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0006",
+    "flight_id": "F0033",
+    "arrival": {
+      "first_bag_min": 9,
+      "last_bag_min": 18
+    },
+    "bags_processed": 49,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0007",
+    "flight_id": "F0255",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 25
+    },
+    "bags_processed": 177,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0008",
+    "flight_id": "F0113",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 26
+    },
+    "bags_processed": 71,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0009",
+    "flight_id": "F0219",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 21
+    },
+    "bags_processed": 208,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0010",
+    "flight_id": "F0348",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 26
+    },
+    "bags_processed": 103,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0011",
+    "flight_id": "F0062",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 23
+    },
+    "bags_processed": 159,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0012",
+    "flight_id": "F0071",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 27
+    },
+    "bags_processed": 74,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0013",
+    "flight_id": "F0392",
+    "arrival": {
+      "first_bag_min": 34,
+      "last_bag_min": 42
+    },
+    "bags_processed": 171,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0014",
+    "flight_id": "F0089",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 19
+    },
+    "bags_processed": 36,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0015",
+    "flight_id": "F0062",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 24
+    },
+    "bags_processed": 56,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0016",
+    "flight_id": "F0388",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 17
+    },
+    "bags_processed": 63,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0017",
+    "flight_id": "F0357",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 13
+    },
+    "bags_processed": 161,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0018",
+    "flight_id": "F0085",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 31
+    },
+    "bags_processed": 82,
+    "mishandled_bags": 3
+  },
+  {
+    "bag_event_id": "B0019",
+    "flight_id": "F0474",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 17
+    },
+    "bags_processed": 30,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0020",
+    "flight_id": "F0069",
+    "arrival": {
+      "first_bag_min": 26,
+      "last_bag_min": 35
+    },
+    "bags_processed": 181,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0021",
+    "flight_id": "F0314",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 26
+    },
+    "bags_processed": 219,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0022",
+    "flight_id": "F0081",
+    "arrival": {
+      "first_bag_min": 10,
+      "last_bag_min": 18
+    },
+    "bags_processed": 144,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0023",
+    "flight_id": "F0042",
+    "arrival": {
+      "first_bag_min": 21,
+      "last_bag_min": 95
+    },
+    "bags_processed": 21,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0024",
+    "flight_id": "F0092",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 20
+    },
+    "bags_processed": 200,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0025",
+    "flight_id": "F0334",
+    "arrival": {
+      "first_bag_min": 10,
+      "last_bag_min": 27
+    },
+    "bags_processed": 92,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0026",
+    "flight_id": "F0214",
+    "arrival": {
+      "first_bag_min": 30,
+      "last_bag_min": 45
+    },
+    "bags_processed": 197,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0027",
+    "flight_id": "F0065",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 22
+    },
+    "bags_processed": 56,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0028",
+    "flight_id": "F0328",
+    "arrival": {
+      "first_bag_min": 5,
+      "last_bag_min": 17
+    },
+    "bags_processed": 153,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0029",
+    "flight_id": "F0231",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 30
+    },
+    "bags_processed": 81,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0030",
+    "flight_id": "F0481",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 18
+    },
+    "bags_processed": 176,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0031",
+    "flight_id": "F0355",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 16
+    },
+    "bags_processed": 172,
+    "mishandled_bags": 3
+  },
+  {
+    "bag_event_id": "B0032",
+    "flight_id": "F0093",
+    "arrival": {
+      "first_bag_min": 22,
+      "last_bag_min": 37
+    },
+    "bags_processed": 176,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0033",
+    "flight_id": "F0487",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 17
+    },
+    "bags_processed": 180,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0034",
+    "flight_id": "F0424",
+    "arrival": {
+      "first_bag_min": 22,
+      "last_bag_min": 34
+    },
+    "bags_processed": 109,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0035",
+    "flight_id": "F0215",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 22
+    },
+    "bags_processed": 162,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0036",
+    "flight_id": "F0121",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 27
+    },
+    "bags_processed": 50,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0037",
+    "flight_id": "F0272",
+    "arrival": {
+      "first_bag_min": 10,
+      "last_bag_min": 19
+    },
+    "bags_processed": 178,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0038",
+    "flight_id": "F0186",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 33
+    },
+    "bags_processed": 149,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0039",
+    "flight_id": "F0113",
+    "arrival": {
+      "first_bag_min": 22,
+      "last_bag_min": 37
+    },
+    "bags_processed": 217,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0040",
+    "flight_id": "F0321",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 23
+    },
+    "bags_processed": 90,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0041",
+    "flight_id": "F0028",
+    "arrival": {
+      "first_bag_min": 5,
+      "last_bag_min": 16
+    },
+    "bags_processed": 48,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0042",
+    "flight_id": "F0408",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 17
+    },
+    "bags_processed": 195,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0043",
+    "flight_id": "F0433",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 22
+    },
+    "bags_processed": 147,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0044",
+    "flight_id": "F0091",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 22
+    },
+    "bags_processed": 191,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0045",
+    "flight_id": "F0473",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 11
+    },
+    "bags_processed": 33,
+    "mishandled_bags": 3
+  },
+  {
+    "bag_event_id": "B0046",
+    "flight_id": "F0331",
+    "arrival": {
+      "first_bag_min": 9,
+      "last_bag_min": 22
+    },
+    "bags_processed": 92,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0047",
+    "flight_id": "F0108",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 30
+    },
+    "bags_processed": 84,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0048",
+    "flight_id": "F0172",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 31
+    },
+    "bags_processed": 214,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0049",
+    "flight_id": "F0233",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 8
+    },
+    "bags_processed": 46,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0050",
+    "flight_id": "F0380",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 21
+    },
+    "bags_processed": 157,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0051",
+    "flight_id": "F0091",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 18
+    },
+    "bags_processed": 27,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0052",
+    "flight_id": "F0249",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 28
+    },
+    "bags_processed": 49,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0053",
+    "flight_id": "F0037",
+    "arrival": {
+      "first_bag_min": 9,
+      "last_bag_min": 20
+    },
+    "bags_processed": 204,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0054",
+    "flight_id": "F0228",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 25
+    },
+    "bags_processed": 168,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0055",
+    "flight_id": "F0167",
+    "arrival": {
+      "first_bag_min": 15,
+      "last_bag_min": 29
+    },
+    "bags_processed": 70,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0056",
+    "flight_id": "F0383",
+    "arrival": {
+      "first_bag_min": 22,
+      "last_bag_min": 35
+    },
+    "bags_processed": 78,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0057",
+    "flight_id": "F0399",
+    "arrival": {
+      "first_bag_min": 9,
+      "last_bag_min": 18
+    },
+    "bags_processed": 103,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0058",
+    "flight_id": "F0117",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 16
+    },
+    "bags_processed": 80,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0059",
+    "flight_id": "F0378",
+    "arrival": {
+      "first_bag_min": 19,
+      "last_bag_min": 33
+    },
+    "bags_processed": 71,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0060",
+    "flight_id": "F0193",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 24
+    },
+    "bags_processed": 38,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0061",
+    "flight_id": "F0242",
+    "arrival": {
+      "first_bag_min": 23,
+      "last_bag_min": 40
+    },
+    "bags_processed": 144,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0062",
+    "flight_id": "F0028",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 31
+    },
+    "bags_processed": 57,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0063",
+    "flight_id": "F0111",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 31
+    },
+    "bags_processed": 136,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0064",
+    "flight_id": "F0092",
+    "arrival": {
+      "first_bag_min": 19,
+      "last_bag_min": 33
+    },
+    "bags_processed": 115,
+    "mishandled_bags": 3
+  },
+  {
+    "bag_event_id": "B0065",
+    "flight_id": "F0070",
+    "arrival": {
+      "first_bag_min": 9,
+      "last_bag_min": 24
+    },
+    "bags_processed": 204,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0066",
+    "flight_id": "F0100",
+    "arrival": {
+      "first_bag_min": 20,
+      "last_bag_min": 33
+    },
+    "bags_processed": 89,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0067",
+    "flight_id": "F0104",
+    "arrival": {
+      "first_bag_min": 21,
+      "last_bag_min": 34
+    },
+    "bags_processed": 52,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0068",
+    "flight_id": "F0017",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 29
+    },
+    "bags_processed": 35,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0069",
+    "flight_id": "F0144",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 16
+    },
+    "bags_processed": 48,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0070",
+    "flight_id": "F0437",
+    "arrival": {
+      "first_bag_min": 9,
+      "last_bag_min": 24
+    },
+    "bags_processed": 137,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0071",
+    "flight_id": "F0215",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 13
+    },
+    "bags_processed": 214,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0072",
+    "flight_id": "F0176",
+    "arrival": {
+      "first_bag_min": 15,
+      "last_bag_min": 26
+    },
+    "bags_processed": 95,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0073",
+    "flight_id": "F0310",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 13
+    },
+    "bags_processed": 183,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0074",
+    "flight_id": "F0488",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 17
+    },
+    "bags_processed": 63,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0075",
+    "flight_id": "F0296",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 29
+    },
+    "bags_processed": 78,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0076",
+    "flight_id": "F0045",
+    "arrival": {
+      "first_bag_min": 5,
+      "last_bag_min": 19
+    },
+    "bags_processed": 153,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0077",
+    "flight_id": "F0251",
+    "arrival": {
+      "first_bag_min": 26,
+      "last_bag_min": 37
+    },
+    "bags_processed": 171,
+    "mishandled_bags": 3
+  },
+  {
+    "bag_event_id": "B0078",
+    "flight_id": "F0243",
+    "arrival": {
+      "first_bag_min": 4,
+      "last_bag_min": 19
+    },
+    "bags_processed": 91,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0079",
+    "flight_id": "F0008",
+    "arrival": {
+      "first_bag_min": 20,
+      "last_bag_min": 34
+    },
+    "bags_processed": 208,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0080",
+    "flight_id": "F0447",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 17
+    },
+    "bags_processed": 83,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0081",
+    "flight_id": "F0168",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 14
+    },
+    "bags_processed": 168,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0082",
+    "flight_id": "F0114",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 29
+    },
+    "bags_processed": 58,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0083",
+    "flight_id": "F0468",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 17
+    },
+    "bags_processed": 21,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0084",
+    "flight_id": "F0214",
+    "arrival": {
+      "first_bag_min": 20,
+      "last_bag_min": 28
+    },
+    "bags_processed": 30,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0085",
+    "flight_id": "F0241",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 29
+    },
+    "bags_processed": 28,
+    "mishandled_bags": 3
+  },
+  {
+    "bag_event_id": "B0086",
+    "flight_id": "F0218",
+    "arrival": {
+      "first_bag_min": 28,
+      "last_bag_min": 44
+    },
+    "bags_processed": 120,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0087",
+    "flight_id": "F0246",
+    "arrival": {
+      "first_bag_min": 19,
+      "last_bag_min": 28
+    },
+    "bags_processed": 135,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0088",
+    "flight_id": "F0254",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 23
+    },
+    "bags_processed": 41,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0089",
+    "flight_id": "F0286",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 21
+    },
+    "bags_processed": 197,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0090",
+    "flight_id": "F0375",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 28
+    },
+    "bags_processed": 75,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0091",
+    "flight_id": "F0068",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 20
+    },
+    "bags_processed": 95,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0092",
+    "flight_id": "F0123",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 9
+    },
+    "bags_processed": 24,
+    "mishandled_bags": 3
+  },
+  {
+    "bag_event_id": "B0093",
+    "flight_id": "F0246",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 29
+    },
+    "bags_processed": 61,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0094",
+    "flight_id": "F0361",
+    "arrival": {
+      "first_bag_min": 9,
+      "last_bag_min": 24
+    },
+    "bags_processed": 166,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0095",
+    "flight_id": "F0383",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 28
+    },
+    "bags_processed": 26,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0096",
+    "flight_id": "F0500",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 32
+    },
+    "bags_processed": 138,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0097",
+    "flight_id": "F0396",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 12
+    },
+    "bags_processed": 200,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0098",
+    "flight_id": "F0208",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 26
+    },
+    "bags_processed": 114,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0099",
+    "flight_id": "F0321",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 31
+    },
+    "bags_processed": 200,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0100",
+    "flight_id": "F0325",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 16
+    },
+    "bags_processed": 180,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0101",
+    "flight_id": "F0037",
+    "arrival": {
+      "first_bag_min": 21,
+      "last_bag_min": 35
+    },
+    "bags_processed": 196,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0102",
+    "flight_id": "F0171",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 16
+    },
+    "bags_processed": 28,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0103",
+    "flight_id": "F0152",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 14
+    },
+    "bags_processed": 212,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0104",
+    "flight_id": "F0139",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 33
+    },
+    "bags_processed": 158,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0105",
+    "flight_id": "F0295",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 27
+    },
+    "bags_processed": 195,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0106",
+    "flight_id": "F0042",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 31
+    },
+    "bags_processed": 105,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0107",
+    "flight_id": "F0377",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 24
+    },
+    "bags_processed": 151,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0108",
+    "flight_id": "F0485",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 29
+    },
+    "bags_processed": 33,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0109",
+    "flight_id": "F0057",
+    "arrival": {
+      "first_bag_min": 5,
+      "last_bag_min": 19
+    },
+    "bags_processed": 113,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0110",
+    "flight_id": "F0239",
+    "arrival": {
+      "first_bag_min": 5,
+      "last_bag_min": 22
+    },
+    "bags_processed": 30,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0111",
+    "flight_id": "F0188",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 24
+    },
+    "bags_processed": 64,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0112",
+    "flight_id": "F0332",
+    "arrival": {
+      "first_bag_min": 18,
+      "last_bag_min": 34
+    },
+    "bags_processed": 200,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0113",
+    "flight_id": "F0035",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 16
+    },
+    "bags_processed": 201,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0114",
+    "flight_id": "F0397",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 13
+    },
+    "bags_processed": 55,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0115",
+    "flight_id": "F0172",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 18
+    },
+    "bags_processed": 158,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0116",
+    "flight_id": "F0059",
+    "arrival": {
+      "first_bag_min": 26,
+      "last_bag_min": 41
+    },
+    "bags_processed": 208,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0117",
+    "flight_id": "F0481",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 23
+    },
+    "bags_processed": 199,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0118",
+    "flight_id": "F0108",
+    "arrival": {
+      "first_bag_min": 9,
+      "last_bag_min": 20
+    },
+    "bags_processed": 102,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0119",
+    "flight_id": "F0181",
+    "arrival": {
+      "first_bag_min": 10,
+      "last_bag_min": 22
+    },
+    "bags_processed": 148,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0120",
+    "flight_id": "F0349",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 14
+    },
+    "bags_processed": 90,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0121",
+    "flight_id": "F0028",
+    "arrival": {
+      "first_bag_min": 15,
+      "last_bag_min": 24
+    },
+    "bags_processed": 115,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0122",
+    "flight_id": "F0177",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 29
+    },
+    "bags_processed": 144,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0123",
+    "flight_id": "F0257",
+    "arrival": {
+      "first_bag_min": 18,
+      "last_bag_min": 34
+    },
+    "bags_processed": 51,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0124",
+    "flight_id": "F0241",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 23
+    },
+    "bags_processed": 193,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0125",
+    "flight_id": "F0423",
+    "arrival": {
+      "first_bag_min": 27,
+      "last_bag_min": 43
+    },
+    "bags_processed": 94,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0126",
+    "flight_id": "F0232",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 17
+    },
+    "bags_processed": 114,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0127",
+    "flight_id": "F0410",
+    "arrival": {
+      "first_bag_min": 4,
+      "last_bag_min": 13
+    },
+    "bags_processed": 68,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0128",
+    "flight_id": "F0457",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 15
+    },
+    "bags_processed": 42,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0129",
+    "flight_id": "F0042",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 28
+    },
+    "bags_processed": 65,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0130",
+    "flight_id": "F0148",
+    "arrival": {
+      "first_bag_min": 25,
+      "last_bag_min": 34
+    },
+    "bags_processed": 47,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0131",
+    "flight_id": "F0085",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 19
+    },
+    "bags_processed": 48,
+    "mishandled_bags": 3
+  },
+  {
+    "bag_event_id": "B0132",
+    "flight_id": "F0357",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 17
+    },
+    "bags_processed": 147,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0133",
+    "flight_id": "F0078",
+    "arrival": {
+      "first_bag_min": 19,
+      "last_bag_min": 30
+    },
+    "bags_processed": 153,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0134",
+    "flight_id": "F0488",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 15
+    },
+    "bags_processed": 95,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0135",
+    "flight_id": "F0214",
+    "arrival": {
+      "first_bag_min": 15,
+      "last_bag_min": 31
+    },
+    "bags_processed": 53,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0136",
+    "flight_id": "F0243",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 29
+    },
+    "bags_processed": 127,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0137",
+    "flight_id": "F0228",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 8
+    },
+    "bags_processed": 94,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0138",
+    "flight_id": "F0097",
+    "arrival": {
+      "first_bag_min": 10,
+      "last_bag_min": 19
+    },
+    "bags_processed": 25,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0139",
+    "flight_id": "F0447",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 14
+    },
+    "bags_processed": 153,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0140",
+    "flight_id": "F0331",
+    "arrival": {
+      "first_bag_min": 21,
+      "last_bag_min": 34
+    },
+    "bags_processed": 125,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0141",
+    "flight_id": "F0297",
+    "arrival": {
+      "first_bag_min": 26,
+      "last_bag_min": 39
+    },
+    "bags_processed": 187,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0142",
+    "flight_id": "F0331",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 29
+    },
+    "bags_processed": 144,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0143",
+    "flight_id": "F0304",
+    "arrival": {
+      "first_bag_min": 10,
+      "last_bag_min": 26
+    },
+    "bags_processed": 160,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0144",
+    "flight_id": "F0228",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 28
+    },
+    "bags_processed": 97,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0145",
+    "flight_id": "F0291",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 18
+    },
+    "bags_processed": 98,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0146",
+    "flight_id": "F0088",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 23
+    },
+    "bags_processed": 78,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0147",
+    "flight_id": "F0248",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 26
+    },
+    "bags_processed": 93,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0148",
+    "flight_id": "F0395",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 8
+    },
+    "bags_processed": 57,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0149",
+    "flight_id": "F0181",
+    "arrival": {
+      "first_bag_min": 24,
+      "last_bag_min": 36
+    },
+    "bags_processed": 136,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0150",
+    "flight_id": "F0490",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 21
+    },
+    "bags_processed": 178,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0151",
+    "flight_id": "F0474",
+    "arrival": {
+      "first_bag_min": 19,
+      "last_bag_min": 29
+    },
+    "bags_processed": 202,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0152",
+    "flight_id": "F0275",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 28
+    },
+    "bags_processed": 66,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0153",
+    "flight_id": "F0499",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 26
+    },
+    "bags_processed": 201,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0154",
+    "flight_id": "F0355",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 22
+    },
+    "bags_processed": 61,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0155",
+    "flight_id": "F0122",
+    "arrival": {
+      "first_bag_min": 5,
+      "last_bag_min": 14
+    },
+    "bags_processed": 30,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0156",
+    "flight_id": "F0163",
+    "arrival": {
+      "first_bag_min": 18,
+      "last_bag_min": 35
+    },
+    "bags_processed": 52,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0157",
+    "flight_id": "F0226",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 18
+    },
+    "bags_processed": 114,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0158",
+    "flight_id": "F0095",
+    "arrival": {
+      "first_bag_min": 4,
+      "last_bag_min": 15
+    },
+    "bags_processed": 163,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0159",
+    "flight_id": "F0363",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 8
+    },
+    "bags_processed": 190,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0160",
+    "flight_id": "F0163",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 24
+    },
+    "bags_processed": 57,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0161",
+    "flight_id": "F0191",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 26
+    },
+    "bags_processed": 158,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0162",
+    "flight_id": "F0500",
+    "arrival": {
+      "first_bag_min": 26,
+      "last_bag_min": 36
+    },
+    "bags_processed": 156,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0163",
+    "flight_id": "F0155",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 15
+    },
+    "bags_processed": 26,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0164",
+    "flight_id": "F0208",
+    "arrival": {
+      "first_bag_min": 25,
+      "last_bag_min": 40
+    },
+    "bags_processed": 216,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0165",
+    "flight_id": "F0075",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 21
+    },
+    "bags_processed": 101,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0166",
+    "flight_id": "F0080",
+    "arrival": {
+      "first_bag_min": 4,
+      "last_bag_min": 12
+    },
+    "bags_processed": 209,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0167",
+    "flight_id": "F0280",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 22
+    },
+    "bags_processed": 104,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0168",
+    "flight_id": "F0332",
+    "arrival": {
+      "first_bag_min": 20,
+      "last_bag_min": 32
+    },
+    "bags_processed": 141,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0169",
+    "flight_id": "F0459",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 29
+    },
+    "bags_processed": 213,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0170",
+    "flight_id": "F0294",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 16
+    },
+    "bags_processed": 164,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0171",
+    "flight_id": "F0374",
+    "arrival": {
+      "first_bag_min": 23,
+      "last_bag_min": 38
+    },
+    "bags_processed": 106,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0172",
+    "flight_id": "F0353",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 26
+    },
+    "bags_processed": 207,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0173",
+    "flight_id": "F0246",
+    "arrival": {
+      "first_bag_min": 21,
+      "last_bag_min": 29
+    },
+    "bags_processed": 55,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0174",
+    "flight_id": "F0348",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 16
+    },
+    "bags_processed": 49,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0175",
+    "flight_id": "F0158",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 8
+    },
+    "bags_processed": 122,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0176",
+    "flight_id": "F0317",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 25
+    },
+    "bags_processed": 134,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0177",
+    "flight_id": "F0183",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 25
+    },
+    "bags_processed": 103,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0178",
+    "flight_id": "F0029",
+    "arrival": {
+      "first_bag_min": 5,
+      "last_bag_min": 22
+    },
+    "bags_processed": 184,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0179",
+    "flight_id": "F0100",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 24
+    },
+    "bags_processed": 154,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0180",
+    "flight_id": "F0114",
+    "arrival": {
+      "first_bag_min": 20,
+      "last_bag_min": 32
+    },
+    "bags_processed": 70,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0181",
+    "flight_id": "F0012",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 25
+    },
+    "bags_processed": 157,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0182",
+    "flight_id": "F0435",
+    "arrival": {
+      "first_bag_min": 25,
+      "last_bag_min": 40
+    },
+    "bags_processed": 193,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0183",
+    "flight_id": "F0344",
+    "arrival": {
+      "first_bag_min": 20,
+      "last_bag_min": 29
+    },
+    "bags_processed": 151,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0184",
+    "flight_id": "F0202",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 18
+    },
+    "bags_processed": 145,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0185",
+    "flight_id": "F0163",
+    "arrival": {
+      "first_bag_min": 18,
+      "last_bag_min": 35
+    },
+    "bags_processed": 174,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0186",
+    "flight_id": "F0262",
+    "arrival": {
+      "first_bag_min": 21,
+      "last_bag_min": 29
+    },
+    "bags_processed": 190,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0187",
+    "flight_id": "F0185",
+    "arrival": {
+      "first_bag_min": 15,
+      "last_bag_min": 29
+    },
+    "bags_processed": 57,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0188",
+    "flight_id": "F0367",
+    "arrival": {
+      "first_bag_min": 19,
+      "last_bag_min": 33
+    },
+    "bags_processed": 114,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0189",
+    "flight_id": "F0198",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 25
+    },
+    "bags_processed": 23,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0190",
+    "flight_id": "F0146",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 24
+    },
+    "bags_processed": 109,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0191",
+    "flight_id": "F0158",
+    "arrival": {
+      "first_bag_min": 10,
+      "last_bag_min": 25
+    },
+    "bags_processed": 163,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0192",
+    "flight_id": "F0045",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 13
+    },
+    "bags_processed": 206,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0193",
+    "flight_id": "F0455",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 29
+    },
+    "bags_processed": 209,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0194",
+    "flight_id": "F0213",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 29
+    },
+    "bags_processed": 93,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0195",
+    "flight_id": "F0084",
+    "arrival": {
+      "first_bag_min": 20,
+      "last_bag_min": 34
+    },
+    "bags_processed": 206,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0196",
+    "flight_id": "F0459",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 28
+    },
+    "bags_processed": 55,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0197",
+    "flight_id": "F0428",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 23
+    },
+    "bags_processed": 173,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0198",
+    "flight_id": "F0045",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 26
+    },
+    "bags_processed": 73,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0199",
+    "flight_id": "F0156",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 22
+    },
+    "bags_processed": 154,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0200",
+    "flight_id": "F0172",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 22
+    },
+    "bags_processed": 171,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0201",
+    "flight_id": "F0388",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 28
+    },
+    "bags_processed": 42,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0202",
+    "flight_id": "F0004",
+    "arrival": {
+      "first_bag_min": 18,
+      "last_bag_min": 32
+    },
+    "bags_processed": 183,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0203",
+    "flight_id": "F0469",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 15
+    },
+    "bags_processed": 126,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0204",
+    "flight_id": "F0090",
+    "arrival": {
+      "first_bag_min": 5,
+      "last_bag_min": 21
+    },
+    "bags_processed": 138,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0205",
+    "flight_id": "F0364",
+    "arrival": {
+      "first_bag_min": 22,
+      "last_bag_min": 39
+    },
+    "bags_processed": 213,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0206",
+    "flight_id": "F0469",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 16
+    },
+    "bags_processed": 71,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0207",
+    "flight_id": "F0096",
+    "arrival": {
+      "first_bag_min": 15,
+      "last_bag_min": 29
+    },
+    "bags_processed": 94,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0208",
+    "flight_id": "F0284",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 17
+    },
+    "bags_processed": 30,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0209",
+    "flight_id": "F0422",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 18
+    },
+    "bags_processed": 169,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0210",
+    "flight_id": "F0156",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 32
+    },
+    "bags_processed": 163,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0211",
+    "flight_id": "F0379",
+    "arrival": {
+      "first_bag_min": 35,
+      "last_bag_min": 50
+    },
+    "bags_processed": 77,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0212",
+    "flight_id": "F0014",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 8
+    },
+    "bags_processed": 59,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0213",
+    "flight_id": "F0135",
+    "arrival": {
+      "first_bag_min": 25,
+      "last_bag_min": 37
+    },
+    "bags_processed": 183,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0214",
+    "flight_id": "F0428",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 22
+    },
+    "bags_processed": 51,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0215",
+    "flight_id": "F0335",
+    "arrival": {
+      "first_bag_min": 10,
+      "last_bag_min": 22
+    },
+    "bags_processed": 126,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0216",
+    "flight_id": "F0092",
+    "arrival": {
+      "first_bag_min": 21,
+      "last_bag_min": 36
+    },
+    "bags_processed": 196,
+    "mishandled_bags": 3
+  },
+  {
+    "bag_event_id": "B0217",
+    "flight_id": "F0331",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 24
+    },
+    "bags_processed": 27,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0218",
+    "flight_id": "F0062",
+    "arrival": {
+      "first_bag_min": 26,
+      "last_bag_min": 38
+    },
+    "bags_processed": 146,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0219",
+    "flight_id": "F0497",
+    "arrival": {
+      "first_bag_min": 5,
+      "last_bag_min": 14
+    },
+    "bags_processed": 173,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0220",
+    "flight_id": "F0382",
+    "arrival": {
+      "first_bag_min": 5,
+      "last_bag_min": 18
+    },
+    "bags_processed": 168,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0221",
+    "flight_id": "F0247",
+    "arrival": {
+      "first_bag_min": 15,
+      "last_bag_min": 32
+    },
+    "bags_processed": 131,
+    "mishandled_bags": 3
+  },
+  {
+    "bag_event_id": "B0222",
+    "flight_id": "F0445",
+    "arrival": {
+      "first_bag_min": 18,
+      "last_bag_min": 30
+    },
+    "bags_processed": 180,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0223",
+    "flight_id": "F0352",
+    "arrival": {
+      "first_bag_min": 24,
+      "last_bag_min": 39
+    },
+    "bags_processed": 197,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0224",
+    "flight_id": "F0419",
+    "arrival": {
+      "first_bag_min": 9,
+      "last_bag_min": 18
+    },
+    "bags_processed": 115,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0225",
+    "flight_id": "F0263",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 17
+    },
+    "bags_processed": 24,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0226",
+    "flight_id": "F0433",
+    "arrival": {
+      "first_bag_min": 33,
+      "last_bag_min": 45
+    },
+    "bags_processed": 61,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0227",
+    "flight_id": "F0298",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 15
+    },
+    "bags_processed": 57,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0228",
+    "flight_id": "F0164",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 29
+    },
+    "bags_processed": 197,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0229",
+    "flight_id": "F0070",
+    "arrival": {
+      "first_bag_min": 5,
+      "last_bag_min": 18
+    },
+    "bags_processed": 61,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0230",
+    "flight_id": "F0028",
+    "arrival": {
+      "first_bag_min": 28,
+      "last_bag_min": 40
+    },
+    "bags_processed": 112,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0231",
+    "flight_id": "F0215",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 25
+    },
+    "bags_processed": 32,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0232",
+    "flight_id": "F0149",
+    "arrival": {
+      "first_bag_min": 19,
+      "last_bag_min": 31
+    },
+    "bags_processed": 155,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0233",
+    "flight_id": "F0328",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 23
+    },
+    "bags_processed": 151,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0234",
+    "flight_id": "F0100",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 18
+    },
+    "bags_processed": 215,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0235",
+    "flight_id": "F0049",
+    "arrival": {
+      "first_bag_min": 30,
+      "last_bag_min": 47
+    },
+    "bags_processed": 212,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0236",
+    "flight_id": "F0086",
+    "arrival": {
+      "first_bag_min": 18,
+      "last_bag_min": 34
+    },
+    "bags_processed": 102,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0237",
+    "flight_id": "F0447",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 24
+    },
+    "bags_processed": 195,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0238",
+    "flight_id": "F0410",
+    "arrival": {
+      "first_bag_min": 4,
+      "last_bag_min": 16
+    },
+    "bags_processed": 89,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0239",
+    "flight_id": "F0351",
+    "arrival": {
+      "first_bag_min": 22,
+      "last_bag_min": 35
+    },
+    "bags_processed": 44,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0240",
+    "flight_id": "F0274",
+    "arrival": {
+      "first_bag_min": 18,
+      "last_bag_min": 35
+    },
+    "bags_processed": 110,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0241",
+    "flight_id": "F0422",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 21
+    },
+    "bags_processed": 23,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0242",
+    "flight_id": "F0071",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 32
+    },
+    "bags_processed": 92,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0243",
+    "flight_id": "F0191",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 28
+    },
+    "bags_processed": 125,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0244",
+    "flight_id": "F0175",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 23
+    },
+    "bags_processed": 46,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0245",
+    "flight_id": "F0112",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 10
+    },
+    "bags_processed": 148,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0246",
+    "flight_id": "F0114",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 14
+    },
+    "bags_processed": 163,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0247",
+    "flight_id": "F0315",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 16
+    },
+    "bags_processed": 156,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0248",
+    "flight_id": "F0365",
+    "arrival": {
+      "first_bag_min": 25,
+      "last_bag_min": 41
+    },
+    "bags_processed": 199,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0249",
+    "flight_id": "F0388",
+    "arrival": {
+      "first_bag_min": 4,
+      "last_bag_min": 13
+    },
+    "bags_processed": 126,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0250",
+    "flight_id": "F0236",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 25
+    },
+    "bags_processed": 49,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0251",
+    "flight_id": "F0420",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 24
+    },
+    "bags_processed": 24,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0252",
+    "flight_id": "F0246",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 13
+    },
+    "bags_processed": 99,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0253",
+    "flight_id": "F0354",
+    "arrival": {
+      "first_bag_min": 24,
+      "last_bag_min": 37
+    },
+    "bags_processed": 55,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0254",
+    "flight_id": "F0419",
+    "arrival": {
+      "first_bag_min": 4,
+      "last_bag_min": 19
+    },
+    "bags_processed": 172,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0255",
+    "flight_id": "F0268",
+    "arrival": {
+      "first_bag_min": 10,
+      "last_bag_min": 23
+    },
+    "bags_processed": 64,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0256",
+    "flight_id": "F0364",
+    "arrival": {
+      "first_bag_min": 30,
+      "last_bag_min": 42
+    },
+    "bags_processed": 27,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0257",
+    "flight_id": "F0382",
+    "arrival": {
+      "first_bag_min": 22,
+      "last_bag_min": 31
+    },
+    "bags_processed": 76,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0258",
+    "flight_id": "F0066",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 23
+    },
+    "bags_processed": 196,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0259",
+    "flight_id": "F0117",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 18
+    },
+    "bags_processed": 52,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0260",
+    "flight_id": "F0108",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 22
+    },
+    "bags_processed": 40,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0261",
+    "flight_id": "F0218",
+    "arrival": {
+      "first_bag_min": 12,
+      "last_bag_min": 21
+    },
+    "bags_processed": 39,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0262",
+    "flight_id": "F0010",
+    "arrival": {
+      "first_bag_min": 22,
+      "last_bag_min": 37
+    },
+    "bags_processed": 213,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0263",
+    "flight_id": "F0221",
+    "arrival": {
+      "first_bag_min": 15,
+      "last_bag_min": 23
+    },
+    "bags_processed": 70,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0264",
+    "flight_id": "F0056",
+    "arrival": {
+      "first_bag_min": 16,
+      "last_bag_min": 24
+    },
+    "bags_processed": 188,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0265",
+    "flight_id": "F0263",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 34
+    },
+    "bags_processed": 35,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0266",
+    "flight_id": "F0241",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 26
+    },
+    "bags_processed": 84,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0267",
+    "flight_id": "F0023",
+    "arrival": {
+      "first_bag_min": 6,
+      "last_bag_min": 15
+    },
+    "bags_processed": 97,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0268",
+    "flight_id": "F0342",
+    "arrival": {
+      "first_bag_min": 34,
+      "last_bag_min": 42
+    },
+    "bags_processed": 213,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0269",
+    "flight_id": "F0050",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 26
+    },
+    "bags_processed": 174,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0270",
+    "flight_id": "F0106",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 25
+    },
+    "bags_processed": 71,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0271",
+    "flight_id": "F0095",
+    "arrival": {
+      "first_bag_min": 19,
+      "last_bag_min": 32
+    },
+    "bags_processed": 27,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0272",
+    "flight_id": "F0047",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 12
+    },
+    "bags_processed": 211,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0273",
+    "flight_id": "F0483",
+    "arrival": {
+      "first_bag_min": 25,
+      "last_bag_min": 37
+    },
+    "bags_processed": 168,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0274",
+    "flight_id": "F0179",
+    "arrival": {
+      "first_bag_min": 10,
+      "last_bag_min": 23
+    },
+    "bags_processed": 61,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0275",
+    "flight_id": "F0438",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 17
+    },
+    "bags_processed": 219,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0276",
+    "flight_id": "F0374",
+    "arrival": {
+      "first_bag_min": 22,
+      "last_bag_min": 39
+    },
+    "bags_processed": 81,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0277",
+    "flight_id": "F0259",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 25
+    },
+    "bags_processed": 37,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0278",
+    "flight_id": "F0051",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 30
+    },
+    "bags_processed": 215,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0279",
+    "flight_id": "F0008",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 33
+    },
+    "bags_processed": 75,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0280",
+    "flight_id": "F0367",
+    "arrival": {
+      "first_bag_min": 24,
+      "last_bag_min": 35
+    },
+    "bags_processed": 92,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0281",
+    "flight_id": "F0088",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 33
+    },
+    "bags_processed": 21,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0282",
+    "flight_id": "F0499",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 12
+    },
+    "bags_processed": 74,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0283",
+    "flight_id": "F0472",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 27
+    },
+    "bags_processed": 201,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0284",
+    "flight_id": "F0244",
+    "arrival": {
+      "first_bag_min": 8,
+      "last_bag_min": 21
+    },
+    "bags_processed": 198,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0285",
+    "flight_id": "F0302",
+    "arrival": {
+      "first_bag_min": 11,
+      "last_bag_min": 21
+    },
+    "bags_processed": 132,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0286",
+    "flight_id": "F0345",
+    "arrival": {
+      "first_bag_min": 21,
+      "last_bag_min": 30
+    },
+    "bags_processed": 66,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0287",
+    "flight_id": "F0428",
+    "arrival": {
+      "first_bag_min": 9,
+      "last_bag_min": 22
+    },
+    "bags_processed": 117,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0288",
+    "flight_id": "F0218",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 25
+    },
+    "bags_processed": 151,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0289",
+    "flight_id": "F0117",
+    "arrival": {
+      "first_bag_min": 7,
+      "last_bag_min": 21
+    },
+    "bags_processed": 48,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0290",
+    "flight_id": "F0390",
+    "arrival": {
+      "first_bag_min": 14,
+      "last_bag_min": 27
+    },
+    "bags_processed": 51,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0291",
+    "flight_id": "F0239",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 11
+    },
+    "bags_processed": 153,
+    "mishandled_bags": 2
+  },
+  {
+    "bag_event_id": "B0292",
+    "flight_id": "F0070",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 15
+    },
+    "bags_processed": 215,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0293",
+    "flight_id": "F0185",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 25
+    },
+    "bags_processed": 162,
+    "mishandled_bags": 3
+  },
+  {
+    "bag_event_id": "B0294",
+    "flight_id": "F0370",
+    "arrival": {
+      "first_bag_min": 20,
+      "last_bag_min": 28
+    },
+    "bags_processed": 41,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0295",
+    "flight_id": "F0168",
+    "arrival": {
+      "first_bag_min": 3,
+      "last_bag_min": 15
+    },
+    "bags_processed": 49,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0296",
+    "flight_id": "F0198",
+    "arrival": {
+      "first_bag_min": 22,
+      "last_bag_min": 34
+    },
+    "bags_processed": 136,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0297",
+    "flight_id": "F0308",
+    "arrival": {
+      "first_bag_min": 24,
+      "last_bag_min": 36
+    },
+    "bags_processed": 195,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0298",
+    "flight_id": "F0500",
+    "arrival": {
+      "first_bag_min": 13,
+      "last_bag_min": 28
+    },
+    "bags_processed": 77,
+    "mishandled_bags": 1
+  },
+  {
+    "bag_event_id": "B0299",
+    "flight_id": "F0284",
+    "arrival": {
+      "first_bag_min": 17,
+      "last_bag_min": 31
+    },
+    "bags_processed": 94,
+    "mishandled_bags": 0
+  },
+  {
+    "bag_event_id": "B0300",
+    "flight_id": "F0438",
+    "arrival": {
+      "first_bag_min": 10,
+      "last_bag_min": 24
+    },
+    "bags_processed": 68,
+    "mishandled_bags": 0
+  }
+]

@@ -1,0 +1,5501 @@
+[
+  {
+    "event_id": "E0001",
+    "flight": {
+      "flight_id": "F0001",
+      "flight_number": "PD204",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-08-02 08:19:00",
+      "actual": "2026-08-02 08:19:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0002",
+    "flight": {
+      "flight_id": "F0002",
+      "flight_number": "UA617",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-08-28 01:58:00",
+      "actual": "2026-08-28 01:58:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0003",
+    "flight": {
+      "flight_id": "F0003",
+      "flight_number": "AT325",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-08-26 18:01:00",
+      "actual": "2026-08-26 18:23:00",
+      "delay": {
+        "minutes": 22,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0004",
+    "flight": {
+      "flight_id": "F0004",
+      "flight_number": "PD532",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-09-07 01:06:00",
+      "actual": "2026-09-07 01:06:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0005",
+    "flight": {
+      "flight_id": "F0005",
+      "flight_number": "AC489",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-08 06:49:00",
+      "actual": "2026-08-08 06:49:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0006",
+    "flight": {
+      "flight_id": "F0006",
+      "flight_number": "AC570",
+      "airline": "Air Canada"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-09-08 18:41:00",
+      "actual": "2026-09-08 18:41:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0007",
+    "flight": {
+      "flight_id": "F0007",
+      "flight_number": "AC733",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-09-14 11:54:00",
+      "actual": "2026-09-14 12:48:00",
+      "delay": {
+        "minutes": 54,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0008",
+    "flight": {
+      "flight_id": "F0008",
+      "flight_number": "AC975",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-09-02 06:34:00",
+      "actual": "2026-09-02 08:33:00",
+      "delay": {
+        "minutes": 119,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0009",
+    "flight": {
+      "flight_id": "F0009",
+      "flight_number": "UA463",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-08-13 20:37:00",
+      "actual": "2026-08-13 20:37:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0010",
+    "flight": {
+      "flight_id": "F0010",
+      "flight_number": "AT275",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-09-02 03:34:00",
+      "actual": "2026-09-02 03:59:00",
+      "delay": {
+        "minutes": 25,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0011",
+    "flight": {
+      "flight_id": "F0011",
+      "flight_number": "AT670",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-08-22 05:54:00",
+      "actual": "2026-08-22 05:54:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0012",
+    "flight": {
+      "flight_id": "F0012",
+      "flight_number": "AC924",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-09-08 13:37:00",
+      "actual": "2026-09-08 13:42:00",
+      "delay": {
+        "minutes": 5,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0013",
+    "flight": {
+      "flight_id": "F0013",
+      "flight_number": "AC771",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-13 09:26:00",
+      "actual": "2026-08-13 11:01:00",
+      "delay": {
+        "minutes": 95,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0014",
+    "flight": {
+      "flight_id": "F0014",
+      "flight_number": "PD369",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-08-07 17:03:00",
+      "actual": "2026-08-07 17:18:00",
+      "delay": {
+        "minutes": 15,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0015",
+    "flight": {
+      "flight_id": "F0015",
+      "flight_number": "AF605",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-09-11 01:39:00",
+      "actual": "2026-09-11 02:37:00",
+      "delay": {
+        "minutes": 58,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0016",
+    "flight": {
+      "flight_id": "F0016",
+      "flight_number": "AC165",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed"
+    },
+    "timing": {
+      "scheduled": "2026-08-08 03:56:00",
+      "actual": "2026-08-08 04:25:00",
+      "delay": {
+        "minutes": 29,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0017",
+    "flight": {
+      "flight_id": "F0017",
+      "flight_number": "WS838",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-25 06:56:00",
+      "actual": "2026-08-25 07:07:00",
+      "delay": {
+        "minutes": 11,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0018",
+    "flight": {
+      "flight_id": "F0018",
+      "flight_number": "AT564",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-09-05 04:30:00",
+      "actual": "2026-09-05 04:53:00",
+      "delay": {
+        "minutes": 23,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0019",
+    "flight": {
+      "flight_id": "F0019",
+      "flight_number": "AC619",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "Gate-99"
+    },
+    "timing": {
+      "scheduled": "2026-08-24 07:31:00",
+      "actual": "2026-08-24 07:31:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0020",
+    "flight": {
+      "flight_id": "F0020",
+      "flight_number": "AF100",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-08-08 03:56:00",
+      "actual": "2026-08-08 03:56:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0021",
+    "flight": {
+      "flight_id": "F0021",
+      "flight_number": "WS345",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-08-23 10:41:00",
+      "actual": "2026-08-23 11:47:00",
+      "delay": {
+        "minutes": 66,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0022",
+    "flight": {
+      "flight_id": "F0022",
+      "flight_number": "AC884",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-08-05 02:33:00",
+      "actual": "2026-08-05 02:33:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0023",
+    "flight": {
+      "flight_id": "F0023",
+      "flight_number": "PD993",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-08-31 05:37:00",
+      "actual": "2026-08-31 05:55:00",
+      "delay": {
+        "minutes": 18,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0024",
+    "flight": {
+      "flight_id": "F0024",
+      "flight_number": "WS419",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-09-12 11:37:00",
+      "actual": "2026-09-12 12:00:00",
+      "delay": {
+        "minutes": 23,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0025",
+    "flight": {
+      "flight_id": "F0025",
+      "flight_number": "WS165",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-08-21 03:31:00",
+      "actual": "2026-08-21 03:35:00",
+      "delay": {
+        "minutes": 4,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0026",
+    "flight": {
+      "flight_id": "F0026",
+      "flight_number": "AF824",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-27 23:35:00",
+      "actual": "2026-08-27 23:35:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0027",
+    "flight": {
+      "flight_id": "F0027",
+      "flight_number": "AT343",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-11 15:03:00",
+      "actual": "2026-08-11 15:27:00",
+      "delay": {
+        "minutes": 24,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0028",
+    "flight": {
+      "flight_id": "F0028",
+      "flight_number": "AC690",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G15"
+    },
+    "timing": {
+      "scheduled": "2026-08-10 23:00:00",
+      "actual": "2026-08-10 23:27:00",
+      "delay": {
+        "minutes": 27,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0029",
+    "flight": {
+      "flight_id": "F0029",
+      "flight_number": "WS462",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-09-06 23:00:00",
+      "actual": "2026-09-06 23:29:00",
+      "delay": {
+        "minutes": 29,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0030",
+    "flight": {
+      "flight_id": "F0030",
+      "flight_number": "PD162",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-09-09 12:32:00",
+      "actual": "2026-09-09 12:32:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0031",
+    "flight": {
+      "flight_id": "F0031",
+      "flight_number": "AC559",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-09-06 15:27:00",
+      "actual": "2026-09-06 15:27:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0032",
+    "flight": {
+      "flight_id": "F0032",
+      "flight_number": "WS553",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G15"
+    },
+    "timing": {
+      "scheduled": "2026-08-09 13:25:00",
+      "actual": "2026-08-09 13:31:00",
+      "delay": {
+        "minutes": 6,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0033",
+    "flight": {
+      "flight_id": "F0033",
+      "flight_number": "AF871",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-03 12:15:00",
+      "actual": "2026-08-03 12:49:00",
+      "delay": {
+        "minutes": 34,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0034",
+    "flight": {
+      "flight_id": "F0034",
+      "flight_number": "AC268",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G15"
+    },
+    "timing": {
+      "scheduled": "2026-08-23 07:26:00",
+      "actual": "2026-08-23 07:40:00",
+      "delay": {
+        "minutes": 14,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0035",
+    "flight": {
+      "flight_id": "F0035",
+      "flight_number": "UA392",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-09-15 01:13:00",
+      "actual": "2026-09-15 01:13:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0036",
+    "flight": {
+      "flight_id": "F0036",
+      "flight_number": "WS853",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-08 06:04:00",
+      "actual": "2026-08-08 06:10:00",
+      "delay": {
+        "minutes": 6,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0037",
+    "flight": {
+      "flight_id": "F0037",
+      "flight_number": "WS973",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-09-04 05:59:00",
+      "actual": "2026-09-04 05:59:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0038",
+    "flight": {
+      "flight_id": "F0038",
+      "flight_number": "AC709",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-08-03 19:07:00",
+      "actual": "2026-08-03 19:33:00",
+      "delay": {
+        "minutes": 26,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0039",
+    "flight": {
+      "flight_id": "F0039",
+      "flight_number": "PD734",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-08-19 14:01:00",
+      "actual": "2026-08-19 15:33:00",
+      "delay": {
+        "minutes": 92,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0040",
+    "flight": {
+      "flight_id": "F0040",
+      "flight_number": "PD371",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-09-12 17:56:00",
+      "actual": "2026-09-12 17:56:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0041",
+    "flight": {
+      "flight_id": "F0041",
+      "flight_number": "WS109",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G15"
+    },
+    "timing": {
+      "scheduled": "2026-08-31 18:39:00",
+      "actual": "2026-08-31 18:43:00",
+      "delay": {
+        "minutes": 4,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0042",
+    "flight": {
+      "flight_id": "F0042",
+      "flight_number": "WS170",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-08-04 13:01:00",
+      "actual": "2026-08-04 13:01:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0043",
+    "flight": {
+      "flight_id": "F0043",
+      "flight_number": "AC726",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-14 04:16:00",
+      "actual": "2026-08-14 04:33:00",
+      "delay": {
+        "minutes": 17,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0044",
+    "flight": {
+      "flight_id": "F0044",
+      "flight_number": "AC999",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-08-31 14:29:00",
+      "actual": "2026-08-31 14:57:00",
+      "delay": {
+        "minutes": 28,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0045",
+    "flight": {
+      "flight_id": "F0045",
+      "flight_number": "AF315",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-09-10 16:48:00",
+      "actual": "2026-09-10 18:50:00",
+      "delay": {
+        "minutes": 122,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0046",
+    "flight": {
+      "flight_id": "F0046",
+      "flight_number": "WS966",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-09-01 11:55:00",
+      "actual": "2026-09-01 12:06:00",
+      "delay": {
+        "minutes": 11,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0047",
+    "flight": {
+      "flight_id": "F0047",
+      "flight_number": "UA889",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-30 01:48:00",
+      "actual": "2026-08-30 01:51:00",
+      "delay": {
+        "minutes": 3,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0048",
+    "flight": {
+      "flight_id": "F0048",
+      "flight_number": "UA109",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-08-08 13:29:00",
+      "actual": "2026-08-08 13:30:00",
+      "delay": {
+        "minutes": 1,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0049",
+    "flight": {
+      "flight_id": "F0049",
+      "flight_number": "AF954",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-09-13 05:14:00",
+      "actual": "2026-09-13 05:14:00",
+      "delay": {
+        "minutes": "35",
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0050",
+    "flight": {
+      "flight_id": "F0050",
+      "flight_number": "PD466",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G15"
+    },
+    "timing": {
+      "scheduled": "2026-08-20 18:26:00",
+      "actual": "2026-08-20 19:39:00",
+      "delay": {
+        "minutes": 73,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0051",
+    "flight": {
+      "flight_id": "F0051",
+      "flight_number": "AT735",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-08-31 13:28:00",
+      "actual": "2026-08-31 15:43:00",
+      "delay": {
+        "minutes": 135,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0052",
+    "flight": {
+      "flight_id": "F0052",
+      "flight_number": "PD125",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-09-09 13:22:00",
+      "actual": "2026-09-09 13:27:00",
+      "delay": {
+        "minutes": 5,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0053",
+    "flight": {
+      "flight_id": "F0053",
+      "flight_number": "UA930",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-09-05 19:34:00",
+      "actual": "2026-09-05 19:34:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0054",
+    "flight": {
+      "flight_id": "F0054",
+      "flight_number": "AC979",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-08-08 10:53:00",
+      "actual": "2026-08-08 11:26:00",
+      "delay": {
+        "minutes": 33,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0055",
+    "flight": {
+      "flight_id": "F0055",
+      "flight_number": "PD328",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-09-07 08:55:00",
+      "actual": "2026-09-07 09:02:00",
+      "delay": {
+        "minutes": 7,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0056",
+    "flight": {
+      "flight_id": "F0056",
+      "flight_number": "PD459",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-08-19 08:13:00",
+      "actual": "2026-08-19 08:13:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0057",
+    "flight": {
+      "flight_id": "F0057",
+      "flight_number": "AT998",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-09-01 03:12:00",
+      "actual": "2026-09-01 03:21:00",
+      "delay": {
+        "minutes": 9,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0058",
+    "flight": {
+      "flight_id": "F0058",
+      "flight_number": "AF544",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-27 15:09:00",
+      "actual": "2026-08-27 15:09:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0059",
+    "flight": {
+      "flight_id": "F0059",
+      "flight_number": "AT294",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-08-21 01:39:00",
+      "actual": "2026-08-21 01:55:00",
+      "delay": {
+        "minutes": 16,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0060",
+    "flight": {
+      "flight_id": "F0060",
+      "flight_number": "AT859",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-08-01 06:50:00",
+      "actual": "2026-08-01 06:53:00",
+      "delay": {
+        "minutes": 3,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0061",
+    "flight": {
+      "flight_id": "F0061",
+      "flight_number": "PD738",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G15"
+    },
+    "timing": {
+      "scheduled": "2026-08-17 18:49:00",
+      "actual": "2026-08-17 19:03:00",
+      "delay": {
+        "minutes": 14,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0062",
+    "flight": {
+      "flight_id": "F0062",
+      "flight_number": "AF434",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-09-02 23:09:00",
+      "actual": "2026-09-02 23:16:00",
+      "delay": {
+        "minutes": 7,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0063",
+    "flight": {
+      "flight_id": "F0063",
+      "flight_number": "AC866",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-08-26 10:33:00",
+      "actual": "2026-08-26 11:46:00",
+      "delay": {
+        "minutes": 73,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0064",
+    "flight": {
+      "flight_id": "F0064",
+      "flight_number": "UA540",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Cancelled",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-08-19 16:32:00",
+      "actual": null,
+      "delay": {
+        "minutes": null,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0065",
+    "flight": {
+      "flight_id": "F0065",
+      "flight_number": "AT912",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-08-22 08:53:00",
+      "actual": "2026-08-22 09:26:00",
+      "delay": {
+        "minutes": 33,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0066",
+    "flight": {
+      "flight_id": "F0066",
+      "flight_number": "AF938",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-14 02:58:00",
+      "actual": "2026-08-14 03:31:00",
+      "delay": {
+        "minutes": 33,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0067",
+    "flight": {
+      "flight_id": "F0067",
+      "flight_number": "AC586",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-11 10:22:00",
+      "actual": "2026-08-11 10:22:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0068",
+    "flight": {
+      "flight_id": "F0068",
+      "flight_number": "UA813",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-08-21 22:26:00",
+      "actual": "2026-08-21 22:50:00",
+      "delay": {
+        "minutes": 24,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0069",
+    "flight": {
+      "flight_id": "F0069",
+      "flight_number": "AC897",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Cancelled",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-08-12 07:29:00",
+      "actual": null,
+      "delay": {
+        "minutes": null,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0070",
+    "flight": {
+      "flight_id": "F0070",
+      "flight_number": "WS355",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-09-06 19:18:00",
+      "actual": "2026-09-06 19:41:00",
+      "delay": {
+        "minutes": 23,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0071",
+    "flight": {
+      "flight_id": "F0071",
+      "flight_number": "AC424",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-09-06 16:21:00",
+      "actual": "2026-09-06 16:40:00",
+      "delay": {
+        "minutes": 19,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0072",
+    "flight": {
+      "flight_id": "F0072",
+      "flight_number": "WS982",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-09-08 00:12:00",
+      "actual": "2026-09-08 00:12:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0073",
+    "flight": {
+      "flight_id": "F0073",
+      "flight_number": "AT596",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-08-13 00:06:00",
+      "actual": "2026-08-13 00:25:00",
+      "delay": {
+        "minutes": 19,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0074",
+    "flight": {
+      "flight_id": "F0074",
+      "flight_number": "UA653",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-21 05:27:00",
+      "actual": "2026-08-21 06:28:00",
+      "delay": {
+        "minutes": 61,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0075",
+    "flight": {
+      "flight_id": "F0075",
+      "flight_number": "AF524",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-08-11 17:35:00",
+      "actual": "2026-08-11 17:36:00",
+      "delay": {
+        "minutes": 1,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0076",
+    "flight": {
+      "flight_id": "F0076",
+      "flight_number": "WS498",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-08-25 21:40:00",
+      "actual": "2026-08-25 21:58:00",
+      "delay": {
+        "minutes": 18,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0077",
+    "flight": {
+      "flight_id": "F0077",
+      "flight_number": "AC651",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-08-22 21:59:00",
+      "actual": "2026-08-22 23:36:00",
+      "delay": {
+        "minutes": 97,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0078",
+    "flight": {
+      "flight_id": "F0078",
+      "flight_number": "WS444",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-23 10:16:00",
+      "actual": "2026-08-23 11:09:00",
+      "delay": {
+        "minutes": 53,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0079",
+    "flight": {
+      "flight_id": "F0079",
+      "flight_number": "AF646",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-09-03 03:59:00",
+      "actual": "2026-09-03 03:59:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0080",
+    "flight": {
+      "flight_id": "F0080",
+      "flight_number": "WS238",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-08-28 03:30:00",
+      "actual": "2026-08-28 03:59:00",
+      "delay": {
+        "minutes": 29,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0081",
+    "flight": {
+      "flight_id": "F0081",
+      "flight_number": "PD879",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-13 01:09:00",
+      "actual": "2026-08-13 01:28:00",
+      "delay": {
+        "minutes": 19,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0082",
+    "flight": {
+      "flight_id": "F0082",
+      "flight_number": "UA153",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-12 16:32:00",
+      "actual": "2026-08-12 17:01:00",
+      "delay": {
+        "minutes": 29,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0083",
+    "flight": {
+      "flight_id": "F0083",
+      "flight_number": "AC304",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-09-05 18:18:00",
+      "actual": "2026-09-05 18:30:00",
+      "delay": {
+        "minutes": 12,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0084",
+    "flight": {
+      "flight_id": "F0084",
+      "flight_number": "AC816",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-08-12 01:33:00",
+      "actual": "2026-08-12 03:41:00",
+      "delay": {
+        "minutes": 128,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0085",
+    "flight": {
+      "flight_id": "F0085",
+      "flight_number": "UA418",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-28 18:47:00",
+      "actual": "2026-08-28 18:58:00",
+      "delay": {
+        "minutes": 11,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0086",
+    "flight": {
+      "flight_id": "F0086",
+      "flight_number": "WS832",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-09-12 11:35:00",
+      "actual": "2026-09-12 11:35:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0087",
+    "flight": {
+      "flight_id": "F0087",
+      "flight_number": "AC891",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-28 03:43:00",
+      "actual": "2026-08-28 04:04:00",
+      "delay": {
+        "minutes": 21,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0088",
+    "flight": {
+      "flight_id": "F0088",
+      "flight_number": "PD538",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-09-06 10:41:00",
+      "actual": "2026-09-06 10:41:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0089",
+    "flight": {
+      "flight_id": "F0089",
+      "flight_number": "AT942",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-08-04 08:19:00",
+      "actual": "2026-08-04 08:40:00",
+      "delay": {
+        "minutes": 21,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0090",
+    "flight": {
+      "flight_id": "F0090",
+      "flight_number": "AT256",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-09-13 22:26:00",
+      "actual": "2026-09-13 22:56:00",
+      "delay": {
+        "minutes": 30,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0091",
+    "flight": {
+      "flight_id": "F0091",
+      "flight_number": "PD546",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-08-29 05:44:00",
+      "actual": "2026-08-29 05:44:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0092",
+    "flight": {
+      "flight_id": "F0092",
+      "flight_number": "WS561",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-15 21:02:00",
+      "actual": "2026-08-15 21:12:00",
+      "delay": {
+        "minutes": 10,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0093",
+    "flight": {
+      "flight_id": "F0093",
+      "flight_number": "AT971",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-27 03:25:00",
+      "actual": "2026-08-27 03:48:00",
+      "delay": {
+        "minutes": 23,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0094",
+    "flight": {
+      "flight_id": "F0094",
+      "flight_number": "AC818",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-08-10 20:41:00",
+      "actual": "2026-08-10 20:44:00",
+      "delay": {
+        "minutes": 3,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0095",
+    "flight": {
+      "flight_id": "F0095",
+      "flight_number": "AF600",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-24 17:17:00",
+      "actual": "2026-08-24 18:14:00",
+      "delay": {
+        "minutes": 57,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0096",
+    "flight": {
+      "flight_id": "F0096",
+      "flight_number": "AT401",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-30 14:29:00",
+      "actual": "2026-08-30 14:38:00",
+      "delay": {
+        "minutes": 9,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0097",
+    "flight": {
+      "flight_id": "F0097",
+      "flight_number": "WS666",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-09-01 16:36:00",
+      "actual": "2026-09-01 16:36:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0098",
+    "flight": {
+      "flight_id": "F0098",
+      "flight_number": "AC564",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-20 13:45:00",
+      "actual": "2026-08-20 14:10:00",
+      "delay": {
+        "minutes": 25,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0099",
+    "flight": {
+      "flight_id": "F0099",
+      "flight_number": "WS880",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-11 16:48:00",
+      "actual": "2026-08-11 17:37:00",
+      "delay": {
+        "minutes": 49,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0100",
+    "flight": {
+      "flight_id": "F0100",
+      "flight_number": "WS711",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-08-11 01:20:00",
+      "actual": "2026-08-11 01:41:00",
+      "delay": {
+        "minutes": 21,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0101",
+    "flight": {
+      "flight_id": "F0101",
+      "flight_number": "PD646",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-14 16:34:00",
+      "actual": "2026-08-14 16:34:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0102",
+    "flight": {
+      "flight_id": "F0102",
+      "flight_number": "PD753",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-12 07:30:00",
+      "actual": "2026-08-03 07:03:00",
+      "delay": {
+        "minutes": 21,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0103",
+    "flight": {
+      "flight_id": "F0103",
+      "flight_number": "WS152",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-27 08:01:00",
+      "actual": "2026-08-27 08:01:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0104",
+    "flight": {
+      "flight_id": "F0104",
+      "flight_number": "AF744",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-06 09:36:00",
+      "actual": "2026-08-06 09:36:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0105",
+    "flight": {
+      "flight_id": "F0105",
+      "flight_number": "AT221",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-08 02:43:00",
+      "actual": "2026-08-08 04:34:00",
+      "delay": {
+        "minutes": 111,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0106",
+    "flight": {
+      "flight_id": "F0106",
+      "flight_number": "WS980",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-09-05 12:15:00",
+      "actual": "2026-09-05 12:54:00",
+      "delay": {
+        "minutes": 39,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0107",
+    "flight": {
+      "flight_id": "F0107",
+      "flight_number": "PD881",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-27 02:05:00",
+      "actual": "2026-08-27 02:32:00",
+      "delay": {
+        "minutes": 27,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0108",
+    "flight": {
+      "flight_id": "F0108",
+      "flight_number": "UA176",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-08-13 06:03:00",
+      "actual": "2026-08-13 06:11:00",
+      "delay": {
+        "minutes": 8,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0109",
+    "flight": {
+      "flight_id": "F0109",
+      "flight_number": "AC337",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-08-19 19:12:00",
+      "actual": "2026-08-19 19:12:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0110",
+    "flight": {
+      "flight_id": "F0110",
+      "flight_number": "AF906",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-09-02 04:50:00",
+      "actual": "2026-09-02 05:22:00",
+      "delay": {
+        "minutes": 32,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0111",
+    "flight": {
+      "flight_id": "F0111",
+      "flight_number": "AC946",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G15"
+    },
+    "timing": {
+      "scheduled": "2026-08-20 13:21:00",
+      "actual": "2026-08-20 14:22:00",
+      "delay": {
+        "minutes": 61,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0112",
+    "flight": {
+      "flight_id": "F0112",
+      "flight_number": "AT395",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-08-08 18:13:00",
+      "actual": "2026-08-08 18:25:00",
+      "delay": {
+        "minutes": 12,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0113",
+    "flight": {
+      "flight_id": "F0113",
+      "flight_number": "AC652",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-08-22 12:56:00",
+      "actual": "2026-08-22 13:29:00",
+      "delay": {
+        "minutes": 33,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0114",
+    "flight": {
+      "flight_id": "F0114",
+      "flight_number": "WS126",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-08-28 10:12:00",
+      "actual": "2026-08-28 11:35:00",
+      "delay": {
+        "minutes": 83,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0115",
+    "flight": {
+      "flight_id": "F0115",
+      "flight_number": "WS581",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-09-05 00:19:00",
+      "actual": "2026-09-05 00:31:00",
+      "delay": {
+        "minutes": 12,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0116",
+    "flight": {
+      "flight_id": "F0116",
+      "flight_number": "PD933",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-09-11 21:35:00",
+      "actual": "2026-09-11 21:46:00",
+      "delay": {
+        "minutes": 11,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0117",
+    "flight": {
+      "flight_id": "F0117",
+      "flight_number": "WS978",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-08-22 14:22:00",
+      "actual": "2026-08-22 14:32:00",
+      "delay": {
+        "minutes": 10,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0118",
+    "flight": {
+      "flight_id": "F0118",
+      "flight_number": "AT137",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-08-19 22:37:00",
+      "actual": "2026-08-19 22:37:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0119",
+    "flight": {
+      "flight_id": "F0119",
+      "flight_number": "AF985",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-08-15 12:32:00",
+      "actual": "2026-08-15 12:32:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0120",
+    "flight": {
+      "flight_id": "F0120",
+      "flight_number": "WS630",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-31 03:20:00",
+      "actual": "2026-08-31 03:34:00",
+      "delay": {
+        "minutes": 14,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0121",
+    "flight": {
+      "flight_id": "F0121",
+      "flight_number": "PD234",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-08-29 16:06:00",
+      "actual": "2026-08-29 16:06:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0122",
+    "flight": {
+      "flight_id": "F0122",
+      "flight_number": "AC918",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-09-10 07:07:00",
+      "actual": "2026-09-10 07:08:00",
+      "delay": {
+        "minutes": 1,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0123",
+    "flight": {
+      "flight_id": "F0123",
+      "flight_number": "WS961",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-15 08:25:00",
+      "actual": "2026-08-15 08:42:00",
+      "delay": {
+        "minutes": 17,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0124",
+    "flight": {
+      "flight_id": "F0124",
+      "flight_number": "PD621",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-30 16:28:00",
+      "actual": "2026-08-30 16:28:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0125",
+    "flight": {
+      "flight_id": "F0125",
+      "flight_number": "AF248",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-09-08 04:44:00",
+      "actual": "2026-09-08 05:35:00",
+      "delay": {
+        "minutes": 51,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0126",
+    "flight": {
+      "flight_id": "F0126",
+      "flight_number": "AF906",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-09-09 12:44:00",
+      "actual": "2026-09-09 15:23:00",
+      "delay": {
+        "minutes": 159,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0127",
+    "flight": {
+      "flight_id": "F0127",
+      "flight_number": "AF601",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-08-14 01:56:00",
+      "actual": "2026-08-14 02:04:00",
+      "delay": {
+        "minutes": 8,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0128",
+    "flight": {
+      "flight_id": "F0128",
+      "flight_number": "AF486",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-08-25 17:16:00",
+      "actual": "2026-08-25 17:31:00",
+      "delay": {
+        "minutes": 15,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0129",
+    "flight": {
+      "flight_id": "F0129",
+      "flight_number": "UA339",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-09-09 18:50:00",
+      "actual": "2026-09-09 18:50:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0130",
+    "flight": {
+      "flight_id": "F0130",
+      "flight_number": "AF495",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-08-15 16:32:00",
+      "actual": "2026-08-15 16:32:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0131",
+    "flight": {
+      "flight_id": "F0131",
+      "flight_number": "WS990",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-08-23 18:01:00",
+      "actual": "2026-08-23 18:01:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0132",
+    "flight": {
+      "flight_id": "F0132",
+      "flight_number": "AF519",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-05 17:54:00",
+      "actual": "2026-08-05 18:31:00",
+      "delay": {
+        "minutes": 37,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0133",
+    "flight": {
+      "flight_id": "F0133",
+      "flight_number": "AF507",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-08-22 13:48:00",
+      "actual": "2026-08-22 14:01:00",
+      "delay": {
+        "minutes": 13,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0134",
+    "flight": {
+      "flight_id": "F0134",
+      "flight_number": "PD424",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-09-08 23:21:00",
+      "actual": "2026-09-08 23:21:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0135",
+    "flight": {
+      "flight_id": "F0135",
+      "flight_number": "PD800",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-09-09 21:52:00",
+      "actual": "2026-09-09 22:06:00",
+      "delay": {
+        "minutes": 14,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0136",
+    "flight": {
+      "flight_id": "F0136",
+      "flight_number": "AC554",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-09-04 04:40:00",
+      "actual": "2026-09-04 05:49:00",
+      "delay": {
+        "minutes": 69,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0137",
+    "flight": {
+      "flight_id": "F0137",
+      "flight_number": "UA541",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-03 07:14:00",
+      "actual": "2026-08-03 07:14:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0138",
+    "flight": {
+      "flight_id": "F0138",
+      "flight_number": "WS279",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-08-25 09:10:00",
+      "actual": "2026-08-25 09:10:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0139",
+    "flight": {
+      "flight_id": "F0139",
+      "flight_number": "WS337",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-08-29 09:53:00",
+      "actual": "2026-08-29 09:56:00",
+      "delay": {
+        "minutes": 3,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0140",
+    "flight": {
+      "flight_id": "F0140",
+      "flight_number": "UA394",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Cancelled",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-08-22 02:58:00",
+      "actual": null,
+      "delay": {
+        "minutes": null,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0141",
+    "flight": {
+      "flight_id": "F0141",
+      "flight_number": "AT754",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-08-04 13:40:00",
+      "actual": "2026-08-04 13:40:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0142",
+    "flight": {
+      "flight_id": "F0142",
+      "flight_number": "PD209",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-08-21 23:59:00",
+      "actual": "2026-08-22 00:05:00",
+      "delay": {
+        "minutes": 6,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0143",
+    "flight": {
+      "flight_id": "F0143",
+      "flight_number": "PD122",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-27 05:41:00",
+      "actual": "2026-08-27 06:16:00",
+      "delay": {
+        "minutes": 35,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0144",
+    "flight": {
+      "flight_id": "F0144",
+      "flight_number": "AT720",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-01 13:50:00",
+      "actual": "2026-08-01 14:21:00",
+      "delay": {
+        "minutes": 31,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0145",
+    "flight": {
+      "flight_id": "F0145",
+      "flight_number": "UA751",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-09-05 12:18:00",
+      "actual": "2026-09-05 12:27:00",
+      "delay": {
+        "minutes": 9,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0146",
+    "flight": {
+      "flight_id": "F0146",
+      "flight_number": "WS743",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-09-01 01:17:00",
+      "actual": "2026-09-01 02:07:00",
+      "delay": {
+        "minutes": 50,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0147",
+    "flight": {
+      "flight_id": "F0147",
+      "flight_number": "UA234",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-15 06:26:00",
+      "actual": "2026-08-15 06:30:00",
+      "delay": {
+        "minutes": 4,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0148",
+    "flight": {
+      "flight_id": "F0148",
+      "flight_number": "WS997",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-08-16 01:51:00",
+      "actual": "2026-08-16 02:00:00",
+      "delay": {
+        "minutes": 9,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0149",
+    "flight": {
+      "flight_id": "F0149",
+      "flight_number": "WS864",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-09-08 00:05:00",
+      "actual": "2026-09-08 00:05:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0150",
+    "flight": {
+      "flight_id": "F0150",
+      "flight_number": "AC841",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-08-22 12:32:00",
+      "actual": "2026-08-22 13:03:00",
+      "delay": {
+        "minutes": 31,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0151",
+    "flight": {
+      "flight_id": "F0151",
+      "flight_number": "UA565",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Cancelled",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-08-05 07:38:00",
+      "actual": null,
+      "delay": {
+        "minutes": null,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0152",
+    "flight": {
+      "flight_id": "F0152",
+      "flight_number": "AF791",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-27 19:29:00",
+      "actual": "2026-08-27 19:38:00",
+      "delay": {
+        "minutes": 9,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0153",
+    "flight": {
+      "flight_id": "F0153",
+      "flight_number": "UA326",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-02 08:20:00",
+      "actual": "2026-08-02 08:20:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0154",
+    "flight": {
+      "flight_id": "F0154",
+      "flight_number": "PD518",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-08-30 03:01:00",
+      "actual": "2026-08-30 03:12:00",
+      "delay": {
+        "minutes": 11,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0155",
+    "flight": {
+      "flight_id": "F0155",
+      "flight_number": "AT199",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-08-03 06:31:00",
+      "actual": "2026-08-03 06:31:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0156",
+    "flight": {
+      "flight_id": "F0156",
+      "flight_number": "UA653",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-18 21:30:00",
+      "actual": "2026-08-18 21:31:00",
+      "delay": {
+        "minutes": 1,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0157",
+    "flight": {
+      "flight_id": "F0157",
+      "flight_number": "AC517",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-09-10 12:06:00",
+      "actual": "2026-09-10 12:20:00",
+      "delay": {
+        "minutes": 14,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0158",
+    "flight": {
+      "flight_id": "F0158",
+      "flight_number": "AC201",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-09-01 14:58:00",
+      "actual": "2026-09-01 15:16:00",
+      "delay": {
+        "minutes": 18,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0159",
+    "flight": {
+      "flight_id": "F0159",
+      "flight_number": "AC193",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-03 23:08:00",
+      "actual": "2026-08-03 23:25:00",
+      "delay": {
+        "minutes": 17,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0160",
+    "flight": {
+      "flight_id": "F0160",
+      "flight_number": "PD310",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-08-03 12:14:00",
+      "actual": "2026-08-03 12:14:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0161",
+    "flight": {
+      "flight_id": "F0161",
+      "flight_number": "PD907",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-27 21:29:00",
+      "actual": "2026-08-27 21:29:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0162",
+    "flight": {
+      "flight_id": "F0162",
+      "flight_number": "WS356",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-08-13 19:51:00",
+      "actual": "2026-08-13 19:51:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0163",
+    "flight": {
+      "flight_id": "F0163",
+      "flight_number": "UA702",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-31 07:03:00",
+      "actual": "2026-08-31 07:38:00",
+      "delay": {
+        "minutes": 35,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0164",
+    "flight": {
+      "flight_id": "F0164",
+      "flight_number": "AF165",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-13 06:51:00",
+      "actual": "2026-08-13 08:45:00",
+      "delay": {
+        "minutes": 114,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0165",
+    "flight": {
+      "flight_id": "F0165",
+      "flight_number": "PD144",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-08-24 13:35:00",
+      "actual": "2026-08-24 13:43:00",
+      "delay": {
+        "minutes": 8,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0166",
+    "flight": {
+      "flight_id": "F0166",
+      "flight_number": "PD536",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-08-22 01:18:00",
+      "actual": "2026-08-22 01:42:00",
+      "delay": {
+        "minutes": 24,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0167",
+    "flight": {
+      "flight_id": "F0167",
+      "flight_number": "WS722",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-09-02 15:07:00",
+      "actual": "2026-09-02 15:10:00",
+      "delay": {
+        "minutes": 3,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0168",
+    "flight": {
+      "flight_id": "F0168",
+      "flight_number": "PD432",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-08-06 22:50:00",
+      "actual": "2026-08-06 23:13:00",
+      "delay": {
+        "minutes": 23,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0169",
+    "flight": {
+      "flight_id": "F0169",
+      "flight_number": "WS217",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-08-21 20:34:00",
+      "actual": "2026-08-21 20:37:00",
+      "delay": {
+        "minutes": 3,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0170",
+    "flight": {
+      "flight_id": "F0170",
+      "flight_number": "AC508",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-20 18:45:00",
+      "actual": "2026-08-20 18:45:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0171",
+    "flight": {
+      "flight_id": "F0171",
+      "flight_number": "AF803",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-15 10:23:00",
+      "actual": "2026-08-15 11:05:00",
+      "delay": {
+        "minutes": 42,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0172",
+    "flight": {
+      "flight_id": "F0172",
+      "flight_number": "AT931",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-09-08 01:31:00",
+      "actual": "2026-09-08 03:13:00",
+      "delay": {
+        "minutes": 102,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0173",
+    "flight": {
+      "flight_id": "F0173",
+      "flight_number": "AC520",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-08-27 21:34:00",
+      "actual": "2026-08-27 22:03:00",
+      "delay": {
+        "minutes": 29,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0174",
+    "flight": {
+      "flight_id": "F0174",
+      "flight_number": "WS419",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-09-09 17:11:00",
+      "actual": "2026-09-09 17:11:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0175",
+    "flight": {
+      "flight_id": "F0175",
+      "flight_number": "AT967",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-08-27 12:14:00",
+      "actual": "2026-08-27 12:14:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0176",
+    "flight": {
+      "flight_id": "F0176",
+      "flight_number": "PD331",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-09-08 16:22:00",
+      "actual": "2026-09-08 16:29:00",
+      "delay": {
+        "minutes": 7,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0177",
+    "flight": {
+      "flight_id": "F0177",
+      "flight_number": "AF284",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-08-28 22:11:00",
+      "actual": "2026-08-28 22:13:00",
+      "delay": {
+        "minutes": 2,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0178",
+    "flight": {
+      "flight_id": "F0178",
+      "flight_number": "AF679",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Cancelled",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-09-12 03:33:00",
+      "actual": null,
+      "delay": {
+        "minutes": null,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0179",
+    "flight": {
+      "flight_id": "F0179",
+      "flight_number": "UA643",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-07 15:57:00",
+      "actual": "2026-08-07 16:16:00",
+      "delay": {
+        "minutes": 19,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0180",
+    "flight": {
+      "flight_id": "F0180",
+      "flight_number": "AT895",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-21 20:30:00",
+      "actual": "2026-08-21 21:02:00",
+      "delay": {
+        "minutes": 32,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0181",
+    "flight": {
+      "flight_id": "F0181",
+      "flight_number": "AC183",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-09-10 09:50:00",
+      "actual": "2026-09-10 10:30:00",
+      "delay": {
+        "minutes": 40,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0182",
+    "flight": {
+      "flight_id": "F0182",
+      "flight_number": "UA216",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-08-23 07:28:00",
+      "actual": "2026-08-23 07:39:00",
+      "delay": {
+        "minutes": 11,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0183",
+    "flight": {
+      "flight_id": "F0183",
+      "flight_number": "AF783",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-08-06 06:07:00",
+      "actual": "2026-08-06 06:35:00",
+      "delay": {
+        "minutes": 28,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0184",
+    "flight": {
+      "flight_id": "F0184",
+      "flight_number": "AF316",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-08-19 04:43:00",
+      "actual": "2026-08-19 04:43:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0185",
+    "flight": {
+      "flight_id": "F0185",
+      "flight_number": "AT279",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Cancelled",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-14 09:09:00",
+      "actual": null,
+      "delay": {
+        "minutes": null,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0186",
+    "flight": {
+      "flight_id": "F0186",
+      "flight_number": "PD925",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-08-25 10:43:00",
+      "actual": "2026-08-25 11:15:00",
+      "delay": {
+        "minutes": 32,
+        "reason": "Crew"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0187",
+    "flight": {
+      "flight_id": "F0187",
+      "flight_number": "WS982",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-09-09 10:16:00",
+      "actual": "2026-09-09 10:16:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0188",
+    "flight": {
+      "flight_id": "F0188",
+      "flight_number": "PD514",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-08-27 07:18:00",
+      "actual": "2026-08-27 07:54:00",
+      "delay": {
+        "minutes": 36,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0189",
+    "flight": {
+      "flight_id": "F0189",
+      "flight_number": "WS190",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-09-06 16:15:00",
+      "actual": "2026-09-06 16:17:00",
+      "delay": {
+        "minutes": 2,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0190",
+    "flight": {
+      "flight_id": "F0190",
+      "flight_number": "AC991",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-12 06:45:00",
+      "actual": "2026-08-12 06:52:00",
+      "delay": {
+        "minutes": 7,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0191",
+    "flight": {
+      "flight_id": "F0191",
+      "flight_number": "UA216",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-08-11 07:00:00",
+      "actual": "2026-08-11 07:30:00",
+      "delay": {
+        "minutes": 30,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0192",
+    "flight": {
+      "flight_id": "F0192",
+      "flight_number": "WS934",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-09-11 10:30:00",
+      "actual": "2026-09-11 10:51:00",
+      "delay": {
+        "minutes": 21,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0193",
+    "flight": {
+      "flight_id": "F0193",
+      "flight_number": "WS177",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-08-07 20:57:00",
+      "actual": "2026-08-07 20:57:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0194",
+    "flight": {
+      "flight_id": "F0194",
+      "flight_number": "AF678",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-08-22 07:45:00",
+      "actual": "2026-08-22 07:45:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0195",
+    "flight": {
+      "flight_id": "F0195",
+      "flight_number": "UA580",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-09-09 12:59:00",
+      "actual": "2026-09-09 13:08:00",
+      "delay": {
+        "minutes": 9,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0196",
+    "flight": {
+      "flight_id": "F0196",
+      "flight_number": "AT417",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-09-06 10:48:00",
+      "actual": "2026-09-06 11:13:00",
+      "delay": {
+        "minutes": 25,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0197",
+    "flight": {
+      "flight_id": "F0197",
+      "flight_number": "AF729",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-08-03 19:08:00",
+      "actual": "2026-08-03 19:24:00",
+      "delay": {
+        "minutes": 16,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0198",
+    "flight": {
+      "flight_id": "F0198",
+      "flight_number": "AF560",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-22 06:24:00",
+      "actual": "2026-08-22 06:32:00",
+      "delay": {
+        "minutes": 8,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0199",
+    "flight": {
+      "flight_id": "F0199",
+      "flight_number": "UA205",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-15 20:11:00",
+      "actual": "2026-08-15 20:11:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0200",
+    "flight": {
+      "flight_id": "F0200",
+      "flight_number": "AF549",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-24 04:06:00",
+      "actual": "2026-08-24 04:47:00",
+      "delay": {
+        "minutes": 41,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0201",
+    "flight": {
+      "flight_id": "F0201",
+      "flight_number": "AF795",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-08-17 18:28:00",
+      "actual": "2026-08-17 18:34:00",
+      "delay": {
+        "minutes": 6,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0202",
+    "flight": {
+      "flight_id": "F0202",
+      "flight_number": "AF671",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-09-06 03:02:00",
+      "actual": "2026-09-06 03:27:00",
+      "delay": {
+        "minutes": 25,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0203",
+    "flight": {
+      "flight_id": "F0203",
+      "flight_number": "AT994",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G15"
+    },
+    "timing": {
+      "scheduled": "2026-08-12 16:14:00",
+      "actual": "2026-08-12 16:19:00",
+      "delay": {
+        "minutes": 5,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0204",
+    "flight": {
+      "flight_id": "F0204",
+      "flight_number": "AF771",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-04 22:01:00",
+      "actual": "2026-08-04 22:01:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0205",
+    "flight": {
+      "flight_id": "F0205",
+      "flight_number": "AF485",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-08-07 01:50:00",
+      "actual": "2026-08-07 01:50:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0206",
+    "flight": {
+      "flight_id": "F0206",
+      "flight_number": "AF639",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-09-07 05:12:00",
+      "actual": "2026-09-07 07:15:00",
+      "delay": {
+        "minutes": 123,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0207",
+    "flight": {
+      "flight_id": "F0207",
+      "flight_number": "UA449",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-08-24 08:24:00",
+      "actual": "2026-08-24 08:45:00",
+      "delay": {
+        "minutes": 21,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0208",
+    "flight": {
+      "flight_id": "F0208",
+      "flight_number": "AF619",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-08-07 11:15:00",
+      "actual": "2026-08-07 11:49:00",
+      "delay": {
+        "minutes": 34,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0209",
+    "flight": {
+      "flight_id": "F0209",
+      "flight_number": "AC485",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G03"
+    },
+    "timing": {
+      "scheduled": "2026-08-31 08:00:00",
+      "actual": "2026-08-31 08:06:00",
+      "delay": {
+        "minutes": 6,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0210",
+    "flight": {
+      "flight_id": "F0210",
+      "flight_number": "AF838",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-08-09 10:31:00",
+      "actual": "2026-08-09 10:33:00",
+      "delay": {
+        "minutes": 2,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0211",
+    "flight": {
+      "flight_id": "F0211",
+      "flight_number": "AF391",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-08-19 21:46:00",
+      "actual": "2026-08-19 21:59:00",
+      "delay": {
+        "minutes": 13,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0212",
+    "flight": {
+      "flight_id": "F0212",
+      "flight_number": "AF955",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G13"
+    },
+    "timing": {
+      "scheduled": "2026-08-25 12:16:00",
+      "actual": "2026-08-25 12:16:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0213",
+    "flight": {
+      "flight_id": "F0213",
+      "flight_number": "PD896",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-09-01 01:53:00",
+      "actual": "2026-09-01 02:05:00",
+      "delay": {
+        "minutes": 12,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0214",
+    "flight": {
+      "flight_id": "F0214",
+      "flight_number": "AF993",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-09-14 04:25:00",
+      "actual": "2026-09-14 04:38:00",
+      "delay": {
+        "minutes": 13,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0215",
+    "flight": {
+      "flight_id": "F0215",
+      "flight_number": "AF828",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G15"
+    },
+    "timing": {
+      "scheduled": "2026-08-30 09:20:00",
+      "actual": "2026-08-30 09:26:00",
+      "delay": {
+        "minutes": 6,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0216",
+    "flight": {
+      "flight_id": "F0216",
+      "flight_number": "WS250",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G15"
+    },
+    "timing": {
+      "scheduled": "2026-08-14 04:21:00",
+      "actual": "2026-08-14 05:08:00",
+      "delay": {
+        "minutes": 47,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0217",
+    "flight": {
+      "flight_id": "F0217",
+      "flight_number": "WS154",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-09-07 09:03:00",
+      "actual": "2026-09-07 09:38:00",
+      "delay": {
+        "minutes": 35,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0218",
+    "flight": {
+      "flight_id": "F0218",
+      "flight_number": "AF426",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-08-11 22:31:00",
+      "actual": "2026-08-11 22:44:00",
+      "delay": {
+        "minutes": 13,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0219",
+    "flight": {
+      "flight_id": "F0219",
+      "flight_number": "PD812",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G14"
+    },
+    "timing": {
+      "scheduled": "2026-09-06 05:23:00",
+      "actual": "2026-09-06 05:49:00",
+      "delay": {
+        "minutes": 26,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0220",
+    "flight": {
+      "flight_id": "F0220",
+      "flight_number": "AC661",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Cancelled",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-08-29 05:07:00",
+      "actual": null,
+      "delay": {
+        "minutes": null,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0221",
+    "flight": {
+      "flight_id": "F0221",
+      "flight_number": "AF344",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-06 06:26:00",
+      "actual": "2026-08-06 06:26:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0222",
+    "flight": {
+      "flight_id": "F0222",
+      "flight_number": "PD627",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G01"
+    },
+    "timing": {
+      "scheduled": "2026-08-04 01:36:00",
+      "actual": "2026-08-04 03:16:00",
+      "delay": {
+        "minutes": 100,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0223",
+    "flight": {
+      "flight_id": "F0223",
+      "flight_number": "WS526",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-08-14 11:08:00",
+      "actual": "2026-08-14 11:08:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0224",
+    "flight": {
+      "flight_id": "F0224",
+      "flight_number": "UA619",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-08-25 00:47:00",
+      "actual": "2026-08-25 00:49:00",
+      "delay": {
+        "minutes": 2,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0225",
+    "flight": {
+      "flight_id": "F0225",
+      "flight_number": "PD359",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-08-18 23:28:00",
+      "actual": "2026-08-18 23:38:00",
+      "delay": {
+        "minutes": 10,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0226",
+    "flight": {
+      "flight_id": "F0226",
+      "flight_number": "AT890",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-09-06 02:16:00",
+      "actual": "2026-09-06 03:41:00",
+      "delay": {
+        "minutes": 85,
+        "reason": "Maintenance"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0227",
+    "flight": {
+      "flight_id": "F0227",
+      "flight_number": "WS950",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-08-03 05:25:00",
+      "actual": "2026-08-03 05:51:00",
+      "delay": {
+        "minutes": 26,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0228",
+    "flight": {
+      "flight_id": "F0228",
+      "flight_number": "AC137",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G12"
+    },
+    "timing": {
+      "scheduled": "2026-08-29 23:01:00",
+      "actual": "2026-08-29 23:11:00",
+      "delay": {
+        "minutes": 10,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0229",
+    "flight": {
+      "flight_id": "F0229",
+      "flight_number": "PD627",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-03 04:50:00",
+      "actual": "2026-08-03 05:24:00",
+      "delay": {
+        "minutes": 34,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0230",
+    "flight": {
+      "flight_id": "F0230",
+      "flight_number": "AF986",
+      "airline": "AF"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-08-12 17:41:00",
+      "actual": "2026-08-12 19:46:00",
+      "delay": {
+        "minutes": 125,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0231",
+    "flight": {
+      "flight_id": "F0231",
+      "flight_number": "WS550",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G07"
+    },
+    "timing": {
+      "scheduled": "2026-08-06 20:57:00",
+      "actual": "2026-08-06 20:57:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0232",
+    "flight": {
+      "flight_id": "F0232",
+      "flight_number": "UA373",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G06"
+    },
+    "timing": {
+      "scheduled": "2026-09-14 12:33:00",
+      "actual": "2026-09-14 13:06:00",
+      "delay": {
+        "minutes": 33,
+        "reason": "Weather"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0233",
+    "flight": {
+      "flight_id": "F0233",
+      "flight_number": "UA428",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-08-20 19:20:00",
+      "actual": "2026-08-20 19:31:00",
+      "delay": {
+        "minutes": 11,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0234",
+    "flight": {
+      "flight_id": "F0234",
+      "flight_number": "PD536",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-08-16 03:10:00",
+      "actual": "2026-08-16 03:10:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0235",
+    "flight": {
+      "flight_id": "F0235",
+      "flight_number": "WS729",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G15"
+    },
+    "timing": {
+      "scheduled": "2026-08-17 04:58:00",
+      "actual": "2026-08-17 05:23:00",
+      "delay": {
+        "minutes": 25,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0236",
+    "flight": {
+      "flight_id": "F0236",
+      "flight_number": "AC795",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-08-04 14:57:00",
+      "actual": "2026-08-04 15:10:00",
+      "delay": {
+        "minutes": 13,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0237",
+    "flight": {
+      "flight_id": "F0237",
+      "flight_number": "WS229",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-08-07 16:57:00",
+      "actual": "2026-08-07 17:04:00",
+      "delay": {
+        "minutes": 7,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0238",
+    "flight": {
+      "flight_id": "F0238",
+      "flight_number": "AT719",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G10"
+    },
+    "timing": {
+      "scheduled": "2026-09-05 15:20:00",
+      "actual": "2026-09-05 15:42:00",
+      "delay": {
+        "minutes": 22,
+        "reason": "Late inbound aircraft"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0239",
+    "flight": {
+      "flight_id": "F0239",
+      "flight_number": "PD240",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-09-13 09:22:00",
+      "actual": "2026-09-13 09:29:00",
+      "delay": {
+        "minutes": 7,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0240",
+    "flight": {
+      "flight_id": "F0240",
+      "flight_number": "WS853",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-19 07:45:00",
+      "actual": "2026-08-19 08:00:00",
+      "delay": {
+        "minutes": 15,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0241",
+    "flight": {
+      "flight_id": "F0241",
+      "flight_number": "AT820",
+      "airline": "AT"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-08-24 18:30:00",
+      "actual": "2026-08-24 18:35:00",
+      "delay": {
+        "minutes": 5,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0242",
+    "flight": {
+      "flight_id": "F0242",
+      "flight_number": "WS225",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-08-29 01:19:00",
+      "actual": "2026-08-29 01:25:00",
+      "delay": {
+        "minutes": 6,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0243",
+    "flight": {
+      "flight_id": "F0243",
+      "flight_number": "PD965",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-21 18:45:00",
+      "actual": "2026-08-21 18:45:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0244",
+    "flight": {
+      "flight_id": "F0244",
+      "flight_number": "AC828",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "Delayed",
+      "gate": "G05"
+    },
+    "timing": {
+      "scheduled": "2026-09-02 12:00:00",
+      "actual": "2026-09-02 13:45:00",
+      "delay": {
+        "minutes": 105,
+        "reason": "Security"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0245",
+    "flight": {
+      "flight_id": "F0245",
+      "flight_number": "PD342",
+      "airline": "PD"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "Delayed",
+      "gate": "G04"
+    },
+    "timing": {
+      "scheduled": "2026-09-06 07:55:00",
+      "actual": "2026-09-06 08:39:00",
+      "delay": {
+        "minutes": 44,
+        "reason": "Air traffic control"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0246",
+    "flight": {
+      "flight_id": "F0246",
+      "flight_number": "WS726",
+      "airline": "WS"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G09"
+    },
+    "timing": {
+      "scheduled": "2026-08-26 10:08:00",
+      "actual": "2026-08-26 10:10:00",
+      "delay": {
+        "minutes": 2,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0247",
+    "flight": {
+      "flight_id": "F0247",
+      "flight_number": "AC520",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-08-15 06:49:00",
+      "actual": "2026-08-15 06:49:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0248",
+    "flight": {
+      "flight_id": "F0248",
+      "flight_number": "AC796",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Departure",
+      "status": "On Time",
+      "gate": "G08"
+    },
+    "timing": {
+      "scheduled": "2026-08-06 21:53:00",
+      "actual": "2026-08-06 21:53:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0249",
+    "flight": {
+      "flight_id": "F0249",
+      "flight_number": "UA286",
+      "airline": "UA"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G11"
+    },
+    "timing": {
+      "scheduled": "2026-08-07 01:10:00",
+      "actual": "2026-08-07 01:10:00",
+      "delay": {
+        "minutes": 0,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  },
+  {
+    "event_id": "E0250",
+    "flight": {
+      "flight_id": "F0250",
+      "flight_number": "AC256",
+      "airline": "AC"
+    },
+    "operation": {
+      "direction": "Arrival",
+      "status": "On Time",
+      "gate": "G02"
+    },
+    "timing": {
+      "scheduled": "2026-08-24 02:15:00",
+      "actual": "2026-08-24 02:19:00",
+      "delay": {
+        "minutes": 4,
+        "reason": "None"
+      }
+    },
+    "source_system": "AODB_SIM"
+  }
+]

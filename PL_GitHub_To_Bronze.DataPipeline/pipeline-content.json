@@ -1,0 +1,546 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "Copy",
+        "typeProperties": {
+          "source": {
+            "type": "DelimitedTextSource",
+            "formatSettings": {
+              "type": "DelimitedTextReadSettings"
+            },
+            "storeSettings": {
+              "type": "HttpReadSettings",
+              "requestMethod": "GET"
+            },
+            "datasetSettings": {
+              "type": "DelimitedText",
+              "typeProperties": {
+                "location": {
+                  "type": "HttpServerLocation"
+                },
+                "columnDelimiter": ",",
+                "quoteChar": "\"",
+                "escapeChar": "\\",
+                "firstRowAsHeader": true
+              },
+              "schema": [],
+              "externalReferences": {
+                "connection": "867192a8-41a4-4452-835e-2778e41171ef"
+              },
+              "annotations": []
+            }
+          },
+          "sink": {
+            "type": "LakehouseTableSink",
+            "tableActionOption": "OverwriteSchema",
+            "applyVOrder": false,
+            "enableTimestampNtz": true,
+            "partitionOption": "None",
+            "datasetSettings": {
+              "type": "LakehouseTable",
+              "typeProperties": {
+                "schema": "",
+                "table": "passenger_flow_raw"
+              },
+              "schema": [],
+              "linkedService": {
+                "name": "LH_Bronze",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "39876743-ef91-b9be-4963-9e70f226cea8",
+                    "workspaceId": "00000000-0000-0000-0000-000000000000",
+                    "rootFolder": "Tables"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "date",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "date",
+                  "physicalType": "date"
+                }
+              },
+              {
+                "source": {
+                  "name": "hour",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "hour",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "traffic_type",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "traffic_type",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "passengers_processed",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "passengers_processed",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "avg_security_wait_min",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "avg_security_wait_min",
+                  "physicalType": "string"
+                }
+              }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+              "allowDataTruncation": true,
+              "treatBooleanAsNumber": false
+            }
+          },
+          "enableStaging": false
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Copy_PassengerFlow",
+        "dependsOn": []
+      },
+      {
+        "type": "Copy",
+        "typeProperties": {
+          "source": {
+            "type": "DelimitedTextSource",
+            "formatSettings": {
+              "type": "DelimitedTextReadSettings"
+            },
+            "storeSettings": {
+              "type": "HttpReadSettings",
+              "requestMethod": "GET"
+            },
+            "datasetSettings": {
+              "type": "DelimitedText",
+              "typeProperties": {
+                "location": {
+                  "type": "HttpServerLocation"
+                },
+                "columnDelimiter": ",",
+                "quoteChar": "\"",
+                "escapeChar": "\\",
+                "firstRowAsHeader": true
+              },
+              "schema": [],
+              "externalReferences": {
+                "connection": "cd8cf633-b657-499c-9278-92cd1433ed07"
+              },
+              "annotations": []
+            }
+          },
+          "sink": {
+            "type": "LakehouseTableSink",
+            "tableActionOption": "OverwriteSchema",
+            "applyVOrder": false,
+            "enableTimestampNtz": false,
+            "partitionOption": "None",
+            "datasetSettings": {
+              "type": "LakehouseTable",
+              "typeProperties": {
+                "schema": "",
+                "table": "commercial_transactions_raw"
+              },
+              "schema": [],
+              "linkedService": {
+                "name": "LH_Bronze",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "39876743-ef91-b9be-4963-9e70f226cea8",
+                    "workspaceId": "00000000-0000-0000-0000-000000000000",
+                    "rootFolder": "Tables"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "transaction_id",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "transaction_id",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "timestamp",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "timestamp",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "revenue_category",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "revenue_category",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "amount_cad",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "amount_cad",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "payment_method",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "payment_method",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "terminal_zone",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "terminal_zone",
+                  "physicalType": "string"
+                }
+              }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+              "allowDataTruncation": true,
+              "treatBooleanAsNumber": false
+            }
+          },
+          "enableStaging": false
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Copy_commercial_transactions",
+        "dependsOn": []
+      },
+      {
+        "type": "Copy",
+        "typeProperties": {
+          "source": {
+            "type": "DelimitedTextSource",
+            "formatSettings": {
+              "type": "DelimitedTextReadSettings"
+            },
+            "storeSettings": {
+              "type": "HttpReadSettings",
+              "requestMethod": "GET"
+            },
+            "datasetSettings": {
+              "type": "DelimitedText",
+              "typeProperties": {
+                "location": {
+                  "type": "HttpServerLocation"
+                },
+                "columnDelimiter": ",",
+                "quoteChar": "\"",
+                "escapeChar": "\\",
+                "firstRowAsHeader": true
+              },
+              "schema": [],
+              "externalReferences": {
+                "connection": "3a8772b1-ca31-4410-9d10-6252b9fb350f"
+              },
+              "annotations": []
+            }
+          },
+          "sink": {
+            "type": "LakehouseTableSink",
+            "tableActionOption": "OverwriteSchema",
+            "applyVOrder": false,
+            "enableTimestampNtz": false,
+            "partitionOption": "None",
+            "datasetSettings": {
+              "type": "LakehouseTable",
+              "typeProperties": {
+                "schema": "",
+                "table": "operational_targets_raw"
+              },
+              "schema": [],
+              "linkedService": {
+                "name": "LH_Bronze",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "39876743-ef91-b9be-4963-9e70f226cea8",
+                    "workspaceId": "00000000-0000-0000-0000-000000000000",
+                    "rootFolder": "Tables"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "kpi_name",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "kpi_name",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "unit",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "unit",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "target_value",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "target_value",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "business_area",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "business_area",
+                  "physicalType": "string"
+                }
+              }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+              "allowDataTruncation": true,
+              "treatBooleanAsNumber": false
+            }
+          },
+          "enableStaging": false
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Copy_operational_targets",
+        "dependsOn": []
+      },
+      {
+        "type": "Copy",
+        "typeProperties": {
+          "source": {
+            "type": "DelimitedTextSource",
+            "formatSettings": {
+              "type": "DelimitedTextReadSettings"
+            },
+            "storeSettings": {
+              "type": "HttpReadSettings",
+              "requestMethod": "GET"
+            },
+            "datasetSettings": {
+              "type": "DelimitedText",
+              "typeProperties": {
+                "location": {
+                  "type": "HttpServerLocation"
+                },
+                "columnDelimiter": ",",
+                "quoteChar": "\"",
+                "escapeChar": "\\",
+                "firstRowAsHeader": true
+              },
+              "schema": [],
+              "externalReferences": {
+                "connection": "00f15427-3de0-4675-99dd-71b596e2150f"
+              },
+              "annotations": []
+            }
+          },
+          "sink": {
+            "type": "LakehouseTableSink",
+            "tableActionOption": "OverwriteSchema",
+            "applyVOrder": false,
+            "enableTimestampNtz": false,
+            "partitionOption": "None",
+            "datasetSettings": {
+              "type": "LakehouseTable",
+              "typeProperties": {
+                "schema": "",
+                "table": "sustainability_daily_raw"
+              },
+              "schema": [],
+              "linkedService": {
+                "name": "LH_Bronze",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "39876743-ef91-b9be-4963-9e70f226cea8",
+                    "workspaceId": "00000000-0000-0000-0000-000000000000",
+                    "rootFolder": "Tables"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "date",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "date",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "electricity_kwh",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "electricity_kwh",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "water_m3",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "water_m3",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "waste_tonnes",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "waste_tonnes",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "estimated_co2e_tonnes",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "estimated_co2e_tonnes",
+                  "physicalType": "string"
+                }
+              }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+              "allowDataTruncation": true,
+              "treatBooleanAsNumber": false
+            }
+          },
+          "enableStaging": false
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Copy_sustainability_daily",
+        "dependsOn": []
+      }
+    ]
+  }
+}

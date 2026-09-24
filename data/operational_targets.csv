@@ -1,0 +1,8 @@
+kpi_name,business_area,unit,target_value,target_direction,effective_start_date,effective_end_date
+On-Time Performance,Operational,%,85.0,>=,2026-01-01,
+Average Delay,Operational,minutes,15.0,<=,2026-01-01,
+Security Wait Time,Passenger Experience,minutes,15.0,<=,2026-01-01,
+Passenger Satisfaction,Passenger Experience,score / 5,4.3,>=,2026-01-01,
+Baggage Delivery,Passenger Experience,minutes,20.0,<=,2026-01-01,
+Revenue per Passenger,Commercial,CAD,18.0,>=,2026-01-01,
+Energy per Passenger,Sustainability,kWh,5.5,<=,2026-01-01,

@@ -1,0 +1,468 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "Copy",
+        "typeProperties": {
+          "source": {
+            "type": "AzureSqlSource",
+            "partitionOption": "None",
+            "queryTimeout": "02:00:00",
+            "datasetSettings": {
+              "type": "AzureSqlTable",
+              "typeProperties": {
+                "schema": "dbo",
+                "table": "Airlines",
+                "database": "AirportAnalyticsDB"
+              },
+              "schema": [],
+              "externalReferences": {
+                "connection": "75cd0a2a-fb02-412c-8d0f-00a45b09ef7e"
+              },
+              "annotations": []
+            }
+          },
+          "sink": {
+            "type": "LakehouseTableSink",
+            "tableActionOption": "OverwriteSchema",
+            "applyVOrder": false,
+            "enableTimestampNtz": false,
+            "partitionOption": "None",
+            "datasetSettings": {
+              "type": "LakehouseTable",
+              "typeProperties": {
+                "schema": "",
+                "table": "Airlines"
+              },
+              "schema": [],
+              "linkedService": {
+                "name": "LH_Bronze",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "39876743-ef91-b9be-4963-9e70f226cea8",
+                    "workspaceId": "00000000-0000-0000-0000-000000000000",
+                    "rootFolder": "Tables"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "airline_code",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "10"
+                },
+                "sink": {
+                  "name": "airline_code",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "airline_name",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "100"
+                },
+                "sink": {
+                  "name": "airline_name",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "service_type",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "50"
+                },
+                "sink": {
+                  "name": "service_type",
+                  "physicalType": "string"
+                }
+              }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+              "allowDataTruncation": true,
+              "treatBooleanAsNumber": false
+            }
+          },
+          "enableStaging": false
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Copy_Airlines",
+        "dependsOn": []
+      },
+      {
+        "type": "Copy",
+        "typeProperties": {
+          "source": {
+            "type": "AzureSqlSource",
+            "partitionOption": "None",
+            "queryTimeout": "02:00:00",
+            "datasetSettings": {
+              "type": "AzureSqlTable",
+              "typeProperties": {
+                "schema": "dbo",
+                "table": "Flights",
+                "database": "AirportAnalyticsDB"
+              },
+              "schema": [],
+              "externalReferences": {
+                "connection": "75cd0a2a-fb02-412c-8d0f-00a45b09ef7e"
+              },
+              "annotations": []
+            }
+          },
+          "sink": {
+            "type": "LakehouseTableSink",
+            "tableActionOption": "OverwriteSchema",
+            "applyVOrder": false,
+            "enableTimestampNtz": false,
+            "partitionOption": "None",
+            "datasetSettings": {
+              "type": "LakehouseTable",
+              "typeProperties": {
+                "schema": "",
+                "table": "Flights"
+              },
+              "schema": [],
+              "linkedService": {
+                "name": "LH_Bronze",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "39876743-ef91-b9be-4963-9e70f226cea8",
+                    "workspaceId": "00000000-0000-0000-0000-000000000000",
+                    "rootFolder": "Tables"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "flight_id",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "20"
+                },
+                "sink": {
+                  "name": "flight_id",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "airline_code",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "10"
+                },
+                "sink": {
+                  "name": "airline_code",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "flight_number",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "20"
+                },
+                "sink": {
+                  "name": "flight_number",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "direction",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "20"
+                },
+                "sink": {
+                  "name": "direction",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "origin",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "10"
+                },
+                "sink": {
+                  "name": "origin",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "destination",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "10"
+                },
+                "sink": {
+                  "name": "destination",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "traffic_type",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "30"
+                },
+                "sink": {
+                  "name": "traffic_type",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "scheduled_time",
+                  "type": "DateTime",
+                  "physicalType": "datetime2",
+                  "precision": 7
+                },
+                "sink": {
+                  "name": "scheduled_time",
+                  "physicalType": "timestamp"
+                }
+              },
+              {
+                "source": {
+                  "name": "actual_time",
+                  "type": "DateTime",
+                  "physicalType": "datetime2",
+                  "precision": 7
+                },
+                "sink": {
+                  "name": "actual_time",
+                  "physicalType": "timestamp"
+                }
+              },
+              {
+                "source": {
+                  "name": "gate_id",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "10"
+                },
+                "sink": {
+                  "name": "gate_id",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "seat_capacity",
+                  "type": "Int32",
+                  "physicalType": "int"
+                },
+                "sink": {
+                  "name": "seat_capacity",
+                  "physicalType": "integer"
+                }
+              },
+              {
+                "source": {
+                  "name": "passenger_count",
+                  "type": "Int32",
+                  "physicalType": "int"
+                },
+                "sink": {
+                  "name": "passenger_count",
+                  "physicalType": "integer"
+                }
+              },
+              {
+                "source": {
+                  "name": "status",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "30"
+                },
+                "sink": {
+                  "name": "status",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "delay_minutes",
+                  "type": "Int32",
+                  "physicalType": "int"
+                },
+                "sink": {
+                  "name": "delay_minutes",
+                  "physicalType": "integer"
+                }
+              },
+              {
+                "source": {
+                  "name": "delay_reason",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "100"
+                },
+                "sink": {
+                  "name": "delay_reason",
+                  "physicalType": "string"
+                }
+              }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+              "allowDataTruncation": true,
+              "treatBooleanAsNumber": false
+            }
+          },
+          "enableStaging": false
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Copy_Flights",
+        "dependsOn": []
+      },
+      {
+        "type": "Copy",
+        "typeProperties": {
+          "source": {
+            "type": "AzureSqlSource",
+            "partitionOption": "None",
+            "queryTimeout": "02:00:00",
+            "datasetSettings": {
+              "type": "AzureSqlTable",
+              "typeProperties": {
+                "schema": "dbo",
+                "table": "Gates",
+                "database": "AirportAnalyticsDB"
+              },
+              "schema": [],
+              "externalReferences": {
+                "connection": "75cd0a2a-fb02-412c-8d0f-00a45b09ef7e"
+              },
+              "annotations": []
+            }
+          },
+          "sink": {
+            "type": "LakehouseTableSink",
+            "tableActionOption": "OverwriteSchema",
+            "applyVOrder": false,
+            "enableTimestampNtz": false,
+            "partitionOption": "None",
+            "datasetSettings": {
+              "type": "LakehouseTable",
+              "typeProperties": {
+                "schema": "",
+                "table": "Gates"
+              },
+              "schema": [],
+              "linkedService": {
+                "name": "LH_Bronze",
+                "properties": {
+                  "type": "Lakehouse",
+                  "typeProperties": {
+                    "artifactId": "39876743-ef91-b9be-4963-9e70f226cea8",
+                    "workspaceId": "00000000-0000-0000-0000-000000000000",
+                    "rootFolder": "Tables"
+                  },
+                  "annotations": []
+                }
+              },
+              "annotations": []
+            }
+          },
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "gate_id",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "10"
+                },
+                "sink": {
+                  "name": "gate_id",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "terminal_zone",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "50"
+                },
+                "sink": {
+                  "name": "terminal_zone",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "capacity_class",
+                  "type": "String",
+                  "physicalType": "varchar",
+                  "length": "100"
+                },
+                "sink": {
+                  "name": "capacity_class",
+                  "physicalType": "string"
+                }
+              }
+            ],
+            "typeConversion": true,
+            "typeConversionSettings": {
+              "allowDataTruncation": true,
+              "treatBooleanAsNumber": false
+            }
+          },
+          "enableStaging": false
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Copy_Gates",
+        "dependsOn": []
+      }
+    ]
+  }
+}

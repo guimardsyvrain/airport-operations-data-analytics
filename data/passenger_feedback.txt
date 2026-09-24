@@ -1,0 +1,182 @@
+001|2026-08-31|The security wait was much too long.
+002|2026-08-01|Parking was easy to find.
+003|2026-08-04|Good seating and charging options.
+004|2026-08-17|The gate area was crowded.
+005|2026-08-05|Security line was quick this morning.
+006|2026-08-23|The gate area was crowded.
+007|2026-08-24|Good restaurant choices.
+008|2026-08-12|Baggage arrived quickly after my flight.
+009|2026-08-07|I waited a long time for my suitcase.
+010|2026-08-04|Food options were limited late at night.
+011|2026-08-24|I waited a long time for my suitcase.
+012|2026-08-25|The gate area was crowded.
+013|2026-08-09|Service at the café was fast.
+014|2026-08-16|The gate area was crowded.
+015|2026-08-16|Food options were limited late at night.
+016|2026-08-05|Food options were limited late at night.
+017|2026-08-04|The terminal was clean and easy to navigate.
+018|2026-08-16|The parking lot was nearly full.
+019|2026-08-31|The baggage carousel information was confusing.
+020|2026-08-04|Baggage arrived quickly after my flight.
+021|2026-08-16|Security line was quick this morning.
+022|2026-08-13|Security line was quick this morning.
+023|2026-08-11|Service at the café was fast.
+024|2026-08-20|I waited a long time for my suitcase.
+025|2026-08-25|Good restaurant choices.
+026|2026-08-25|Staff at security were helpful.
+027|2026-08-26|Food options were limited late at night.
+028|2026-08-10|The terminal was clean and easy to navigate.
+029|2026-08-17|The gate area was crowded.
+030|2026-08-11|Parking signs were clear.
+031|2026-08-01|Service at the café was fast.
+032|2026-08-29|The security wait was much too long.
+033|2026-08-15|The security wait was much too long.
+034|2026-08-15|The parking lot was nearly full.
+035|2026-08-02|The terminal was clean and easy to navigate.
+036|2026-08-22|The baggage carousel information was confusing.
+037|2026-08-06|Parking signs were clear.
+038|2026-08-05|The gate area was crowded.
+039|2026-08-13|Parking signs were clear.
+040|2026-08-19|The terminal was clean and easy to navigate.
+041|2026-08-18|Good seating and charging options.
+042|2026-08-16|Service at the café was fast.
+043|2026-08-28|Good seating and charging options.
+044|2026-08-02|The baggage carousel information was confusing.
+045|2026-08-16|The gate area was crowded.
+046|2026-08-20|Food options were limited late at night.
+047|2026-08-11|The parking lot was nearly full.
+048|2026-08-19|Security line was quick this morning.
+049|2026-08-27|Security line was quick this morning.
+050|2026-08-26|The parking lot was nearly full.
+051|2026-08-25|Good restaurant choices.
+052|2026-08-04|The parking lot was nearly full.
+053|2026-08-12|The gate area was crowded.
+054|2026-08-02|The gate area was crowded.
+055|2026-08-08|Baggage arrived quickly after my flight.
+056|2026-08-03|Parking signs were clear.
+057|2026-08-04|The security wait was much too long.
+058|2026-08-01|Parking was easy to find.
+059|2026-08-02|Food options were limited late at night.
+060|2026-08-28|Good seating and charging options.
+061|2026-08-17|Good seating and charging options.
+062|2026-08-01|The gate area was crowded.
+063|2026-08-01|Good seating and charging options.
+064|2026-08-19|The parking lot was nearly full.
+065|2026-08-19|The gate area was crowded.
+066|2026-08-04|The security wait was much too long.
+067|2026-08-16|I waited a long time for my suitcase.
+068|2026-08-11|Service at the café was fast.
+069|2026-08-10|The baggage carousel information was confusing.
+070|2026-08-07|The parking lot was nearly full.
+071|2026-08-28|Good seating and charging options.
+072|2026-08-07|Staff at security were helpful.
+073|2026-08-02|The parking lot was nearly full.
+074|2026-08-13|Parking signs were clear.
+075|2026-08-24|The baggage carousel information was confusing.
+076|2026-08-28|Staff at security were helpful.
+077|2026-08-19|Good restaurant choices.
+078|2026-08-03|The parking lot was nearly full.
+079|2026-08-16|Service at the café was fast.
+080|2026-08-12|The terminal was clean and easy to navigate.
+081|2026-08-27|Staff at security were helpful.
+082|2026-08-26|Parking signs were clear.
+083|2026-08-22|The parking lot was nearly full.
+084|2026-08-07|Food options were limited late at night.
+085|2026-08-09|The gate area was crowded.
+086|2026-08-15|Service at the café was fast.
+087|2026-08-29|Good restaurant choices.
+088|2026-08-23|Staff at security were helpful.
+089|2026-08-19|Good restaurant choices.
+090|2026-08-22|The terminal was clean and easy to navigate.
+091|2026-08-30|The gate area was crowded.
+092|2026-08-28|Service at the café was fast.
+093|2026-08-24|Good seating and charging options.
+094|2026-08-07|Staff at security were helpful.
+095|2026-08-05|The parking lot was nearly full.
+096|2026-08-24|Baggage arrived quickly after my flight.
+097|2026-08-14|The parking lot was nearly full.
+098|2026-08-21|Parking was easy to find.
+099|2026-08-09|I waited a long time for my suitcase.
+100|2026-08-06|Parking signs were clear.
+101|2026-08-20|Parking signs were clear.
+102|2026-08-08|I waited a long time for my suitcase.
+103|2026-08-07|Security line was quick this morning.
+104|2026-08-26|Security line was quick this morning.
+105|2026-08-16|The parking lot was nearly full.
+106|2026-08-14|Food options were limited late at night.
+107|2026-08-06|Security line was quick this morning.
+108|2026-08-01|Parking was easy to find.
+109|2026-08-22|The parking lot was nearly full.
+110|2026-08-21|Good restaurant choices.
+111|2026-08-16|Staff at security were helpful.
+112|2026-08-28|Security line was quick this morning.
+113|2026-08-20|The security wait was much too long.
+114|2026-08-29|Parking was easy to find.
+115|2026-08-22|The gate area was crowded.
+116|2026-08-31|The security wait was much too long.
+117|2026-08-04|Baggage arrived quickly after my flight.
+118|2026-08-17|Service at the café was fast.
+119|2026-08-22|Staff at security were helpful.
+120|2026-08-09|Service at the café was fast.
+121|2026-08-08|The terminal was clean and easy to navigate.
+122|2026-08-25|Good restaurant choices.
+123|2026-08-27|The parking lot was nearly full.
+124|2026-08-13|Service at the café was fast.
+125|2026-08-07|I waited a long time for my suitcase.
+126|2026-08-06|Baggage arrived quickly after my flight.
+127|2026-08-15|I waited a long time for my suitcase.
+128|2026-08-28|The gate area was crowded.
+129|2026-08-16|Good restaurant choices.
+130|2026-08-23|Food options were limited late at night.
+131|2026-08-18|The security wait was much too long.
+132|2026-08-22|The gate area was crowded.
+133|2026-08-29|I waited a long time for my suitcase.
+134|2026-08-16|I waited a long time for my suitcase.
+135|2026-08-01|The parking lot was nearly full.
+136|2026-08-27|Good restaurant choices.
+137|2026-08-30|Staff at security were helpful.
+138|2026-08-18|I waited a long time for my suitcase.
+139|2026-08-21|The gate area was crowded.
+140|2026-08-04|Parking signs were clear.
+141|2026-08-28|Good restaurant choices.
+142|2026-08-01|The gate area was crowded.
+143|2026-08-10|The gate area was crowded.
+144|2026-08-10|Security line was quick this morning.
+145|2026-08-30|Baggage arrived quickly after my flight.
+146|2026-08-11|Good seating and charging options.
+147|2026-08-09|The terminal was clean and easy to navigate.
+148|2026-08-16|The security wait was much too long.
+149|2026-08-23|The gate area was crowded.
+150|2026-08-27|The terminal was clean and easy to navigate.
+151|2026-08-09|The baggage carousel information was confusing.
+152|2026-08-12|Good restaurant choices.
+153|2026-08-24|Good seating and charging options.
+154|2026-08-11|Service at the café was fast.
+155|2026-08-01|Good seating and charging options.
+156|2026-08-21|Staff at security were helpful.
+157|2026-08-15|The baggage carousel information was confusing.
+158|2026-08-13|Baggage arrived quickly after my flight.
+159|2026-08-10|The baggage carousel information was confusing.
+160|2026-08-03|Parking signs were clear.
+161|2026-08-08|Security line was quick this morning.
+162|2026-08-25|Service at the café was fast.
+163|2026-08-22|The baggage carousel information was confusing.
+164|2026-08-15|The gate area was crowded.
+165|2026-08-05|Good seating and charging options.
+166|2026-08-22|Parking was easy to find.
+167|2026-08-26|Food options were limited late at night.
+168|2026-08-03|Parking was easy to find.
+169|2026-08-06|The gate area was crowded.
+170|2026-08-31|The gate area was crowded.
+171|2026-08-01|Good restaurant choices.
+172|2026-08-21|Staff at security were helpful.
+173|2026-08-08|Service at the café was fast.
+174|2026-08-07|The security wait was much too long.
+175|2026-08-28|Parking signs were clear.
+176|2026-08-13|Baggage arrived quickly after my flight.
+177|2026-08-20|Food options were limited late at night.
+178|2026-08-03|Parking was easy to find.
+179|2026-08-31|Parking was easy to find.
+180|2026-08-01|Good restaurant choices.
+181|2026-08-15|
+182|bad-date|Great airport but baggage was slow.

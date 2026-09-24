@@ -1,8 +1,0 @@
-kpi_name,unit,target_value,business_area
-On-Time Performance,%,85.0,Operational
-Average Delay,minutes,15.0,Operational
-Security Wait Time,minutes,15.0,Passenger Experience
-Passenger Satisfaction,score / 5,4.3,Passenger Experience
-Baggage Delivery,minutes,20.0,Passenger Experience
-Revenue per Passenger,CAD,18.0,Commercial
-Energy per Passenger,kWh,5.5,Sustainability

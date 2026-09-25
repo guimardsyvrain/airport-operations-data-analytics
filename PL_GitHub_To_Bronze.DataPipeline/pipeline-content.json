@@ -70,7 +70,7 @@
                 },
                 "sink": {
                   "name": "date",
-                  "physicalType": "date"
+                  "physicalType": "string"
                 }
               },
               {
@@ -81,6 +81,17 @@
                 },
                 "sink": {
                   "name": "hour",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "terminal_zone",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "terminal_zone",
                   "physicalType": "string"
                 }
               },
@@ -356,6 +367,17 @@
               },
               {
                 "source": {
+                  "name": "business_area",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "business_area",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
                   "name": "unit",
                   "type": "String",
                   "physicalType": "String"
@@ -378,12 +400,34 @@
               },
               {
                 "source": {
-                  "name": "business_area",
+                  "name": "target_direction",
                   "type": "String",
                   "physicalType": "String"
                 },
                 "sink": {
-                  "name": "business_area",
+                  "name": "target_direction",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "effective_start_date",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "effective_start_date",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
+                  "name": "effective_end_date",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "effective_end_date",
                   "physicalType": "string"
                 }
               }

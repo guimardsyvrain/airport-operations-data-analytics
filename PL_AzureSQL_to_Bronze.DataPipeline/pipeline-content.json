@@ -336,6 +336,30 @@
                   "name": "delay_reason",
                   "physicalType": "string"
                 }
+              },
+              {
+                "source": {
+                  "name": "gate_in_time",
+                  "type": "DateTime",
+                  "physicalType": "datetime2",
+                  "precision": 7
+                },
+                "sink": {
+                  "name": "gate_in_time",
+                  "physicalType": "timestamp"
+                }
+              },
+              {
+                "source": {
+                  "name": "gate_out_time",
+                  "type": "DateTime",
+                  "physicalType": "datetime2",
+                  "precision": 7
+                },
+                "sink": {
+                  "name": "gate_out_time",
+                  "physicalType": "timestamp"
+                }
               }
             ],
             "typeConversion": true,

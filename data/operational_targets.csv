@@ -2,7 +2,7 @@ kpi_name,kpi_code,business_area,unit,target_value,target_direction,effective_sta
 On-Time Performance,ON_TIME_PERFORMANCE, Operational,%,0.85,>=,2026-01-01,
 Average Delay Minutes,AVG_DELAY,Operational,minutes,15.0,<=,2026-01-01,
 Average Security Wait Time,SECURITY_WAIT_TIME,Passenger Experience,minutes,15.0,<=,2026-01-01,
-Passenger Satisfaction,Passenger Experience,score / 5,4.3,>=,2026-01-01,
+Passenger Satisfaction,PASS_SATIS,Passenger Experience,score/5,4.3,>=,2026-01-01,
 Baggage Delivery,Passenger Experience,minutes,20.0,<=,2026-01-01,
 Average Last Bag Time,LAST_BAG_TIME,Passenger Experience,minutes,20.0,<=,2026-01-01,
 Revenue per Passenger,REVENUE_PER_PASSENGER,Commercial,CAD,18.0,>=,2026-01-01,

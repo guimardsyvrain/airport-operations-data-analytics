@@ -367,6 +367,17 @@
               },
               {
                 "source": {
+                  "name": "kpi_code",
+                  "type": "String",
+                  "physicalType": "String"
+                },
+                "sink": {
+                  "name": "kpi_code",
+                  "physicalType": "string"
+                }
+              },
+              {
+                "source": {
                   "name": "business_area",
                   "type": "String",
                   "physicalType": "String"

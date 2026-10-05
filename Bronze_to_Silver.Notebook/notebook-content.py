@@ -1181,6 +1181,17 @@ df_targets_clean = (
 # META   "language_group": "synapse_pyspark"
 # META }
 
+# CELL ********************
+
+display(df_targets_clean)
+
+# METADATA ********************
+
+# META {
+# META   "language": "python",
+# META   "language_group": "synapse_pyspark"
+# META }
+
 # MARKDOWN ********************
 
 # ### Data Quality Findings
@@ -1205,7 +1216,7 @@ df_targets_clean = (
 # Write Operational Targets to Silver
 silver_path = "abfss://Airport_operations_analytics@onelake.dfs.fabric.microsoft.com/LH_Silver.Lakehouse/Tables"
 
-df_targets_clean.write.format("delta").mode("overwrite").save(f"{silver_path}/Tables/operational_targets")
+df_targets_clean.write.format("delta").mode("overwrite").option("overwriteSchema", "true").save(f"{silver_path}/Tables/operational_targets")
 
 # METADATA ********************
 

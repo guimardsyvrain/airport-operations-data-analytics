@@ -1,0 +1,40 @@
+table fact_passenger_feedback
+	lineageTag: acbd2155-f5ad-4d6d-9fed-ede4db609dd4
+	sourceLineageTag: [Tables].[fact_passenger_feedback]
+
+	column feedback_id
+		dataType: int64
+		formatString: 0
+		lineageTag: a1b73f23-b60f-45f1-b278-97ffa83b945a
+		sourceLineageTag: feedback_id
+		summarizeBy: sum
+		sourceColumn: feedback_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 15e43895-01cc-4a0c-9bec-f55d78338b5d
+		sourceLineageTag: date_key
+		summarizeBy: none
+		sourceColumn: date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column feedback_text
+		dataType: string
+		lineageTag: 5b598491-068b-47bf-a573-5553b1f8a3fc
+		sourceLineageTag: feedback_text
+		summarizeBy: none
+		sourceColumn: feedback_text
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_passenger_feedback = entity
+		mode: directLake
+		source
+			entityName: fact_passenger_feedback
+			schemaName: Tables
+			expressionSource: 'DirectLake - LH_Gold'
+

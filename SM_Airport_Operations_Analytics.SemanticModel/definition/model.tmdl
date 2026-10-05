@@ -1,0 +1,28 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["DirectLake - LH_Gold"]
+
+annotation PBI_ProTooling = ["DirectLakeOnOneLakeInWeb","WebModelingEdit"]
+
+ref table dim_airline
+ref table dim_date
+ref table dim_flight
+ref table dim_gate
+ref table dim_terminal_zone
+ref table fact_baggage_operations
+ref table fact_commercial_transactions
+ref table fact_flight_operations
+ref table fact_passenger_flow
+ref table fact_sustainability_daily
+ref table operational_targets
+ref table 'Measures table'
+ref table fact_passenger_feedback
+

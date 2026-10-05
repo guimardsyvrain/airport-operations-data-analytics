@@ -1,0 +1,537 @@
+table 'Measures table'
+	lineageTag: 51caa5e7-c634-488e-a0d6-ed81841be56e
+
+	measure 'Total Flights' =
+			
+			COUNTROWS(fact_flight_operations)
+		formatString: 0
+		displayFolder: Flight Operations\Performance
+		lineageTag: dbd453fe-568e-4c88-b3d7-f058917c09f0
+
+	measure 'Total Passengers' =
+			
+			SUM(fact_flight_operations[passenger_count])
+		formatString: 0
+		displayFolder: Flight Operations\Performance
+		lineageTag: 3119a573-ed56-4b35-b77f-34bda911ed1e
+
+	measure 'Total Seat Capacity' =
+			
+			SUM(fact_flight_operations[seat_capacity])
+		formatString: 0
+		displayFolder: Flight Operations\Performance
+		lineageTag: 6f9d92a5-746e-41b0-bdde-93bb47c830c8
+
+	measure 'Load Factor %' =
+			
+			DIVIDE([Total Passengers],[Total Seat Capacity],0)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Flight Operations\Performance
+		lineageTag: f32a97b2-bf8e-4258-ac27-734990f42e58
+
+	measure 'Delayed Flights' =
+			
+			CALCULATE([Total Flights], fact_flight_operations[status] = "Delayed")
+		formatString: 0
+		displayFolder: Flight Operations\Performance
+		lineageTag: 55f62f10-78bd-4dd6-8f4e-77d68e02db6e
+
+	measure 'Cancelled Flights' =
+			
+			CALCULATE(
+			    [Total Flights],
+			    fact_flight_operations[status] = "Cancelled"
+			)
+		formatString: 0
+		displayFolder: Flight Operations\Performance
+		lineageTag: 592ce008-f8b9-44a8-8d0c-0f59784a62c5
+
+	measure 'On-Time Flights' =
+			
+			CALCULATE([Total Flights],fact_flight_operations[status] = "On Time")
+		formatString: 0
+		displayFolder: Flight Operations\Performance
+		lineageTag: 99e61c6c-ea6d-442b-8907-1c71e4295740
+
+	measure 'On-Time Performance %' =
+			
+			DIVIDE([On-Time Flights],[Total Flights],0)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Flight Operations\Performance
+		lineageTag: 66719c93-a333-44b9-b49c-aa8872e8e53a
+
+	measure 'Cancellation Rate %' =
+			
+			DIVIDE([Cancelled Flights],[Total Flights],0)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Flight Operations\Performance
+		lineageTag: 81e38506-f49e-4de4-9b13-de32530774be
+
+	measure 'Average Delay Minutes' =
+			
+			AVERAGE(fact_flight_operations[delay_minutes])
+		displayFolder: Flight Operations\Performance
+		lineageTag: cac79fd8-5593-4983-8185-dbb366f5f558
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Passengers Processed' =
+			
+			SUM(fact_passenger_flow[passengers_processed])
+		formatString: 0
+		displayFolder: Passenger Flow\Performance
+		lineageTag: 8d3a5f44-0b8e-4b32-bdd9-3526696c5c22
+
+	measure 'Average Security Wait Time' =
+			
+			DIVIDE(SUMX(fact_passenger_flow,fact_passenger_flow[avg_security_wait_min]*fact_passenger_flow[passengers_processed]),
+			[Total Passengers Processed])
+		displayFolder: Passenger Flow\Performance
+		lineageTag: 7e8ff952-72a6-43bb-be70-66a9e5ed7d01
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Maximum Security Wait Time' = MAX(fact_passenger_flow[avg_security_wait_min])
+		displayFolder: Passenger Flow\Performance
+		lineageTag: 207409de-3bd2-455a-a363-267c368cf0c2
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Average Passengers per Hour' =
+			
+			AVERAGEX(
+			    SUMMARIZE(
+			        fact_passenger_flow,
+			        fact_passenger_flow[date_key],
+			        fact_passenger_flow[hour],
+			        "HourlyPassengers",
+			            SUM(fact_passenger_flow[passengers_processed])
+			    ),
+			    [HourlyPassengers]
+			)
+		formatString: 0
+		displayFolder: Passenger Flow\Performance
+		lineageTag: b44d50be-fd8a-42fb-bbb9-06d85e76d541
+
+	measure 'Total Bags Processed' =
+			
+			SUM(fact_baggage_operations[bags_processed])
+		formatString: 0
+		displayFolder: Baggage Operations\Performance
+		lineageTag: 6e3fbbe2-b2a1-4a0f-bd22-880db0b1c766
+
+	measure 'Mishandled Bags' =
+			
+			SUM(fact_baggage_operations[mishandled_bags])
+		formatString: 0
+		displayFolder: Baggage Operations\Performance
+		lineageTag: 3d18d869-8169-4452-a526-4b1b6f9db0b8
+
+	measure 'Mishandled Baggage Rate %' = DIVIDE([Mishandled Bags],[Total Bags Processed],0)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Baggage Operations\Performance
+		lineageTag: de9384f8-f8ec-465f-83a5-f1a161b62c2a
+
+	measure 'Average First Bag Time' =
+			
+			AVERAGE(fact_baggage_operations[first_bag_min])
+		displayFolder: Baggage Operations\Performance
+		lineageTag: 6b2c5ac1-5010-4169-a708-b83601dba960
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Average Last Bag Time' =
+			
+			AVERAGE(fact_baggage_operations[last_bag_min])
+		displayFolder: Baggage Operations\Performance
+		lineageTag: 02fed913-ee55-4f3d-959c-b6f24f69f5ce
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Commercial Revenue' =
+			
+			SUM(fact_commercial_transactions[amount_cad])
+		displayFolder: Commercial\Performance
+		lineageTag: 1ff1dc4a-556e-4e4c-8fd9-98516361816f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Transactions' =
+			
+			COUNTROWS(fact_commercial_transactions)
+		formatString: 0
+		displayFolder: Commercial\Performance
+		lineageTag: 138ae19d-3c58-4472-b5d5-66b54cc49565
+
+	measure 'Average Transaction Value' =
+			
+			AVERAGE(fact_commercial_transactions[amount_cad])
+		displayFolder: Commercial\Performance
+		lineageTag: 4c6e50b0-4eed-4173-b0b1-2d87632b0e40
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Refund Adjustment Amount' =
+			
+			CALCULATE(
+			    SUM(fact_commercial_transactions[amount_cad]),
+			    fact_commercial_transactions[amount_cad] < 0
+			)
+		displayFolder: Commercial\Performance
+		lineageTag: c1936e2e-d485-42d2-afa3-980ee04143d4
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Refund Adjustment Transactions' =
+			
+			CALCULATE(
+			    [Total Transactions],
+			    fact_commercial_transactions[amount_cad] < 0
+			)
+		formatString: 0
+		displayFolder: Commercial\Performance
+		lineageTag: aa7aee01-90b2-4588-9381-f78ce9095b51
+
+	measure 'Refund Adjustment Rate %' =
+			
+			DIVIDE(
+			    [Refund Adjustment Transactions],
+			    [Total Transactions],
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Commercial\Performance
+		lineageTag: a9ac36ab-c1da-4691-9723-1c0f1e07a9c8
+
+	measure 'Total Electricity Consumption' =
+			
+			SUM(fact_sustainability_daily[electricity_kwh])
+		displayFolder: Sustainability\Performance
+		lineageTag: d9cc5493-8f19-44e2-bc52-9c9a15d194d0
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Water Consumption' =
+			
+			SUM(fact_sustainability_daily[water_m3])
+		displayFolder: Sustainability\Performance
+		lineageTag: cd7b4e60-e550-4063-bc8a-33021aa305c8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Average Daily Water Consumption' =
+			
+			AVERAGE(fact_sustainability_daily[water_m3])
+		displayFolder: Sustainability\Performance
+		lineageTag: efad411a-ff9d-42c5-9cf3-259c7e81e3f3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Waste Generated' =
+			
+			SUM(fact_sustainability_daily[waste_tonnes])
+		displayFolder: Sustainability\Performance
+		lineageTag: 57be5bd6-1d07-4f0b-b45f-fe99e574fcc8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Estimated CO2e Emissions' =
+			
+			SUM(fact_sustainability_daily[estimated_co2e_tonnes])
+		displayFolder: Sustainability\Performance
+		lineageTag: 8871da0f-3ddc-4a71-b76b-1025a3a3b03a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Feedback' =
+			
+			COUNTROWS(fact_passenger_flow)
+		formatString: 0
+		displayFolder: Passenger Feedback
+		lineageTag: ec836a36-118e-4393-9653-c586009323da
+
+	measure 'Undated Feedback' =
+			
+			CALCULATE([Total Feedback],ISBLANK(fact_passenger_feedback[date_key])
+			)
+		formatString: 0
+		displayFolder: Passenger Feedback
+		lineageTag: 81d6f952-757d-4f8f-9b76-fc922b06961f
+
+	measure 'Feedback with Valid Date' =
+			
+			CALCULATE(
+			    [Total Feedback],
+			    NOT ISBLANK(fact_passenger_feedback[date_key])
+			)
+		formatString: 0
+		displayFolder: Passenger Feedback
+		lineageTag: ca104895-4742-4347-8960-69b2f504f6fe
+
+	measure 'Dated Feedback Rate %' =
+			
+			DIVIDE([Feedback with Valid Date],[Total Feedback],0)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: Passenger Feedback
+		lineageTag: b3bee2bf-9d44-433c-9961-de3310c816a3
+
+	measure 'Revenue per Passenger' =
+			
+			DIVIDE([Total Commercial Revenue],[Total Passengers Processed],
+			    0
+			)
+		formatString: #,0.00\ \$;(#,0.00\ \$);#,0.00\ \$
+		displayFolder: Commercial\Performance
+		lineageTag: db5d9935-589f-4cec-bd6b-6cdeda47aa91
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-CA"}
+
+	measure 'Energy per Passenger' =
+			
+			DIVIDE([Total Electricity Consumption],[Total Passengers Processed],
+			    0
+			)
+		formatString: 0.00
+		displayFolder: Sustainability\Performance
+		lineageTag: a9bb9e37-721d-45df-9d2a-9c8a65d62ff3
+
+	measure 'Average Delay Target' =
+			
+			VAR SelectedDate =
+			    MAX(dim_date[date])
+			RETURN
+			    CALCULATE(
+			        MAX(operational_targets[target_value]),
+			        operational_targets[kpi_code] = "AVG_DELAY",
+			        operational_targets[effective_start_date] <= SelectedDate,
+			        ISBLANK(operational_targets[effective_end_date])
+			            || operational_targets[effective_end_date] >= SelectedDate
+			    )
+		displayFolder: KPIs\Target
+		lineageTag: 19f0a4b2-5c83-4868-8c30-a313899fd69b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'On-Time Performance Target' =
+			
+			VAR SelectedDate =
+			    MAX(dim_date[date])
+			RETURN
+			    CALCULATE(
+			        MAX(operational_targets[target_value]),
+			        operational_targets[kpi_code] = "ON_TIME_PERFORMANCE",
+			        operational_targets[effective_start_date] <= SelectedDate,
+			        ISBLANK(operational_targets[effective_end_date])
+			            || operational_targets[effective_end_date] >= SelectedDate
+			    )
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: KPIs\Target
+		lineageTag: ca7cd633-bea7-4792-9b2c-420ea3289c3e
+
+	measure 'Security Wait Time Target' =
+			
+			VAR SelectedDate =
+			    MAX(dim_date[date])
+			RETURN
+			    CALCULATE(
+			        MAX(operational_targets[target_value]),
+			        operational_targets[kpi_code] = "SECURITY_WAIT_TIME",
+			        operational_targets[effective_start_date] <= SelectedDate,
+			        ISBLANK(operational_targets[effective_end_date])
+			            || operational_targets[effective_end_date] >= SelectedDate
+			    )
+		displayFolder: KPIs\Target
+		lineageTag: 9c9d08ff-8506-4dda-b347-7e91e3bb6ac6
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Average Last Bag Time Target' =
+			
+			VAR SelectedDate =
+			    MAX(dim_date[date])
+			RETURN
+			    CALCULATE(
+			        MAX(operational_targets[target_value]),
+			        operational_targets[kpi_code] = "LAST_BAG_TIME",
+			        operational_targets[effective_start_date] <= SelectedDate,
+			        ISBLANK(operational_targets[effective_end_date])
+			            || operational_targets[effective_end_date] >= SelectedDate
+			    )
+		displayFolder: KPIs\Target
+		lineageTag: dc952be3-dc76-418a-ad29-c8cec38bd1a9
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue per Passenger Target' =
+			
+			VAR SelectedDate =
+			    MAX(dim_date[date])
+			RETURN
+			    CALCULATE(
+			        MAX(operational_targets[target_value]),
+			        operational_targets[kpi_code] = "REVENUE_PER_PASSENGER",
+			        operational_targets[effective_start_date] <= SelectedDate,
+			        ISBLANK(operational_targets[effective_end_date])
+			            || operational_targets[effective_end_date] >= SelectedDate
+			    )
+		formatString: #,0.00\ \$;(#,0.00\ \$);#,0.00\ \$
+		displayFolder: KPIs\Target
+		lineageTag: 29e9f4ac-db87-4f29-a870-19fc339354d3
+
+		annotation PBI_FormatHint = {"currencyCulture":"fr-CA"}
+
+	measure 'Energy per Passenger Target' =
+			
+			VAR SelectedDate =
+			    MAX(dim_date[date])
+			RETURN
+			    CALCULATE(
+			        MAX(operational_targets[target_value]),
+			        operational_targets[kpi_code] = "ENERGY_PER_PASSENGER",
+			        operational_targets[effective_start_date] <= SelectedDate,
+			        ISBLANK(operational_targets[effective_end_date])
+			            || operational_targets[effective_end_date] >= SelectedDate
+			    )
+		displayFolder: KPIs\Target
+		lineageTag: 1d2970c4-ccc6-4492-8d4a-d81c57f67aaa
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Average Delay Variance' =
+			
+			[Average Delay Minutes] - [Average Delay Target]
+		displayFolder: KPIs\Variance
+		lineageTag: eba11c01-cf88-43c6-8096-fafcf047f972
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Average Delay Target Status' =
+			
+			IF(
+			    [Average Delay Minutes] <= [Average Delay Target],
+			    "Met",
+			    "Not Met"
+			)
+		displayFolder: KPIs\Status
+		lineageTag: 8d784820-5c03-41c7-854a-6c46d2a8b0ce
+
+	measure 'On-Time Performance Variance' =
+			
+			[On-Time Performance %] - [On-Time Performance Target]
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: KPIs\Variance
+		lineageTag: b8feaa8d-581f-4830-b2db-3e81e42fb437
+
+	measure 'On-Time Performance Target Status' =
+			
+			IF(
+			    [On-Time Performance %] >= [On-Time Performance Target],
+			    "Met",
+			    "Not Met"
+			)
+		displayFolder: KPIs\Status
+		lineageTag: 558e6f52-0f99-4204-a1f5-0a91712ac1ae
+
+	measure 'Security Wait Time Variance' =
+			
+			[Average Security Wait Time] - [Security Wait Time Target]
+		displayFolder: KPIs\Variance
+		lineageTag: bcaed57d-239c-43a3-88d9-7e499a99688e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Security Wait Time Target Status' =
+			
+			IF(
+			    [Average Security Wait Time] <= [Security Wait Time Target],
+			    "Met",
+			    "Not Met"
+			)
+		displayFolder: KPIs\Status
+		lineageTag: 7c6ecae0-fbcd-4c61-9d6e-568a7a0a3470
+
+	measure 'Baggage Delivery Variance' =
+			
+			[Average Last Bag Time] - [Average Last Bag Time Target]
+		displayFolder: KPIs\Variance
+		lineageTag: 435c3178-ba84-46fd-8b13-b05c3a12d5d7
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Baggage Delivery Target Status' =
+			
+			IF(
+			    [Average Last Bag Time] <= [Average Last Bag Time Target],
+			    "Met",
+			    "Not Met"
+			)
+		displayFolder: KPIs\Status
+		lineageTag: 64ff5a3a-9592-4a3e-b880-1b882cffcce9
+
+	measure 'Revenue per Passenger Variance' =
+			
+			[Revenue per Passenger] - [Revenue per Passenger Target]
+		displayFolder: KPIs\Variance
+		lineageTag: 89352ca0-21fb-4074-b0b0-e65f6878455d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue per Passenger Target Status' =
+			
+			IF(
+			    [Revenue per Passenger] >= [Revenue per Passenger Target],
+			    "Met",
+			    "Not Met"
+			)
+		displayFolder: KPIs\Status
+		lineageTag: 6dfaaf89-6c0a-48cc-9790-d30d48a26055
+
+	measure 'Energy per Passenger Variance' =
+			
+			[Energy per Passenger] - [Energy per Passenger Target]
+		displayFolder: KPIs\Variance
+		lineageTag: 7cff022a-84cf-4661-b79c-7d08ae391e9d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Energy per Passenger Target Status' =
+			
+			IF(
+			    [Energy per Passenger] <= [Energy per Passenger Target],
+			    "Met",
+			    "Not Met"
+			)
+		displayFolder: KPIs\Status
+		lineageTag: 33f5370b-ec6d-4f04-8e2d-5893cd707ee5
+
+	measure 'Average Daily Electricity Consumption' =
+			
+			AVERAGE(fact_sustainability_daily[electricity_kwh])
+		displayFolder: Sustainability\Performance
+		lineageTag: ed7a22ce-7c0b-4da2-bb87-4dc0177044a3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Column
+		formatString: 0
+		lineageTag: de262985-60e9-44bd-a56f-0e3af18a791f
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Measures table' = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 18815b4a852a489da5dc41aad3e0def1
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":"{ }"}
+
+	annotation 277cc1b9-af89-4597-8e15-cacc25c0886b = ```
+			An Evaluate statement cannot return a table without columns.
+			{"RootActivityId":"62EC0BA6-363B-4D33-8808-54CA13B78D7A"}
+			
+			```
+

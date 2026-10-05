@@ -1,0 +1,96 @@
+table operational_targets
+	lineageTag: cf19b5d8-d3e5-4152-b22e-1cb6adeaa1ed
+	sourceLineageTag: [Tables].[operational_targets]
+
+	column target_key
+		dataType: string
+		lineageTag: dacfa1fb-a5a3-4705-95e9-d9471641bd89
+		sourceLineageTag: target_key
+		summarizeBy: none
+		sourceColumn: target_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column kpi_name
+		dataType: string
+		lineageTag: de9aa1ad-bd27-40d1-a3b7-ad5133426f82
+		sourceLineageTag: kpi_name
+		summarizeBy: none
+		sourceColumn: kpi_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column business_area
+		dataType: string
+		lineageTag: 80abc0d0-40cf-4d3c-8404-b080df79199b
+		sourceLineageTag: business_area
+		summarizeBy: none
+		sourceColumn: business_area
+
+		annotation SummarizationSetBy = Automatic
+
+	column unit
+		dataType: string
+		lineageTag: 8f4d720e-c057-4ed4-8c45-7c945f300b1a
+		sourceLineageTag: unit
+		summarizeBy: none
+		sourceColumn: unit
+
+		annotation SummarizationSetBy = Automatic
+
+	column target_value
+		dataType: double
+		lineageTag: db71b721-24d4-4016-9219-94f8cc85b63f
+		sourceLineageTag: target_value
+		summarizeBy: sum
+		sourceColumn: target_value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column target_direction
+		dataType: string
+		lineageTag: 7f655007-63ea-419b-b2ec-ba3295415270
+		sourceLineageTag: target_direction
+		summarizeBy: none
+		sourceColumn: target_direction
+
+		annotation SummarizationSetBy = Automatic
+
+	column effective_start_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 66396d43-f551-44d4-8d0e-2518c275c1a7
+		sourceLineageTag: effective_start_date
+		summarizeBy: none
+		sourceColumn: effective_start_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column effective_end_date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 0723bb72-bb13-4b4d-9b85-70b290dcd940
+		sourceLineageTag: effective_end_date
+		summarizeBy: none
+		sourceColumn: effective_end_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column kpi_code
+		dataType: string
+		lineageTag: 933a95c1-86c1-4dba-80f7-76409a56166a
+		sourceLineageTag: kpi_code
+		summarizeBy: none
+		sourceColumn: kpi_code
+
+		annotation SummarizationSetBy = Automatic
+
+	partition operational_targets = entity
+		mode: directLake
+		source
+			entityName: operational_targets
+			schemaName: Tables
+			expressionSource: 'DirectLake - LH_Gold'
+

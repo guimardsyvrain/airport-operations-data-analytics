@@ -1,0 +1,29 @@
+table dim_terminal_zone
+	lineageTag: 580a6400-029b-46a6-b6b7-aec5bf4931f4
+	sourceLineageTag: [Tables].[dim_terminal_zone]
+
+	column terminal_zone_key
+		dataType: string
+		lineageTag: c1911960-6e66-444f-b199-f69f3db96b80
+		sourceLineageTag: terminal_zone_key
+		summarizeBy: none
+		sourceColumn: terminal_zone_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column terminal_zone
+		dataType: string
+		lineageTag: 1e6e2155-c045-4fe8-9512-eec88bece850
+		sourceLineageTag: terminal_zone
+		summarizeBy: none
+		sourceColumn: terminal_zone
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_terminal_zone = entity
+		mode: directLake
+		source
+			entityName: dim_terminal_zone
+			schemaName: Tables
+			expressionSource: 'DirectLake - LH_Gold'
+

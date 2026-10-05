@@ -1,0 +1,65 @@
+table fact_sustainability_daily
+	lineageTag: b3f307fd-b5a6-464c-a4af-963bd74ab5c2
+	sourceLineageTag: [Tables].[fact_sustainability_daily]
+
+	column date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 5a8d73d9-75b3-40df-8b4c-b4632c0e9398
+		sourceLineageTag: date_key
+		summarizeBy: none
+		sourceColumn: date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column electricity_kwh
+		dataType: double
+		lineageTag: cf9f4bf2-24a6-402b-acd8-9b9419201827
+		sourceLineageTag: electricity_kwh
+		summarizeBy: sum
+		sourceColumn: electricity_kwh
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column water_m3
+		dataType: double
+		lineageTag: 83d20ac8-78a3-41d7-a778-43fb79708430
+		sourceLineageTag: water_m3
+		summarizeBy: sum
+		sourceColumn: water_m3
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column waste_tonnes
+		dataType: double
+		lineageTag: cf48110f-2232-4174-add2-1cd845aa5b89
+		sourceLineageTag: waste_tonnes
+		summarizeBy: sum
+		sourceColumn: waste_tonnes
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estimated_co2e_tonnes
+		dataType: double
+		lineageTag: 9fc58083-3064-4e10-94b6-a42d256af1cc
+		sourceLineageTag: estimated_co2e_tonnes
+		summarizeBy: sum
+		sourceColumn: estimated_co2e_tonnes
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fact_sustainability_daily = entity
+		mode: directLake
+		source
+			entityName: fact_sustainability_daily
+			schemaName: Tables
+			expressionSource: 'DirectLake - LH_Gold'
+

@@ -1,0 +1,44 @@
+relationship 93274f74-b964-f201-6c1b-523747282788
+	fromColumn: fact_passenger_flow.date_key
+	toColumn: dim_date.date_key
+
+relationship a55ffa29-c3bd-81c6-476e-f0451d2392d9
+	fromColumn: fact_baggage_operations.date_key
+	toColumn: dim_date.date_key
+
+relationship 0b21d3b6-ebca-a939-5104-65477329ae51
+	fromColumn: fact_commercial_transactions.date_key
+	toColumn: dim_date.date_key
+
+relationship eda90df3-eae2-81ff-6fa3-6cc6ada0a55b
+	fromColumn: fact_flight_operations.date_key
+	toColumn: dim_date.date_key
+
+relationship d3c96ef7-e5f9-5fcd-cf66-ed01ad1f5ffd
+	fromColumn: fact_passenger_flow.terminal_zone_key
+	toColumn: dim_terminal_zone.terminal_zone_key
+
+relationship 7208a85f-3ba7-ca07-c5b2-6463d46f5c2b
+	fromColumn: fact_flight_operations.airline_key
+	toColumn: dim_airline.airline_key
+
+relationship f4eb480c-f4ec-b408-139f-cac90f9c6a2b
+	fromColumn: fact_flight_operations.gate_key
+	toColumn: dim_gate.gate_key
+
+relationship 8735e71f-060f-9146-ded2-c581ac5273fa
+	fromColumn: fact_sustainability_daily.date_key
+	toColumn: dim_date.date_key
+
+relationship d98f7c52-1f0d-8b6e-e19a-68ac38e9e5e6
+	fromColumn: fact_flight_operations.flight_key
+	toColumn: dim_flight.flight_key
+
+relationship 9c64efaa-007d-f7a7-099b-50a85d6937b9
+	fromColumn: fact_baggage_operations.flight_key
+	toColumn: dim_flight.flight_key
+
+relationship 6fe5a687-b3b7-3142-7f3f-811e59b8dee4
+	fromColumn: fact_passenger_feedback.date_key
+	toColumn: dim_date.date_key
+

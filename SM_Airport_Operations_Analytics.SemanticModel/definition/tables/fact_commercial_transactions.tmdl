@@ -1,0 +1,78 @@
+table fact_commercial_transactions
+	lineageTag: 95bb12cd-d594-4aca-949d-808f5c7f9a46
+	sourceLineageTag: [Tables].[fact_commercial_transactions]
+
+	column transaction_id
+		dataType: string
+		lineageTag: 055ff7ac-40f3-46ca-a3fb-947580dce0db
+		sourceLineageTag: transaction_id
+		summarizeBy: none
+		sourceColumn: transaction_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: a4014ee6-d724-408f-bbf6-305bc2d7ac66
+		sourceLineageTag: date_key
+		summarizeBy: none
+		sourceColumn: date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column terminal_zone_key
+		dataType: string
+		lineageTag: 308ba6cf-8bd1-4761-9413-b70da5d84dc1
+		sourceLineageTag: terminal_zone_key
+		summarizeBy: none
+		sourceColumn: terminal_zone_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column timestamp
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: ecc9be14-e900-44a2-b6e0-4153350aaec5
+		sourceLineageTag: timestamp
+		summarizeBy: none
+		sourceColumn: timestamp
+
+		annotation SummarizationSetBy = Automatic
+
+	column revenue_category
+		dataType: string
+		lineageTag: 7d8a2f6c-4395-444e-8082-53ee87f82c2c
+		sourceLineageTag: revenue_category
+		summarizeBy: none
+		sourceColumn: revenue_category
+
+		annotation SummarizationSetBy = Automatic
+
+	column payment_method
+		dataType: string
+		lineageTag: b58d8eac-c9fe-4993-afe8-e74736db3fd6
+		sourceLineageTag: payment_method
+		summarizeBy: none
+		sourceColumn: payment_method
+
+		annotation SummarizationSetBy = Automatic
+
+	column amount_cad
+		dataType: double
+		lineageTag: 3f4c92e1-15e4-4495-9f85-c64c5fedc85d
+		sourceLineageTag: amount_cad
+		summarizeBy: sum
+		sourceColumn: amount_cad
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fact_commercial_transactions = entity
+		mode: directLake
+		source
+			entityName: fact_commercial_transactions
+			schemaName: Tables
+			expressionSource: 'DirectLake - LH_Gold'
+

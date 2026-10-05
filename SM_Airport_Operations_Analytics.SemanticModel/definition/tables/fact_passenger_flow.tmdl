@@ -1,0 +1,79 @@
+table fact_passenger_flow
+	lineageTag: db080372-5de4-43a0-9def-49907e48b837
+	sourceLineageTag: [Tables].[fact_passenger_flow]
+
+	column passenger_flow_key
+		dataType: string
+		lineageTag: 55ff5f4a-8f33-47ec-b08a-cad681bf2e31
+		sourceLineageTag: passenger_flow_key
+		summarizeBy: none
+		sourceColumn: passenger_flow_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 7e915635-eccf-4218-ae8a-a954f85144ac
+		sourceLineageTag: date_key
+		summarizeBy: none
+		sourceColumn: date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column terminal_zone_key
+		dataType: string
+		lineageTag: 28519989-a469-4587-bc1b-ebc0ceea5f31
+		sourceLineageTag: terminal_zone_key
+		summarizeBy: none
+		sourceColumn: terminal_zone_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column hour
+		dataType: int64
+		formatString: 0
+		lineageTag: 54611606-4ff7-402b-96a0-9f272146b234
+		sourceLineageTag: hour
+		summarizeBy: sum
+		sourceColumn: hour
+
+		annotation SummarizationSetBy = Automatic
+
+	column traffic_type
+		dataType: string
+		lineageTag: 67e16c56-4aa2-4848-a14d-61f77cba9c27
+		sourceLineageTag: traffic_type
+		summarizeBy: none
+		sourceColumn: traffic_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column passengers_processed
+		dataType: int64
+		formatString: 0
+		lineageTag: 4d25caa1-b979-4f98-8ff8-eb7d66ae7e60
+		sourceLineageTag: passengers_processed
+		summarizeBy: sum
+		sourceColumn: passengers_processed
+
+		annotation SummarizationSetBy = Automatic
+
+	column avg_security_wait_min
+		dataType: double
+		lineageTag: dfa8d365-33e2-4399-9cd3-6e4974302404
+		sourceLineageTag: avg_security_wait_min
+		summarizeBy: sum
+		sourceColumn: avg_security_wait_min
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fact_passenger_flow = entity
+		mode: directLake
+		source
+			entityName: fact_passenger_flow
+			schemaName: Tables
+			expressionSource: 'DirectLake - LH_Gold'
+

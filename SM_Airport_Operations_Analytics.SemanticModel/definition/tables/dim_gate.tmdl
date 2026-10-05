@@ -1,0 +1,47 @@
+table dim_gate
+	lineageTag: 5955ad25-7031-41cf-8dd8-23a906f6c8b3
+	sourceLineageTag: [Tables].[dim_gate]
+
+	column gate_key
+		dataType: string
+		lineageTag: d4430039-bcdc-43af-a39d-e40b8b08d3f8
+		sourceLineageTag: gate_key
+		summarizeBy: none
+		sourceColumn: gate_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column gate_id
+		dataType: string
+		lineageTag: 529dc71f-af91-4c4b-ba41-ec3b27b60322
+		sourceLineageTag: gate_id
+		summarizeBy: none
+		sourceColumn: gate_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column terminal_zone
+		dataType: string
+		lineageTag: 4643df84-cca8-4158-b393-b4c9c821141a
+		sourceLineageTag: terminal_zone
+		summarizeBy: none
+		sourceColumn: terminal_zone
+
+		annotation SummarizationSetBy = Automatic
+
+	column capacity_class
+		dataType: string
+		lineageTag: 9ba4e7eb-723c-4a30-bdfd-bf87dd296a02
+		sourceLineageTag: capacity_class
+		summarizeBy: none
+		sourceColumn: capacity_class
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_gate = entity
+		mode: directLake
+		source
+			entityName: dim_gate
+			schemaName: Tables
+			expressionSource: 'DirectLake - LH_Gold'
+

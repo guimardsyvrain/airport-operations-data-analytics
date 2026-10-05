@@ -1,0 +1,56 @@
+table dim_flight
+	lineageTag: 1d890a1d-08bd-4a2e-b263-eb452508efdc
+	sourceLineageTag: [Tables].[dim_flight]
+
+	column flight_key
+		dataType: string
+		lineageTag: 05ec32c0-6a95-47aa-8eaa-4e3fee6d06b1
+		sourceLineageTag: flight_key
+		summarizeBy: none
+		sourceColumn: flight_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column flight_id
+		dataType: string
+		lineageTag: 27d5b06a-e01a-449a-880b-a791953c6c72
+		sourceLineageTag: flight_id
+		summarizeBy: none
+		sourceColumn: flight_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column flight_number
+		dataType: string
+		lineageTag: 92b77af7-79f7-4f78-afc0-a919b999cc61
+		sourceLineageTag: flight_number
+		summarizeBy: none
+		sourceColumn: flight_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column origin
+		dataType: string
+		lineageTag: df6edb38-056e-4549-bcdd-fa65b252fe8d
+		sourceLineageTag: origin
+		summarizeBy: none
+		sourceColumn: origin
+
+		annotation SummarizationSetBy = Automatic
+
+	column destination
+		dataType: string
+		lineageTag: 80a24ae8-20c4-4903-b48c-119400b0d0a5
+		sourceLineageTag: destination
+		summarizeBy: none
+		sourceColumn: destination
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_flight = entity
+		mode: directLake
+		source
+			entityName: dim_flight
+			schemaName: Tables
+			expressionSource: 'DirectLake - LH_Gold'
+

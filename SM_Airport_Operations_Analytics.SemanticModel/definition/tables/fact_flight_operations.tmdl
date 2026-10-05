@@ -1,0 +1,154 @@
+table fact_flight_operations
+	lineageTag: 013045b7-3947-4e00-a1e0-7d899be92399
+	sourceLineageTag: [Tables].[fact_flight_operations]
+
+	column flight_key
+		dataType: string
+		lineageTag: 96ca1e0e-4e47-435e-8593-72b9a1cc976f
+		sourceLineageTag: flight_key
+		summarizeBy: none
+		sourceColumn: flight_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 271b3666-8d43-43d4-9738-4bb1afac3a93
+		sourceLineageTag: date_key
+		summarizeBy: none
+		sourceColumn: date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column airline_key
+		dataType: string
+		lineageTag: 7e71dd14-3fb9-4635-9560-1f77d42890dc
+		sourceLineageTag: airline_key
+		summarizeBy: none
+		sourceColumn: airline_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column gate_key
+		dataType: string
+		lineageTag: 8cc647ed-36f8-49a8-b60f-e4b6d9dc1636
+		sourceLineageTag: gate_key
+		summarizeBy: none
+		sourceColumn: gate_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column direction
+		dataType: string
+		lineageTag: e06f2f5c-62d2-45bd-b8e3-bdaf83ba311f
+		sourceLineageTag: direction
+		summarizeBy: none
+		sourceColumn: direction
+
+		annotation SummarizationSetBy = Automatic
+
+	column traffic_type
+		dataType: string
+		lineageTag: e8f871ea-c8ea-4f6e-8cbd-e03b7302b476
+		sourceLineageTag: traffic_type
+		summarizeBy: none
+		sourceColumn: traffic_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column scheduled_time
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 65cff0cc-9a57-448c-b604-566d7ba31862
+		sourceLineageTag: scheduled_time
+		summarizeBy: none
+		sourceColumn: scheduled_time
+
+		annotation SummarizationSetBy = Automatic
+
+	column actual_time
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 1d16095f-e0f0-4100-a6cd-15316eee1985
+		sourceLineageTag: actual_time
+		summarizeBy: none
+		sourceColumn: actual_time
+
+		annotation SummarizationSetBy = Automatic
+
+	column seat_capacity
+		dataType: int64
+		formatString: 0
+		lineageTag: 312ca37a-6291-44b3-902f-458967523b2b
+		sourceLineageTag: seat_capacity
+		summarizeBy: sum
+		sourceColumn: seat_capacity
+
+		annotation SummarizationSetBy = Automatic
+
+	column passenger_count
+		dataType: int64
+		formatString: 0
+		lineageTag: 62844bfe-cb6c-4413-a89d-1c8855928bbb
+		sourceLineageTag: passenger_count
+		summarizeBy: sum
+		sourceColumn: passenger_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column status
+		dataType: string
+		lineageTag: cfc2fe5f-94f1-45b8-85ed-68aa619db6d5
+		sourceLineageTag: status
+		summarizeBy: none
+		sourceColumn: status
+
+		annotation SummarizationSetBy = Automatic
+
+	column delay_minutes
+		dataType: int64
+		formatString: 0
+		lineageTag: bf0fc145-f211-4536-b995-2ef4838f22cb
+		sourceLineageTag: delay_minutes
+		summarizeBy: sum
+		sourceColumn: delay_minutes
+
+		annotation SummarizationSetBy = Automatic
+
+	column delay_reason
+		dataType: string
+		lineageTag: 0b0b4ad1-ff1e-40c5-9675-ceb8c448942a
+		sourceLineageTag: delay_reason
+		summarizeBy: none
+		sourceColumn: delay_reason
+
+		annotation SummarizationSetBy = Automatic
+
+	column gate_in_time
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: d40cab48-64d5-4ad9-8449-457d06656294
+		sourceLineageTag: gate_in_time
+		summarizeBy: none
+		sourceColumn: gate_in_time
+
+		annotation SummarizationSetBy = Automatic
+
+	column gate_out_time
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 48e57ace-4b74-4d50-b209-4857b06ccdcb
+		sourceLineageTag: gate_out_time
+		summarizeBy: none
+		sourceColumn: gate_out_time
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_flight_operations = entity
+		mode: directLake
+		source
+			entityName: fact_flight_operations
+			schemaName: Tables
+			expressionSource: 'DirectLake - LH_Gold'
+

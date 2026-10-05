@@ -1,0 +1,79 @@
+table fact_baggage_operations
+	lineageTag: c4f6cd1f-45bc-4e97-a14c-672b27c92006
+	sourceLineageTag: [Tables].[fact_baggage_operations]
+
+	column bag_event_id
+		dataType: string
+		lineageTag: 89f8d5fc-21ec-4ba0-97f1-9fd272b454a7
+		sourceLineageTag: bag_event_id
+		summarizeBy: none
+		sourceColumn: bag_event_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column flight_key
+		dataType: string
+		lineageTag: 37b30405-ac40-4dd9-aeed-ad58b5904f7f
+		sourceLineageTag: flight_key
+		summarizeBy: none
+		sourceColumn: flight_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: f25afbe0-7db8-40c4-808f-96e59c2c46e6
+		sourceLineageTag: date_key
+		summarizeBy: none
+		sourceColumn: date_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column bags_processed
+		dataType: int64
+		formatString: 0
+		lineageTag: d23f2805-b7f9-4322-ba7c-17b730c2c1bb
+		sourceLineageTag: bags_processed
+		summarizeBy: sum
+		sourceColumn: bags_processed
+
+		annotation SummarizationSetBy = Automatic
+
+	column mishandled_bags
+		dataType: int64
+		formatString: 0
+		lineageTag: 34b4b546-e71d-44de-accf-80fe1d5581cd
+		sourceLineageTag: mishandled_bags
+		summarizeBy: sum
+		sourceColumn: mishandled_bags
+
+		annotation SummarizationSetBy = Automatic
+
+	column first_bag_min
+		dataType: int64
+		formatString: 0
+		lineageTag: c805b029-c830-4531-b069-373bee129799
+		sourceLineageTag: first_bag_min
+		summarizeBy: sum
+		sourceColumn: first_bag_min
+
+		annotation SummarizationSetBy = Automatic
+
+	column last_bag_min
+		dataType: int64
+		formatString: 0
+		lineageTag: c54973e3-c059-47ca-a7b4-14fafe58c457
+		sourceLineageTag: last_bag_min
+		summarizeBy: sum
+		sourceColumn: last_bag_min
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_baggage_operations = entity
+		mode: directLake
+		source
+			entityName: fact_baggage_operations
+			schemaName: Tables
+			expressionSource: 'DirectLake - LH_Gold'
+

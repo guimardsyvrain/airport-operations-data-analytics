@@ -1,0 +1,7 @@
+streamlit
+ollama
+pydantic>=2
+python-dotenv
+requests
+python-docx
+msal

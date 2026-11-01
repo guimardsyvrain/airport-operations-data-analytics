@@ -278,6 +278,39 @@ def interpret_scenario(question: str) -> ScenarioRequest:
         "percentage_change, absolute_change, "
         "set_target, percentage_point_change. "
 
+        "CRITICAL OPERATION RULES: "
+
+        "When the user explicitly specifies a percentage "
+        "using the % symbol or the word percent, "
+        "always use operation='percentage_change', "
+        "unless the user explicitly says percentage points. "
+
+        "Never interpret a percentage reduction as an "
+        "absolute change in the KPI's measurement unit. "
+
+        "For example, 'a 12% reduction in electricity "
+        "consumption' means operation='percentage_change' "
+        "and value=-12, NOT operation='absolute_change'. "
+
+        "A 12% reduction is different from a reduction "
+        "of 12 kWh. "
+
+        "For 'a reduction of 12 kWh', use "
+        "operation='absolute_change' and value=-12. "
+
+        "When a question contains a percentage adjustment, "
+        "the numeric value represents the percentage, "
+        "not the absolute KPI measurement unit. "
+
+        "Example structured output for "
+        "'Calculate the impact of a 12% reduction "
+        "in electricity consumption in August 2026': "
+
+        '{"intent":"simulation",'
+        '"time_expression":"August 2026",'
+        '"assumptions":[{"metric":"Total Electricity Consumption",'
+        '"operation":"percentage_change","value":-12}]}. '
+
         f"Approved KPIs: {approved_metrics}. "
 
         f"Approved KPI aliases: {approved_aliases}. "

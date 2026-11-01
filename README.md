@@ -76,6 +76,18 @@ The assistant enables users to explore questions such as:
 
 By combining actual operational data with user-defined assumptions, the assistant calculates hypothetical outcomes to support scenario evaluation and planning.
 
+### Interactive Dashboard & AI Assistant
+
+The integrated platform combines interactive Power BI dashboards with a conversational AI assistant, enabling users to explore operational KPIs, navigate reports, and analyze performance using natural language.
+
+**Airport Operations Overview**
+
+![Airport Operations Overview with AI Assistant](images/Screenshort_Airport_dashboard_integrated_to_AI.png)
+
+**Sustainability Performance & AI-Powered Analytics**
+
+![Sustainability Dashboard with AI Assistant](images/Screenshort_Airport_dashboard_integrated_to_AI_2.png)
+
 ## Conclusion & Business Impact
 
 This project demonstrates how **data engineering, business intelligence, and AI** can be integrated into a modern airport analytics solution.
